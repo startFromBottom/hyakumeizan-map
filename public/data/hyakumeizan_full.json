@@ -31,7 +31,8 @@
         "distance_km": 6.25,
         "ascent_m": 1474,
         "source": "relation",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "리시리산 오시도마리 코스"
       },
       {
         "route_id": "m001-r2",
@@ -1697,7 +1698,8 @@
         "distance_km": 6.95,
         "ascent_m": 1480,
         "source": "relation",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "마카리 코스"
       },
       {
         "route_id": "m009-r2",
@@ -1706,7 +1708,8 @@
         "distance_km": 5.08,
         "ascent_m": 1501,
         "source": "relation",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "기모베쓰 코스"
       },
       {
         "route_id": "m009-r1",
@@ -1715,7 +1718,8 @@
         "distance_km": 4.78,
         "ascent_m": 1451,
         "source": "relation",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "구챤 코스"
       },
       {
         "route_id": "m009-r3",
@@ -1724,7 +1728,8 @@
         "distance_km": 3.61,
         "ascent_m": 1370,
         "source": "relation",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "교고쿠 코스"
       }
     ],
     "region": "홋카이도",
@@ -2705,7 +2710,8 @@
         "distance_km": 6.62,
         "ascent_m": 1397,
         "source": "relation",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "이와테산 야나기사와 등산로"
       }
     ],
     "region": "도호쿠",
@@ -4693,7 +4699,8 @@
         "distance_km": 14.68,
         "ascent_m": 1101,
         "source": "relation",
-        "difficulty_stars": 5
+        "difficulty_stars": 5,
+        "name_ko": "아다타라산 서쪽 순환 코스"
       },
       {
         "route_id": "m021-r2",
@@ -4702,7 +4709,8 @@
         "distance_km": 11.95,
         "ascent_m": 1151,
         "source": "relation",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "아다타라산 등산로"
       },
       {
         "route_id": "m021-r1",
@@ -4711,7 +4719,8 @@
         "distance_km": 8.8,
         "ascent_m": 475,
         "source": "relation",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "아다타라산 순환 코스"
       }
     ],
     "region": "도호쿠",
@@ -6719,7 +6728,8 @@
         "distance_km": 2.71,
         "ascent_m": 791,
         "source": "relation",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "시부쓰산 순환 코스"
       }
     ],
     "region": "간토",
@@ -8369,7 +8379,8 @@
         "distance_km": 4.7,
         "ascent_m": 1172,
         "source": "relation",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "난타이산 오모테 등산로"
       },
       {
         "route_id": "m036-r1",
@@ -8378,7 +8389,8 @@
         "distance_km": 2.88,
         "ascent_m": 678,
         "source": "relation",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "난타이산 시즈 등산로"
       }
     ],
     "region": "간토",
@@ -9335,7 +9347,8 @@
         "distance_km": 3.56,
         "ascent_m": 500,
         "source": "relation",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "구로비산 - 하나미가하라 등산로"
       }
     ],
     "region": "간토",
@@ -13550,7 +13563,8 @@
         "distance_km": 7.35,
         "ascent_m": 469,
         "source": "relation",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "겐가미네 등산로"
       }
     ],
     "region": "주부",
@@ -15876,7 +15890,8 @@
         "distance_km": 10.31,
         "ascent_m": 1149,
         "source": "relation",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "긴푸산 등산로"
       }
     ],
     "region": "주부",
@@ -16318,7 +16333,8 @@
         "distance_km": 2.76,
         "ascent_m": 447,
         "source": "relation",
-        "difficulty_stars": 1
+        "difficulty_stars": 1,
+        "name_ko": "다이보사쓰산 순환 코스"
       }
     ],
     "region": "주부",
@@ -16840,7 +16856,8 @@
         "distance_km": 6.8,
         "ascent_m": 1733,
         "source": "relation",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "스바시리 코스 (오르막)"
       },
       {
         "route_id": "m072-r0",
@@ -16849,7 +16866,8 @@
         "distance_km": 11.93,
         "ascent_m": 1597,
         "source": "relation",
-        "difficulty_stars": 5
+        "difficulty_stars": 5,
+        "name_ko": "후지산 순환 코스"
       },
       {
         "route_id": "m072-r1",
@@ -16858,7 +16876,8 @@
         "distance_km": 8.8,
         "ascent_m": 1873,
         "source": "relation",
-        "difficulty_stars": 5
+        "difficulty_stars": 5,
+        "name_ko": "가와구치코 코스 (오르막)"
       },
       {
         "route_id": "m072-r3",
@@ -16867,7 +16886,8 @@
         "distance_km": 2.72,
         "ascent_m": 687,
         "source": "relation",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "고텐바 코스 (오르막)"
       }
     ],
     "region": "주부",
@@ -17454,7 +17474,8 @@
         "distance_km": 7.21,
         "ascent_m": 447,
         "source": "relation",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "기소코마 고원 등산로"
       },
       {
         "route_id": "m074-r1",
@@ -17735,7 +17756,8 @@
         "distance_km": 10.14,
         "ascent_m": 817,
         "source": "relation",
-        "difficulty_stars": 5
+        "difficulty_stars": 5,
+        "name_ko": "주오 알프스 종주로"
       },
       {
         "route_id": "m075-r0",
@@ -17744,7 +17766,8 @@
         "distance_km": 18.52,
         "ascent_m": 2229,
         "source": "relation",
-        "difficulty_stars": 5
+        "difficulty_stars": 5,
+        "name_ko": "우쓰기다케 등산로"
       },
       {
         "route_id": "m075-r2",
@@ -18823,7 +18846,8 @@
         "distance_km": 10.58,
         "ascent_m": 1541,
         "source": "relation",
-        "difficulty_stars": 5
+        "difficulty_stars": 5,
+        "name_ko": "호오 산쟈마 종주로"
       },
       {
         "route_id": "m079-r1",

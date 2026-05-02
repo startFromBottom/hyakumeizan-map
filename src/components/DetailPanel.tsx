@@ -226,9 +226,14 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
                       }`}
                     >
                       <div className="flex items-baseline justify-between gap-2">
-                        <div className="text-sm font-semibold text-gray-900 truncate">
-                          {r.is_primary && <span className="text-[10px] text-brand-dark font-bold mr-1">★대표</span>}
-                          {r.name_ja}
+                        <div className="min-w-0 flex-1">
+                          <div className="text-sm font-semibold text-gray-900 truncate">
+                            {r.is_primary && <span className="text-[10px] text-brand-dark font-bold mr-1">★대표</span>}
+                            {r.name_ko || r.name_ja}
+                          </div>
+                          {r.name_ko && r.name_ja && r.name_ko !== r.name_ja && (
+                            <div className="text-[11px] text-gray-500 truncate mt-0.5">{r.name_ja}</div>
+                          )}
                         </div>
                         <Stars n={r.difficulty_stars} />
                       </div>
@@ -245,7 +250,7 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
             {activeRoute && (
               <div>
                 <div className="text-xs text-gray-500 mb-1">
-                  {activeRoute.name_ja} 표고 프로필
+                  {activeRoute.name_ko || activeRoute.name_ja} 표고 프로필
                 </div>
                 <ElevationProfile profile={activeProfile} />
               </div>

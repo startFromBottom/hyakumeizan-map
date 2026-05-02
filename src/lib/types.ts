@@ -5,6 +5,7 @@ export type Region = '홋카이도' | '도호쿠' | '간토' | '주부' | '간�
 export interface Route {
   route_id: string;        // m{no:03d}-r{idx} 형태, GeoJSON Feature.properties.route_id 와 일치
   name_ja: string;
+  name_ko?: string | null; // 한국어 발음 (일본어/영문만 있는 코스에 대해 보정)
   is_primary: boolean;
   distance_km: number;
   ascent_m: number;
