@@ -1,0 +1,73 @@
+name: Refresh Data
+
+on:
+  schedule:
+    # 분기 1회 (1·4·7·10월 1일 KST 03:00 = UTC 18:00 전날)
+    - cron: '0 18 28 2,5,8,11 *'
+  workflow_dispatch:
+    inputs:
+      target:
+        description: '갱신 대상'
+        required: true
+        default: 'all'
+        type: choice
+        options:
+          - all
+          - huts
+          - stations_parking
+          - photos
+
+permissions:
+  contents: write   # bot이 commit·push 할 수 있어야 함
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          # 표준 라이브러리만 사용 — 추가 설치 불필요
+          python --version
+
+      - name: Refresh huts
+        if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'huts' || github.event_name == 'schedule' }}
+        run: python scripts/refresh_huts.py
+        continue-on-error: true   # 한 작업 실패가 전체 중단으로 이어지지 않게
+
+      - name: Refresh stations & parking
+        if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'stations_parking' || github.event_name == 'schedule' }}
+        run: python scripts/refresh_stations_parking.py
+        continue-on-error: true
+
+      - name: Refresh photos (gallery)
+        if: ${{ github.event.inputs.target == 'all' || github.event.inputs.target == 'photos' || github.event_name == 'schedule' }}
+        run: python scripts/refresh_photos.py
+        continue-on-error: true
+
+      - name: Commit & push if changed
+        run: |
+          git config user.name "data-refresh-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/data/
+          if git diff --cached --quiet; then
+            echo "No changes — skipping commit"
+            exit 0
+          fi
+          DATE=$(date -u +%Y-%m-%d)
+          git commit -m "data: 자동 갱신 ${DATE}
+
+          - workflow: ${{ github.event.inputs.target || 'scheduled' }}
+          - run: ${{ github.run_number }}
+          "
+          git push

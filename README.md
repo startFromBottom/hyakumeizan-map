@@ -77,6 +77,29 @@ UI(`components/`, `app/`)만 React Native·Flutter 등으로 다시 짜면 됨.
 5. Build Command·Output Directory: 기본값 그대로
 6. Deploy → 약 1~2분 후 `*.vercel.app` 도메인 발급
 
+## 데이터 자동 갱신 (GitHub Actions)
+
+`.github/workflows/refresh-data.yml`이 분기 1회(2·5·8·11월 말일 UTC 18:00 = 한국 새벽 3시)에 자동 실행됩니다.
+
+자동 갱신 항목:
+- `public/data/huts.geojson` — 산장 OSM 태그(전화/홈피/용량/요금) 머지
+- `public/data/stations.geojson` — 베이스타운 주변 역 OSM 태그
+- `public/data/parking.geojson` — 트레일헤드 주변 주차장
+- `public/data/hyakumeizan_full.json` — 산별 사진 갤러리(위키피디아 본문 이미지)
+
+기존 큐레이션 필드(route_associations, wikipedia_ko, transit_notes 등)는 머지 시 보존됩니다.
+
+### 수동 트리거
+GitHub repo → **Actions** 탭 → **Refresh Data** → **Run workflow** 버튼.
+target 입력에 `all`, `huts`, `stations_parking`, `photos` 중 선택 가능.
+
+### 로컬에서 직접 갱신
+```bash
+python3 scripts/refresh_huts.py
+python3 scripts/refresh_stations_parking.py
+python3 scripts/refresh_photos.py
+```
+
 ## 외부 데이터·API 출처
 
 - 지형 타일: © OpenStreetMap contributors / CARTO Voyager

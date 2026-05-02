@@ -4,3 +4,7 @@ out/
 *.log
 .env*.local
 .DS_Store
+
+# Python
+__pycache__/
+*.pyc
