@@ -2,6 +2,8 @@
 
 일본 100대 명산(日本百名山)의 위치, 등산 코스, 표고 프로필을 한 화면에서 탐색할 수 있는 웹 앱.
 
+> 📍 **향후 발전 계획**: 사용자 기능·모바일 앱·GPS 자동 산행 기록 → [`docs/ROADMAP.md`](./docs/ROADMAP.md)
+
 ## 기술 스택
 
 - **Next.js 14** (App Router) + **TypeScript**
