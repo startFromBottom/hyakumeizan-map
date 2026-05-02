@@ -41,7 +41,8 @@
         "distance_km": 7.02,
         "ascent_m": 1406,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북쪽 코스 (7.02km)"
       },
       {
         "route_id": "m001-r1",
@@ -50,7 +51,8 @@
         "distance_km": 7.01,
         "ascent_m": 1555,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "서쪽 코스 (7.01km)"
       },
       {
         "route_id": "m001-r3",
@@ -59,7 +61,8 @@
         "distance_km": 5.31,
         "ascent_m": 1339,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "서쪽 코스 (5.31km)"
       }
     ],
     "region": "홋카이도",
@@ -190,7 +193,8 @@
         "distance_km": 7.0,
         "ascent_m": 743,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m002-r3",
@@ -199,7 +203,8 @@
         "distance_km": 9.02,
         "ascent_m": 798,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북동쪽 코스 (9.02km)"
       },
       {
         "route_id": "m002-r1",
@@ -208,7 +213,8 @@
         "distance_km": 7.01,
         "ascent_m": 1461,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남동쪽 코스 (7.01km)"
       },
       {
         "route_id": "m002-r2",
@@ -217,7 +223,8 @@
         "distance_km": 6.48,
         "ascent_m": 1396,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북서쪽 코스 (6.48km)"
       }
     ],
     "region": "홋카이도",
@@ -320,7 +327,8 @@
         "distance_km": 6.99,
         "ascent_m": 1107,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (6.99km)"
       },
       {
         "route_id": "m003-r3",
@@ -329,7 +337,8 @@
         "distance_km": 7.96,
         "ascent_m": 1085,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.96km)"
       },
       {
         "route_id": "m003-r1",
@@ -338,7 +347,8 @@
         "distance_km": 7.01,
         "ascent_m": 1196,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (7.01km)"
       },
       {
         "route_id": "m003-r2",
@@ -347,7 +357,8 @@
         "distance_km": 7.01,
         "ascent_m": 1060,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (7.01km)"
       }
     ],
     "region": "홋카이도",
@@ -546,7 +557,8 @@
         "distance_km": 7.0,
         "ascent_m": 785,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m004-r3",
@@ -555,7 +567,8 @@
         "distance_km": 8.71,
         "ascent_m": 838,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (8.71km)"
       },
       {
         "route_id": "m004-r2",
@@ -564,7 +577,8 @@
         "distance_km": 8.56,
         "ascent_m": 901,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (8.56km)"
       },
       {
         "route_id": "m004-r1",
@@ -573,7 +587,8 @@
         "distance_km": 7.0,
         "ascent_m": 705,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.0km)"
       }
     ],
     "region": "홋카이도",
@@ -670,7 +685,8 @@
         "distance_km": 7.0,
         "ascent_m": 645,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (7.0km) #1"
       },
       {
         "route_id": "m005-r1",
@@ -679,7 +695,8 @@
         "distance_km": 7.0,
         "ascent_m": 605,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "黒岳石室 코스"
       },
       {
         "route_id": "m005-r2",
@@ -688,7 +705,8 @@
         "distance_km": 7.0,
         "ascent_m": 1037,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "旭岳公共駐車場 코스"
       },
       {
         "route_id": "m005-r3",
@@ -697,7 +715,8 @@
         "distance_km": 7.0,
         "ascent_m": 523,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (7.0km) #2"
       }
     ],
     "region": "홋카이도",
@@ -882,7 +901,8 @@
         "distance_km": 7.0,
         "ascent_m": 440,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북쪽 코스 (7.0km)"
       },
       {
         "route_id": "m006-r1",
@@ -891,7 +911,8 @@
         "distance_km": 7.0,
         "ascent_m": 1053,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m006-r2",
@@ -900,7 +921,8 @@
         "distance_km": 7.0,
         "ascent_m": 667,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m006-r3",
@@ -909,7 +931,8 @@
         "distance_km": 7.0,
         "ascent_m": 440,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북동쪽 코스 (7.0km)"
       }
     ],
     "region": "홋카이도",
@@ -1156,7 +1179,8 @@
         "distance_km": 7.0,
         "ascent_m": 625,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "美瑛富士避難小屋 코스"
       },
       {
         "route_id": "m007-r2",
@@ -1165,7 +1189,8 @@
         "distance_km": 7.01,
         "ascent_m": 782,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "서쪽 코스 (7.01km)"
       },
       {
         "route_id": "m007-r3",
@@ -1174,7 +1199,8 @@
         "distance_km": 7.01,
         "ascent_m": 1128,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "동쪽 코스 (7.01km)"
       },
       {
         "route_id": "m007-r1",
@@ -1183,7 +1209,8 @@
         "distance_km": 7.0,
         "ascent_m": 1053,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "서쪽 코스 (7.0km)"
       }
     ],
     "region": "홋카이도",
@@ -1437,7 +1464,8 @@
         "distance_km": 6.99,
         "ascent_m": 631,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북쪽 코스 (6.99km) #1"
       },
       {
         "route_id": "m008-r3",
@@ -1446,7 +1474,8 @@
         "distance_km": 8.66,
         "ascent_m": 784,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북동쪽 코스 (8.66km)"
       },
       {
         "route_id": "m008-r2",
@@ -1455,7 +1484,8 @@
         "distance_km": 7.01,
         "ascent_m": 1384,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남쪽 코스 (7.01km)"
       },
       {
         "route_id": "m008-r1",
@@ -1464,7 +1494,8 @@
         "distance_km": 6.99,
         "ascent_m": 1336,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북쪽 코스 (6.99km) #2"
       }
     ],
     "region": "홋카이도",
@@ -1951,7 +1982,8 @@
         "distance_km": 7.0,
         "ascent_m": 1040,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m010-r1",
@@ -1960,7 +1992,8 @@
         "distance_km": 7.01,
         "ascent_m": 1224,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (7.01km)"
       },
       {
         "route_id": "m010-r3",
@@ -1969,7 +2002,8 @@
         "distance_km": 7.01,
         "ascent_m": 1130,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (7.01km)"
       },
       {
         "route_id": "m010-r2",
@@ -1978,7 +2012,8 @@
         "distance_km": 6.99,
         "ascent_m": 1060,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북서쪽 코스 (6.99km)"
       }
     ],
     "region": "도호쿠",
@@ -2224,7 +2259,8 @@
         "distance_km": 7.01,
         "ascent_m": 1083,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.01km)"
       },
       {
         "route_id": "m011-r1",
@@ -2233,7 +2269,8 @@
         "distance_km": 6.47,
         "ascent_m": 1079,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (6.47km)"
       },
       {
         "route_id": "m011-r2",
@@ -2242,7 +2279,8 @@
         "distance_km": 6.36,
         "ascent_m": 1192,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (6.36km)"
       },
       {
         "route_id": "m011-r3",
@@ -2251,7 +2289,8 @@
         "distance_km": 6.1,
         "ascent_m": 829,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (6.1km)"
       }
     ],
     "region": "도호쿠",
@@ -2489,7 +2528,8 @@
         "distance_km": 7.0,
         "ascent_m": 619,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m012-r3",
@@ -2498,7 +2538,8 @@
         "distance_km": 7.17,
         "ascent_m": 681,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "八幡平温泉;ゆらら 코스"
       },
       {
         "route_id": "m012-r2",
@@ -2507,7 +2548,8 @@
         "distance_km": 7.01,
         "ascent_m": 654,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북서쪽 코스 (7.01km)"
       },
       {
         "route_id": "m012-r1",
@@ -2516,7 +2558,8 @@
         "distance_km": 7.0,
         "ascent_m": 424,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.0km)"
       }
     ],
     "region": "도호쿠",
@@ -2963,7 +3006,8 @@
         "distance_km": 7.0,
         "ascent_m": 941,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m014-r1",
@@ -2972,7 +3016,8 @@
         "distance_km": 7.01,
         "ascent_m": 1494,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (7.01km)"
       },
       {
         "route_id": "m014-r2",
@@ -2981,7 +3026,8 @@
         "distance_km": 6.98,
         "ascent_m": 826,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (6.98km)"
       },
       {
         "route_id": "m014-r3",
@@ -2990,7 +3036,8 @@
         "distance_km": 6.74,
         "ascent_m": 1221,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (6.74km)"
       }
     ],
     "region": "도호쿠",
@@ -3243,7 +3290,8 @@
         "distance_km": 5.86,
         "ascent_m": 889,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북서쪽 코스 (5.86km)"
       },
       {
         "route_id": "m015-r1",
@@ -3252,7 +3300,8 @@
         "distance_km": 4.16,
         "ascent_m": 707,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "御浜小屋 코스"
       },
       {
         "route_id": "m015-r2",
@@ -3261,7 +3310,8 @@
         "distance_km": 2.55,
         "ascent_m": 406,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (2.55km)"
       }
     ],
     "region": "도호쿠",
@@ -3505,7 +3555,8 @@
         "distance_km": 3.88,
         "ascent_m": 852,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "서쪽 코스 (3.88km)"
       }
     ],
     "region": "도호쿠",
@@ -3746,7 +3797,8 @@
         "distance_km": 7.0,
         "ascent_m": 929,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m017-r1",
@@ -3755,7 +3807,8 @@
         "distance_km": 7.0,
         "ascent_m": 1025,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m017-r2",
@@ -3764,7 +3817,8 @@
         "distance_km": 7.0,
         "ascent_m": 879,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m017-r3",
@@ -3773,7 +3827,8 @@
         "distance_km": 7.0,
         "ascent_m": 750,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남쪽 코스 (7.0km)"
       }
     ],
     "region": "도호쿠",
@@ -4229,7 +4284,8 @@
         "distance_km": 7.01,
         "ascent_m": 1502,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북쪽 코스 (7.01km)"
       },
       {
         "route_id": "m019-r1",
@@ -4238,7 +4294,8 @@
         "distance_km": 5.37,
         "ascent_m": 968,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북쪽 코스 (5.37km)"
       },
       {
         "route_id": "m019-r2",
@@ -4247,7 +4304,8 @@
         "distance_km": 3.58,
         "ascent_m": 668,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (3.58km)"
       }
     ],
     "region": "도호쿠",
@@ -4424,7 +4482,8 @@
         "distance_km": 7.0,
         "ascent_m": 364,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m020-r3",
@@ -4433,7 +4492,8 @@
         "distance_km": 7.28,
         "ascent_m": 430,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.28km)"
       },
       {
         "route_id": "m020-r1",
@@ -4442,7 +4502,8 @@
         "distance_km": 6.99,
         "ascent_m": 829,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (6.99km)"
       },
       {
         "route_id": "m020-r2",
@@ -4451,7 +4512,8 @@
         "distance_km": 6.98,
         "ascent_m": 614,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (6.98km)"
       }
     ],
     "region": "도호쿠",
@@ -4975,7 +5037,8 @@
         "distance_km": 7.0,
         "ascent_m": 801,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m022-r2",
@@ -4984,7 +5047,8 @@
         "distance_km": 7.41,
         "ascent_m": 863,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "서쪽 코스 (7.41km)"
       },
       {
         "route_id": "m022-r1",
@@ -4993,7 +5057,8 @@
         "distance_km": 6.99,
         "ascent_m": 1165,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "はやま西駐車場 코스"
       },
       {
         "route_id": "m022-r3",
@@ -5002,7 +5067,8 @@
         "distance_km": 6.39,
         "ascent_m": 1054,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (6.39km)"
       }
     ],
     "region": "도호쿠",
@@ -5254,7 +5320,8 @@
         "distance_km": 7.0,
         "ascent_m": 887,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (7.0km)"
       },
       {
         "route_id": "m023-r3",
@@ -5263,7 +5330,8 @@
         "distance_km": 7.29,
         "ascent_m": 483,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (7.29km)"
       },
       {
         "route_id": "m023-r2",
@@ -5272,7 +5340,8 @@
         "distance_km": 7.01,
         "ascent_m": 551,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (7.01km)"
       },
       {
         "route_id": "m023-r1",
@@ -5281,7 +5350,8 @@
         "distance_km": 7.0,
         "ascent_m": 616,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (7.0km)"
       }
     ],
     "region": "도호쿠",
@@ -5657,7 +5727,8 @@
         "distance_km": 7.0,
         "ascent_m": 1228,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m025-r3",
@@ -5666,7 +5737,8 @@
         "distance_km": 7.01,
         "ascent_m": 948,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남쪽 코스 (7.01km)"
       },
       {
         "route_id": "m025-r1",
@@ -5675,7 +5747,8 @@
         "distance_km": 7.0,
         "ascent_m": 993,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m025-r2",
@@ -5684,7 +5757,8 @@
         "distance_km": 7.0,
         "ascent_m": 746,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남쪽 코스 (7.0km)"
       }
     ],
     "region": "주부",
@@ -5917,7 +5991,8 @@
         "distance_km": 7.0,
         "ascent_m": 657,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m026-r2",
@@ -5926,7 +6001,8 @@
         "distance_km": 8.67,
         "ascent_m": 1169,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (8.67km)"
       },
       {
         "route_id": "m026-r1",
@@ -5935,7 +6011,8 @@
         "distance_km": 5.35,
         "ascent_m": 559,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "북동쪽 코스 (5.35km)"
       },
       {
         "route_id": "m026-r3",
@@ -5944,7 +6021,8 @@
         "distance_km": 3.96,
         "ascent_m": 880,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "북서쪽 코스 (3.96km)"
       }
     ],
     "region": "주부",
@@ -6190,7 +6268,8 @@
         "distance_km": 7.01,
         "ascent_m": 697,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남쪽 코스 (7.01km)"
       },
       {
         "route_id": "m027-r1",
@@ -6199,7 +6278,8 @@
         "distance_km": 5.42,
         "ascent_m": 411,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (5.42km)"
       },
       {
         "route_id": "m027-r2",
@@ -6208,7 +6288,8 @@
         "distance_km": 3.86,
         "ascent_m": 351,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (3.86km)"
       }
     ],
     "region": "주부",
@@ -6454,7 +6535,8 @@
         "distance_km": 7.0,
         "ascent_m": 987,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "元湯山荘 코스"
       },
       {
         "route_id": "m028-r1",
@@ -6463,7 +6545,8 @@
         "distance_km": 7.0,
         "ascent_m": 906,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m028-r2",
@@ -6472,7 +6555,8 @@
         "distance_km": 6.99,
         "ascent_m": 625,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (6.99km)"
       },
       {
         "route_id": "m028-r3",
@@ -6481,7 +6565,8 @@
         "distance_km": 6.99,
         "ascent_m": 936,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "竜宮小屋 코스"
       }
     ],
     "region": "도호쿠",
@@ -6979,7 +7064,8 @@
         "distance_km": 7.0,
         "ascent_m": 957,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m030-r2",
@@ -6988,7 +7074,8 @@
         "distance_km": 7.01,
         "ascent_m": 895,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "蓬ヒュッテ 코스 (7.01km)"
       },
       {
         "route_id": "m030-r1",
@@ -6997,7 +7084,8 @@
         "distance_km": 7.0,
         "ascent_m": 839,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "蓬ヒュッテ 코스 (7.0km)"
       },
       {
         "route_id": "m030-r3",
@@ -7006,7 +7094,8 @@
         "distance_km": 6.99,
         "ascent_m": 787,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "(이름 미상) 코스"
       }
     ],
     "region": "주부",
@@ -7622,7 +7711,8 @@
         "distance_km": 7.0,
         "ascent_m": 614,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m033-r1",
@@ -7631,7 +7721,8 @@
         "distance_km": 7.0,
         "ascent_m": 1160,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m033-r2",
@@ -7640,7 +7731,8 @@
         "distance_km": 6.86,
         "ascent_m": 1492,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (6.86km)"
       },
       {
         "route_id": "m033-r3",
@@ -7649,7 +7741,8 @@
         "distance_km": 6.42,
         "ascent_m": 1112,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (6.42km)"
       }
     ],
     "region": "주부",
@@ -7903,7 +7996,8 @@
         "distance_km": 7.0,
         "ascent_m": 860,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m034-r1",
@@ -7912,7 +8006,8 @@
         "distance_km": 7.0,
         "ascent_m": 1292,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m034-r2",
@@ -7921,7 +8016,8 @@
         "distance_km": 7.0,
         "ascent_m": 710,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m034-r3",
@@ -7930,7 +8026,8 @@
         "distance_km": 7.0,
         "ascent_m": 615,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남동쪽 코스 (7.0km)"
       }
     ],
     "region": "주부",
@@ -8620,7 +8717,8 @@
         "distance_km": 7.0,
         "ascent_m": 789,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m037-r3",
@@ -8629,7 +8727,8 @@
         "distance_km": 8.6,
         "ascent_m": 867,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (8.6km)"
       },
       {
         "route_id": "m037-r1",
@@ -8638,7 +8737,8 @@
         "distance_km": 6.13,
         "ascent_m": 997,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (6.13km)"
       },
       {
         "route_id": "m037-r2",
@@ -8647,7 +8747,8 @@
         "distance_km": 5.48,
         "ascent_m": 1154,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "山月 駐車場 코스"
       }
     ],
     "region": "간토",
@@ -9089,7 +9190,8 @@
         "distance_km": 7.0,
         "ascent_m": 584,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m039-r1",
@@ -9098,7 +9200,8 @@
         "distance_km": 6.99,
         "ascent_m": 1018,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (6.99km)"
       },
       {
         "route_id": "m039-r2",
@@ -9107,7 +9210,8 @@
         "distance_km": 6.44,
         "ascent_m": 1139,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (6.44km)"
       },
       {
         "route_id": "m039-r3",
@@ -9116,7 +9220,8 @@
         "distance_km": 6.24,
         "ascent_m": 980,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (6.24km)"
       }
     ],
     "region": "간토",
@@ -9798,7 +9903,8 @@
         "distance_km": 7.0,
         "ascent_m": 604,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (7.0km)"
       },
       {
         "route_id": "m042-r2",
@@ -9807,7 +9913,8 @@
         "distance_km": 7.01,
         "ascent_m": 1064,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "米子大瀑布駐車場 코스"
       },
       {
         "route_id": "m042-r1",
@@ -9816,7 +9923,8 @@
         "distance_km": 7.0,
         "ascent_m": 807,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m042-r3",
@@ -9825,7 +9933,8 @@
         "distance_km": 6.99,
         "ascent_m": 1007,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "서쪽 코스 (6.99km)"
       }
     ],
     "region": "간토",
@@ -10479,7 +10588,8 @@
         "distance_km": 7.0,
         "ascent_m": 699,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "白馬大池山荘 코스 (7.0km) #1"
       },
       {
         "route_id": "m045-r1",
@@ -10488,7 +10598,8 @@
         "distance_km": 7.0,
         "ascent_m": 1113,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (7.0km) #1"
       },
       {
         "route_id": "m045-r2",
@@ -10497,7 +10608,8 @@
         "distance_km": 7.0,
         "ascent_m": 1282,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (7.0km) #2"
       },
       {
         "route_id": "m045-r3",
@@ -10506,7 +10618,8 @@
         "distance_km": 7.0,
         "ascent_m": 876,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "白馬大池山荘 코스 (7.0km) #2"
       }
     ],
     "region": "주부",
@@ -10775,7 +10888,8 @@
         "distance_km": 7.0,
         "ascent_m": 1235,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.0km) #1"
       },
       {
         "route_id": "m046-r2",
@@ -10784,7 +10898,8 @@
         "distance_km": 8.73,
         "ascent_m": 1358,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남동쪽 코스 (8.73km)"
       },
       {
         "route_id": "m046-r1",
@@ -10793,7 +10908,8 @@
         "distance_km": 7.0,
         "ascent_m": 1076,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.0km) #2"
       },
       {
         "route_id": "m046-r3",
@@ -10802,7 +10918,8 @@
         "distance_km": 5.11,
         "ascent_m": 910,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "동쪽 코스 (5.11km)"
       }
     ],
     "region": "주부",
@@ -11032,7 +11149,8 @@
         "distance_km": 7.01,
         "ascent_m": 1157,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북동쪽 코스 (7.01km)"
       },
       {
         "route_id": "m047-r3",
@@ -11041,7 +11159,8 @@
         "distance_km": 10.44,
         "ascent_m": 1599,
         "source": "way_graph",
-        "difficulty_stars": 5
+        "difficulty_stars": 5,
+        "name_ko": "북동쪽 코스 (10.44km)"
       },
       {
         "route_id": "m047-r1",
@@ -11050,7 +11169,8 @@
         "distance_km": 8.6,
         "ascent_m": 1342,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북동쪽 코스 (8.6km)"
       },
       {
         "route_id": "m047-r2",
@@ -11059,7 +11179,8 @@
         "distance_km": 5.31,
         "ascent_m": 765,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "五竜山荘 코스"
       }
     ],
     "region": "주부",
@@ -11280,7 +11401,8 @@
         "distance_km": 7.0,
         "ascent_m": 2077,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "馬場島荘 코스"
       },
       {
         "route_id": "m048-r1",
@@ -11289,7 +11411,8 @@
         "distance_km": 5.45,
         "ascent_m": 940,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "ロッジ立山連峰 코스"
       },
       {
         "route_id": "m048-r2",
@@ -11298,7 +11421,8 @@
         "distance_km": 5.07,
         "ascent_m": 1602,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북서쪽 코스 (5.07km)"
       },
       {
         "route_id": "m048-r3",
@@ -11307,7 +11431,8 @@
         "distance_km": 3.35,
         "ascent_m": 460,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "劔御前小舎 코스"
       }
     ],
     "region": "주부",
@@ -11553,7 +11678,8 @@
         "distance_km": 6.83,
         "ascent_m": 1500,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "ロッジくろよん 코스"
       },
       {
         "route_id": "m049-r1",
@@ -11562,7 +11688,8 @@
         "distance_km": 4.93,
         "ascent_m": 1135,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "남동쪽 코스 (4.93km)"
       },
       {
         "route_id": "m049-r2",
@@ -11571,7 +11698,8 @@
         "distance_km": 3.48,
         "ascent_m": 694,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "立山室堂山荘 코스"
       },
       {
         "route_id": "m049-r3",
@@ -11580,7 +11708,8 @@
         "distance_km": 3.33,
         "ascent_m": 538,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "남서쪽 코스 (3.33km)"
       }
     ],
     "region": "주부",
@@ -12019,7 +12148,8 @@
         "distance_km": 6.8,
         "ascent_m": 617,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "三俣山荘 코스"
       },
       {
         "route_id": "m051-r1",
@@ -12028,7 +12158,8 @@
         "distance_km": 4.2,
         "ascent_m": 488,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "(이름 미상) 코스"
       },
       {
         "route_id": "m051-r2",
@@ -12037,7 +12168,8 @@
         "distance_km": 3.49,
         "ascent_m": 478,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "黒部五郎小舎 코스"
       }
     ],
     "region": "주부",
@@ -12122,7 +12254,8 @@
         "distance_km": 7.0,
         "ascent_m": 898,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북쪽 코스 (7.0km)"
       },
       {
         "route_id": "m052-r1",
@@ -12131,7 +12264,8 @@
         "distance_km": 5.32,
         "ascent_m": 519,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (5.32km)"
       },
       {
         "route_id": "m052-r2",
@@ -12140,7 +12274,8 @@
         "distance_km": 3.88,
         "ascent_m": 931,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "高天原山荘 코스"
       },
       {
         "route_id": "m052-r3",
@@ -12149,7 +12284,8 @@
         "distance_km": 3.52,
         "ascent_m": 308,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (3.52km)"
       }
     ],
     "region": "주부",
@@ -12565,7 +12701,8 @@
         "distance_km": 6.29,
         "ascent_m": 1319,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "槍平小屋 코스"
       },
       {
         "route_id": "m054-r1",
@@ -12574,7 +12711,8 @@
         "distance_km": 5.26,
         "ascent_m": 577,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "北穂高小屋 코스"
       },
       {
         "route_id": "m054-r2",
@@ -12583,7 +12721,8 @@
         "distance_km": 4.19,
         "ascent_m": 565,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "南岳小屋 코스"
       }
     ],
     "region": "주부",
@@ -12835,7 +12974,8 @@
         "distance_km": 6.07,
         "ascent_m": 1102,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "西穂山荘 코스 (6.07km)"
       },
       {
         "route_id": "m055-r1",
@@ -12844,7 +12984,8 @@
         "distance_km": 5.29,
         "ascent_m": 1656,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (5.29km)"
       },
       {
         "route_id": "m055-r2",
@@ -12853,7 +12994,8 @@
         "distance_km": 4.16,
         "ascent_m": 835,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "西穂山荘 코스 (4.16km)"
       },
       {
         "route_id": "m055-r3",
@@ -12862,7 +13004,8 @@
         "distance_km": 3.5,
         "ascent_m": 1299,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "岳沢小屋 코스"
       }
     ],
     "region": "주부",
@@ -13092,7 +13235,8 @@
         "distance_km": 6.98,
         "ascent_m": 1708,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "동쪽 코스 (6.98km)"
       },
       {
         "route_id": "m056-r1",
@@ -13101,7 +13245,8 @@
         "distance_km": 5.13,
         "ascent_m": 1362,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "동쪽 코스 (5.13km)"
       },
       {
         "route_id": "m056-r2",
@@ -13110,7 +13255,8 @@
         "distance_km": 3.54,
         "ascent_m": 870,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (3.54km)"
       }
     ],
     "region": "주부",
@@ -13358,7 +13504,8 @@
         "distance_km": 4.62,
         "ascent_m": 417,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "槍ヶ岳山荘 코스"
       },
       {
         "route_id": "m057-r1",
@@ -13367,7 +13514,8 @@
         "distance_km": 2.76,
         "ascent_m": 418,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "槍平小屋 코스"
       }
     ],
     "region": "주부",
@@ -13451,7 +13599,8 @@
         "distance_km": 5.48,
         "ascent_m": 502,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "西穂山荘 코스"
       },
       {
         "route_id": "m058-r1",
@@ -13460,7 +13609,8 @@
         "distance_km": 4.07,
         "ascent_m": 898,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "북동쪽 코스 (4.07km)"
       },
       {
         "route_id": "m058-r2",
@@ -13469,7 +13619,8 @@
         "distance_km": 3.97,
         "ascent_m": 1151,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "북쪽 코스 (3.97km)"
       },
       {
         "route_id": "m058-r3",
@@ -13478,7 +13629,8 @@
         "distance_km": 3.71,
         "ascent_m": 431,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "북동쪽 코스 (3.71km)"
       }
     ],
     "region": "주부",
@@ -13817,7 +13969,8 @@
         "distance_km": 7.0,
         "ascent_m": 1218,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "のぞき岩避難小屋 코스"
       },
       {
         "route_id": "m060-r3",
@@ -13826,7 +13979,8 @@
         "distance_km": 7.03,
         "ascent_m": 1348,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.03km)"
       },
       {
         "route_id": "m060-r2",
@@ -13835,7 +13989,8 @@
         "distance_km": 7.02,
         "ascent_m": 1430,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "一の又小屋 코스"
       },
       {
         "route_id": "m060-r1",
@@ -13844,7 +13999,8 @@
         "distance_km": 7.01,
         "ascent_m": 1267,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (7.01km)"
       }
     ],
     "region": "주부",
@@ -14106,7 +14262,8 @@
         "distance_km": 6.79,
         "ascent_m": 595,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (6.79km)"
       },
       {
         "route_id": "m061-r1",
@@ -14115,7 +14272,8 @@
         "distance_km": 6.43,
         "ascent_m": 476,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (6.43km)"
       },
       {
         "route_id": "m061-r2",
@@ -14124,7 +14282,8 @@
         "distance_km": 4.98,
         "ascent_m": 229,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "남동쪽 코스 (4.98km)"
       },
       {
         "route_id": "m061-r3",
@@ -14133,7 +14292,8 @@
         "distance_km": 3.48,
         "ascent_m": 591,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "남서쪽 코스 (3.48km)"
       }
     ],
     "region": "주부",
@@ -14380,7 +14540,8 @@
         "distance_km": 7.0,
         "ascent_m": 262,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m062-r1",
@@ -14389,7 +14550,8 @@
         "distance_km": 7.01,
         "ascent_m": 337,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.01km)"
       },
       {
         "route_id": "m062-r2",
@@ -14398,7 +14560,8 @@
         "distance_km": 6.99,
         "ascent_m": 231,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (6.99km)"
       },
       {
         "route_id": "m062-r3",
@@ -14407,7 +14570,8 @@
         "distance_km": 6.99,
         "ascent_m": 290,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (6.99km)"
       }
     ],
     "region": "주부",
@@ -15090,7 +15254,8 @@
         "distance_km": 7.0,
         "ascent_m": 1443,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m065-r1",
@@ -15099,7 +15264,8 @@
         "distance_km": 5.81,
         "ascent_m": 1270,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (5.81km)"
       },
       {
         "route_id": "m065-r2",
@@ -15108,7 +15274,8 @@
         "distance_km": 5.71,
         "ascent_m": 1184,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (5.71km)"
       },
       {
         "route_id": "m065-r3",
@@ -15117,7 +15284,8 @@
         "distance_km": 5.12,
         "ascent_m": 1069,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "동쪽 코스 (5.12km)"
       }
     ],
     "region": "간토",
@@ -15365,7 +15533,8 @@
         "distance_km": 7.0,
         "ascent_m": 808,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m066-r1",
@@ -15374,7 +15543,8 @@
         "distance_km": 5.27,
         "ascent_m": 548,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "七ツ石小屋 코스"
       },
       {
         "route_id": "m066-r2",
@@ -15383,7 +15553,8 @@
         "distance_km": 2.93,
         "ascent_m": 313,
         "source": "way_graph",
-        "difficulty_stars": 1
+        "difficulty_stars": 1,
+        "name_ko": "奥多摩小屋（閉鎖） 코스"
       }
     ],
     "region": "간토",
@@ -15640,7 +15811,8 @@
         "distance_km": 5.59,
         "ascent_m": 1381,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (5.59km)"
       },
       {
         "route_id": "m067-r1",
@@ -15649,7 +15821,8 @@
         "distance_km": 3.78,
         "ascent_m": 924,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "남쪽 코스 (3.78km)"
       }
     ],
     "region": "간토",
@@ -16584,7 +16757,8 @@
         "distance_km": 5.52,
         "ascent_m": 803,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (5.52km)"
       },
       {
         "route_id": "m071-r1",
@@ -16593,7 +16767,8 @@
         "distance_km": 5.1,
         "ascent_m": 865,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (5.1km)"
       },
       {
         "route_id": "m071-r2",
@@ -16602,7 +16777,8 @@
         "distance_km": 4.56,
         "ascent_m": 897,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (4.56km)"
       },
       {
         "route_id": "m071-r3",
@@ -16611,7 +16787,8 @@
         "distance_km": 3.69,
         "ascent_m": 406,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (3.69km)"
       }
     ],
     "region": "간토",
@@ -17202,7 +17379,8 @@
         "distance_km": 7.01,
         "ascent_m": 415,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (7.01km)"
       },
       {
         "route_id": "m073-r2",
@@ -17211,7 +17389,8 @@
         "distance_km": 9.78,
         "ascent_m": 557,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남서쪽 코스 (9.78km)"
       },
       {
         "route_id": "m073-r1",
@@ -17220,7 +17399,8 @@
         "distance_km": 4.64,
         "ascent_m": 260,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "서쪽 코스 (4.64km)"
       },
       {
         "route_id": "m073-r3",
@@ -17229,7 +17409,8 @@
         "distance_km": 4.21,
         "ascent_m": 410,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "ハイカー用駐車場 코스"
       }
     ],
     "region": "주부",
@@ -17484,7 +17665,8 @@
         "distance_km": 7.0,
         "ascent_m": 910,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m074-r2",
@@ -17493,7 +17675,8 @@
         "distance_km": 7.0,
         "ascent_m": 640,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (7.0km)"
       },
       {
         "route_id": "m074-r3",
@@ -17502,7 +17685,8 @@
         "distance_km": 6.58,
         "ascent_m": 1323,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "동쪽 코스 (6.58km)"
       }
     ],
     "region": "주부",
@@ -17776,7 +17960,8 @@
         "distance_km": 6.78,
         "ascent_m": 1570,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "避難小屋 코스"
       },
       {
         "route_id": "m075-r3",
@@ -17785,7 +17970,8 @@
         "distance_km": 4.66,
         "ascent_m": 1212,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "서쪽 코스 (4.66km)"
       }
     ],
     "region": "주부",
@@ -18040,7 +18226,8 @@
         "distance_km": 6.16,
         "ascent_m": 778,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "萬岳荘 코스"
       },
       {
         "route_id": "m076-r1",
@@ -18049,7 +18236,8 @@
         "distance_km": 4.3,
         "ascent_m": 927,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (4.3km)"
       }
     ],
     "region": "주부",
@@ -18298,7 +18486,8 @@
         "distance_km": 4.36,
         "ascent_m": 630,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북서쪽 코스 (4.36km)"
       },
       {
         "route_id": "m077-r1",
@@ -18307,7 +18496,8 @@
         "distance_km": 2.68,
         "ascent_m": 453,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북서쪽 코스 (2.68km)"
       }
     ],
     "region": "주부",
@@ -18565,7 +18755,8 @@
         "distance_km": 7.05,
         "ascent_m": 1140,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북서쪽 코스 (7.05km)"
       },
       {
         "route_id": "m078-r1",
@@ -18574,7 +18765,8 @@
         "distance_km": 6.7,
         "ascent_m": 750,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "両俣小屋 코스 (6.7km)"
       },
       {
         "route_id": "m078-r2",
@@ -18583,7 +18775,8 @@
         "distance_km": 4.98,
         "ascent_m": 1007,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "松峰小屋 코스"
       },
       {
         "route_id": "m078-r3",
@@ -18592,7 +18785,8 @@
         "distance_km": 4.92,
         "ascent_m": 572,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "両俣小屋 코스 (4.92km)"
       }
     ],
     "region": "주부",
@@ -18856,7 +19050,8 @@
         "distance_km": 7.01,
         "ascent_m": 810,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "夜叉神峠小屋 코스"
       },
       {
         "route_id": "m079-r2",
@@ -18865,7 +19060,8 @@
         "distance_km": 6.99,
         "ascent_m": 722,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "早川尾根小屋 코스"
       },
       {
         "route_id": "m079-r3",
@@ -18874,7 +19070,8 @@
         "distance_km": 5.37,
         "ascent_m": 619,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (5.37km)"
       }
     ],
     "region": "주부",
@@ -19530,7 +19727,8 @@
         "distance_km": 7.01,
         "ascent_m": 631,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남동쪽 코스 (7.01km)"
       },
       {
         "route_id": "m082-r2",
@@ -19539,7 +19737,8 @@
         "distance_km": 8.68,
         "ascent_m": 969,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남동쪽 코스 (8.68km)"
       },
       {
         "route_id": "m082-r1",
@@ -19548,7 +19747,8 @@
         "distance_km": 6.56,
         "ascent_m": 1727,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "북서쪽 코스 (6.56km)"
       },
       {
         "route_id": "m082-r3",
@@ -19557,7 +19757,8 @@
         "distance_km": 5.28,
         "ascent_m": 510,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (5.28km)"
       }
     ],
     "region": "주부",
@@ -19792,7 +19993,8 @@
         "distance_km": 3.05,
         "ascent_m": 411,
         "source": "way_graph",
-        "difficulty_stars": 1
+        "difficulty_stars": 1,
+        "name_ko": "荒川小屋 코스"
       }
     ],
     "region": "주부",
@@ -20028,7 +20230,8 @@
         "distance_km": 7.01,
         "ascent_m": 1347,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "椹島ロッヂ 코스"
       },
       {
         "route_id": "m084-r1",
@@ -20037,7 +20240,8 @@
         "distance_km": 4.82,
         "ascent_m": 823,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "赤石小屋 코스 (4.82km)"
       },
       {
         "route_id": "m084-r2",
@@ -20046,7 +20250,8 @@
         "distance_km": 3.72,
         "ascent_m": 547,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "百閒洞山の家 코스"
       },
       {
         "route_id": "m084-r3",
@@ -20055,7 +20260,8 @@
         "distance_km": 2.97,
         "ascent_m": 490,
         "source": "way_graph",
-        "difficulty_stars": 1
+        "difficulty_stars": 1,
+        "name_ko": "赤石小屋 코스 (2.97km)"
       }
     ],
     "region": "주부",
@@ -20155,7 +20361,8 @@
         "distance_km": 7.01,
         "ascent_m": 1952,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "聖光小屋 코스"
       },
       {
         "route_id": "m085-r1",
@@ -20164,7 +20371,8 @@
         "distance_km": 5.13,
         "ascent_m": 1795,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "남서쪽 코스 (5.13km)"
       },
       {
         "route_id": "m085-r2",
@@ -20173,7 +20381,8 @@
         "distance_km": 4.7,
         "ascent_m": 683,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "百閒洞山の家 코스"
       },
       {
         "route_id": "m085-r3",
@@ -20182,7 +20391,8 @@
         "distance_km": 4.16,
         "ascent_m": 721,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "聖平小屋 코스"
       }
     ],
     "region": "주부",
@@ -20284,7 +20494,8 @@
         "distance_km": 7.0,
         "ascent_m": 649,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "서쪽 코스 (7.0km)"
       },
       {
         "route_id": "m086-r3",
@@ -20293,7 +20504,8 @@
         "distance_km": 7.34,
         "ascent_m": 874,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "서쪽 코스 (7.34km)"
       },
       {
         "route_id": "m086-r2",
@@ -20302,7 +20514,8 @@
         "distance_km": 7.01,
         "ascent_m": 1433,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "聖光小屋 코스"
       },
       {
         "route_id": "m086-r1",
@@ -20311,7 +20524,8 @@
         "distance_km": 7.0,
         "ascent_m": 434,
         "source": "way_graph",
-        "difficulty_stars": 4
+        "difficulty_stars": 4,
+        "name_ko": "茶臼小屋 코스"
       }
     ],
     "region": "주부",
@@ -20732,7 +20946,8 @@
         "distance_km": 4.6,
         "ascent_m": 1105,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (4.6km)"
       },
       {
         "route_id": "m088-r1",
@@ -20741,7 +20956,8 @@
         "distance_km": 4.41,
         "ascent_m": 1145,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북쪽 코스 (4.41km)"
       },
       {
         "route_id": "m088-r2",
@@ -20750,7 +20966,8 @@
         "distance_km": 4.21,
         "ascent_m": 862,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북서쪽 코스 (4.21km)"
       },
       {
         "route_id": "m088-r3",
@@ -20759,7 +20976,8 @@
         "distance_km": 3.56,
         "ascent_m": 923,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (3.56km)"
       }
     ],
     "region": "주부",
@@ -21204,7 +21422,8 @@
         "distance_km": 6.98,
         "ascent_m": 718,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "서쪽 코스 (6.98km)"
       },
       {
         "route_id": "m090-r1",
@@ -21213,7 +21432,8 @@
         "distance_km": 3.69,
         "ascent_m": 325,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "서쪽 코스 (3.69km)"
       }
     ],
     "region": "간사이",
@@ -21444,7 +21664,8 @@
         "distance_km": 4.42,
         "ascent_m": 1092,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (4.42km)"
       },
       {
         "route_id": "m091-r1",
@@ -21453,7 +21674,8 @@
         "distance_km": 2.58,
         "ascent_m": 412,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남서쪽 코스 (2.58km)"
       }
     ],
     "region": "간사이",
@@ -21702,7 +21924,8 @@
         "distance_km": 3.09,
         "ascent_m": 792,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "북쪽 코스 (3.09km)"
       }
     ],
     "region": "주고쿠",
@@ -22345,7 +22568,8 @@
         "distance_km": 3.86,
         "ascent_m": 357,
         "source": "relation",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "북서쪽 코스 (3.86km)"
       }
     ],
     "region": "규슈",
@@ -22599,7 +22823,8 @@
         "distance_km": 7.0,
         "ascent_m": 685,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m096-r3",
@@ -22608,7 +22833,8 @@
         "distance_km": 7.01,
         "ascent_m": 677,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (7.01km)"
       },
       {
         "route_id": "m096-r1",
@@ -22617,7 +22843,8 @@
         "distance_km": 7.0,
         "ascent_m": 996,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남동쪽 코스 (7.0km)"
       },
       {
         "route_id": "m096-r2",
@@ -22626,7 +22853,8 @@
         "distance_km": 7.0,
         "ascent_m": 1145,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "북서쪽 코스 (7.0km)"
       }
     ],
     "region": "규슈",
@@ -22850,7 +23078,8 @@
         "distance_km": 6.1,
         "ascent_m": 761,
         "source": "way_graph",
-        "difficulty_stars": 3
+        "difficulty_stars": 3,
+        "name_ko": "남쪽 코스 (6.1km)"
       },
       {
         "route_id": "m097-r1",
@@ -22859,7 +23088,8 @@
         "distance_km": 3.99,
         "ascent_m": 435,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "남서쪽 코스 (3.99km)"
       },
       {
         "route_id": "m097-r2",
@@ -22868,7 +23098,8 @@
         "distance_km": 2.88,
         "ascent_m": 600,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "동쪽 코스 (2.88km)"
       }
     ],
     "region": "규슈",
@@ -23323,7 +23554,8 @@
         "distance_km": 3.11,
         "ascent_m": 742,
         "source": "way_graph",
-        "difficulty_stars": 2
+        "difficulty_stars": 2,
+        "name_ko": "開聞山麓ふれあい公園駐車場 코스"
       }
     ],
     "region": "규슈",
