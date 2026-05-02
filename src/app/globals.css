@@ -1,0 +1,130 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body { height: 100%; margin: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', 'Hiragino Sans', sans-serif;
+  background: #f7f7f5;
+  color: #1a1a1a;
+  -webkit-font-smoothing: antialiased;
+}
+
+.leaflet-container { background: #d9e6e0; }
+
+.mountain-marker {
+  display: flex; align-items: center; justify-content: center;
+  width: 26px; height: 26px; border-radius: 50%;
+  font-size: 11px; font-weight: 700; color: white;
+  border: 2px solid white;
+  box-shadow: 0 2px 6px rgba(0,0,0,.25);
+  cursor: pointer;
+  transition: transform .15s;
+}
+.mountain-marker:hover { transform: scale(1.2); z-index: 1000 !important; }
+.mountain-marker.active { transform: scale(1.3); border-color: #ffd400; }
+
+.hut-marker {
+  display: flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px;
+  background: #8b4513;
+  color: white;
+  border: 2px solid white;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,.3);
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  transition: transform .15s;
+}
+.hut-marker:hover { transform: scale(1.25); z-index: 1000 !important; }
+.hut-marker::before { content: '⛺'; font-size: 12px; }
+
+.basetown-marker {
+  display: flex; align-items: center; justify-content: center;
+  min-width: 24px; height: 24px;
+  padding: 0 6px;
+  background: #1e40af;
+  color: white;
+  border: 2px solid white;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0,0,0,.35);
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+  white-space: nowrap;
+  transition: transform .15s;
+}
+.basetown-marker:hover { transform: scale(1.15); z-index: 1000 !important; }
+.basetown-marker.city { background: #1e40af; }
+.basetown-marker.town { background: #4338ca; }
+
+.lodging-marker {
+  width: 14px; height: 14px;
+  background: #9333ea;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  transition: transform .15s;
+}
+.lodging-marker:hover { transform: scale(1.6); z-index: 1000 !important; }
+.lodging-marker.hotel       { background: #9333ea; }
+.lodging-marker.ryokan      { background: #c026d3; }
+.lodging-marker.guest_house { background: #db2777; }
+.lodging-marker.hostel      { background: #e11d48; }
+.lodging-marker.chalet      { background: #7c3aed; }
+.lodging-marker.apartment   { background: #6366f1; }
+.lodging-marker.motel       { background: #8b5cf6; }
+
+.station-marker {
+  display: flex; align-items: center; justify-content: center;
+  width: 22px; height: 22px;
+  background: #0f766e;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0,0,0,.45);
+  cursor: pointer;
+  transition: transform .15s;
+}
+.station-marker:hover { transform: scale(1.4); z-index: 1000 !important; }
+.station-marker::before { content: '🚉'; font-size: 13px; line-height: 1; }
+.station-marker.bus_station { background: #b45309; }
+.station-marker.bus_station::before { content: '🚌'; }
+
+.parking-marker {
+  display: flex; align-items: center; justify-content: center;
+  width: 18px; height: 18px;
+  background: #1e3a8a;
+  color: white;
+  border: 2px solid white;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0,0,0,.4);
+  cursor: pointer;
+  font-size: 11px;
+  font-weight: 800;
+  transition: transform .15s;
+}
+.parking-marker::before { content: 'P'; line-height: 1; }
+.parking-marker:hover { transform: scale(1.4); z-index: 1000 !important; }
+
+.trailhead-marker {
+  display: flex; align-items: center; justify-content: center;
+  width: 16px; height: 16px;
+  background: #fbbf24;
+  border: 2px solid #78350f;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0,0,0,.5);
+}
+.trailhead-marker::before { content: '🥾'; font-size: 10px; }
+
+.diff-1 { background: #4caf50; }
+.diff-2 { background: #8bc34a; }
+.diff-3 { background: #ffb74d; }
+.diff-4 { background: #f57c00; }
+.diff-5 { background: #d32f2f; }
+.diff-na { background: #9e9e9e; }
+
+.scrollbar-thin::-webkit-scrollbar { width: 6px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: #c0c0c0; border-radius: 3px; }
