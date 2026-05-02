@@ -463,7 +463,14 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
                         onClick={() => onFocus?.('lodging', p.id)}
                         className="px-2.5 py-1.5 rounded bg-white border border-gray-100 cursor-pointer hover:border-brand hover:bg-brand-light transition">
                         <div className="flex items-baseline justify-between gap-2">
-                          <div className="text-[12px] font-medium text-gray-900 truncate">{p.name || '(이름 없음)'}</div>
+                          <div className="min-w-0 flex-1">
+                            <div className="text-[12px] font-medium text-gray-900 truncate">
+                              {(p as any).name_ko || p.name || '(이름 없음)'}
+                            </div>
+                            {(p as any).name_ko && p.name && (p as any).name_ko !== p.name && (
+                              <div className="text-[10px] text-gray-500 truncate">{p.name}</div>
+                            )}
+                          </div>
                           <span className="text-[10px] text-gray-500 flex-shrink-0">{kindLabel}</span>
                         </div>
                         <div className="text-[10px] text-gray-500 mt-0.5">{p.near_town_name}</div>

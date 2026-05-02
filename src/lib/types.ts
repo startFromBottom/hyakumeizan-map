@@ -127,6 +127,7 @@ export interface LodgingFeature {
     id: string;
     name: string;
     name_en?: string | null;
+    name_ko?: string | null; // 한국어 음역 (영문 이름 기반 자동 생성)
     kind: string;            // hotel / guest_house / hostel / ryokan / ...
     stars?: string | null;
     rooms?: string | null;

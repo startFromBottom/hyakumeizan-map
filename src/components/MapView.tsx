@@ -250,7 +250,11 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
             p.kind === 'guest_house' ? '게스트하우스' : p.kind === 'hostel' ? '호스텔' :
             p.kind === 'apartment' ? '아파트' : p.kind === 'motel' ? '모텔' : p.kind;
           const lines: string[] = [];
-          lines.push(`<div style="font-weight:700;font-size:13px;margin-bottom:3px">🏨 ${escapeHtml(p.name)}</div>`);
+          // 한국어 이름이 있으면 메인, 일본어 원문은 보조로
+          const displayName = (p as any).name_ko || p.name;
+          const subName = ((p as any).name_ko && (p as any).name_ko !== p.name) ? p.name : null;
+          lines.push(`<div style="font-weight:700;font-size:13px;margin-bottom:1px">🏨 ${escapeHtml(displayName)}</div>`);
+          if (subName) lines.push(`<div style="font-size:11px;color:#888;margin-bottom:3px">${escapeHtml(subName)}</div>`);
           lines.push(`<div style="font-size:11px;color:#666;margin-bottom:3px">${kindLabel} · ${escapeHtml(p.near_town_name)}</div>`);
           if (p.phone) lines.push(`<div style="font-size:11px"><a href="tel:${escapeHtml(p.phone)}" style="color:#1f6f43">📞 ${escapeHtml(p.phone)}</a></div>`);
           if (p.website) lines.push(`<div style="font-size:11px"><a href="${escapeHtml(p.website)}" target="_blank" rel="noopener noreferrer" style="color:#1f6f43;font-weight:600">🌐 공식 사이트 →</a></div>`);
