@@ -416,13 +416,13 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
       const el = mk?.getElement?.();
       if (el) el.classList.add('active');
 
-      // 산 전체 코스 + 베이스타운/역 bounds로 fit (모든 관련 마커 포함)
+      // 등산 코스 + 산 정상만으로 bounds — 멀리 있는 역/베이스타운 때문에
+      // 줌아웃되어 등산로가 안 보이는 현상 방지
       let bounds: any = null;
       const extend = (latLng: any) => {
         if (!latLng) return;
         bounds = bounds ? bounds.extend(latLng) : L.latLngBounds(latLng, latLng);
       };
-      // 코스 라인 bounds
       layers.forEach(l => {
         if (l.getBounds) {
           const b = l.getBounds();
@@ -431,18 +431,15 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
           }
         }
       });
-      // 산 정상
       const m = mountains.find(x => x.no === selectedNo);
       if (m) extend([m.coordinates.lat, m.coordinates.lon]);
-      // 베이스타운
-      (m?.base_towns ?? []).forEach((t: any) => extend([t.lat, t.lon]));
-      // 역
-      (m?.stations ?? []).forEach((s: any) => extend([s.lat, s.lon]));
 
       if (bounds && bounds.isValid()) {
-        mapRef.current.flyToBounds(bounds.pad(0.3), { duration: 0.5, maxZoom: 11 });
+        // 코스 라인이 있으면 그 영역 + 약간 패딩, 너무 줌인 안 되도록 maxZoom 13
+        mapRef.current.flyToBounds(bounds.pad(0.25), { duration: 0.5, maxZoom: 13 });
       } else if (m) {
-        mapRef.current.flyTo([m.coordinates.lat, m.coordinates.lon], 11, { duration: 0.5 });
+        // 코스 폴리라인이 없는 산 — 정상 좌표 기준 zoom 12로 (등산로 패턴 보일 정도)
+        mapRef.current.flyTo([m.coordinates.lat, m.coordinates.lon], 12, { duration: 0.5 });
       }
     }
     // 산장 마커 갱신
