@@ -69,10 +69,14 @@ export default function Page() {
   const visibleNos = useMemo(() => new Set(filtered.map(m => m.no)), [filtered]);
   const selected = useMemo(() => mountains.find(m => m.no === selectedNo) || null, [mountains, selectedNo]);
 
-  // 산 변경 시 코스 선택 리셋
+  // 산 변경 시 — 다른 산의 잔여 상태 리셋
   const handleSelectMountain = (no: number) => {
+    if (no !== selectedNo) {
+      setSelectedRouteId(null);
+      setSelectedHutId(null);
+      setPlannedRoute(null);   // 이전 산의 자동차 경로 폴리라인 제거
+    }
     setSelectedNo(no);
-    setSelectedRouteId(null);
   };
 
   // 모바일 분기
