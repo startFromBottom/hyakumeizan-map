@@ -135,6 +135,26 @@
         "official_url": "https://www.heartlandferry.jp/",
         "season": "5월~10월 중순"
       }
+    ],
+    "images": [
+      {
+        "filename": "Mt_Rishiri.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Rishiri.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Rishiri.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_Rishiri.jpg"
+      },
+      {
+        "filename": "Rishiriislandairplane.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Rishiriislandairplane.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Rishiriislandairplane.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Rishiriislandairplane.jpg"
+      },
+      {
+        "filename": "View_from_Cape_Rishirifuji_Nosappu,_2006.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Cape_Rishirifuji_Nosappu%2C_2006.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Cape_Rishirifuji_Nosappu%2C_2006.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:View_from_Cape_Rishirifuji_Nosappu%2C_2006.jpg"
+      }
     ]
   },
   {
@@ -244,6 +264,26 @@
         "description": "아바시리/메만베쓰 공항 → 시레토코 우토로(知床ウトロ). 우토로에서 木下小屋 등산구로 셔틀",
         "official_url": "https://www.shiretoko.asia/",
         "season": "6월~9월"
+      }
+    ],
+    "images": [
+      {
+        "filename": "140828_Mount_Rausu_Shiretoko_Hokkaido_Japan01s3.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/140828_Mount_Rausu_Shiretoko_Hokkaido_Japan01s3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/140828_Mount_Rausu_Shiretoko_Hokkaido_Japan01s3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:140828_Mount_Rausu_Shiretoko_Hokkaido_Japan01s3.jpg"
+      },
+      {
+        "filename": "Rausu-dake_02.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Rausu-dake_02.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Rausu-dake_02.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Rausu-dake_02.JPG"
+      },
+      {
+        "filename": "Mount_rausu_from_road334.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_rausu_from_road334.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_rausu_from_road334.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_rausu_from_road334.jpg"
       }
     ]
   },
@@ -451,7 +491,27 @@
         "osrm_dur_min": 34
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "140828_Mount_Shari_Hokkaido_Japan01b6s3.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/140828_Mount_Shari_Hokkaido_Japan01b6s3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/140828_Mount_Shari_Hokkaido_Japan01b6s3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:140828_Mount_Shari_Hokkaido_Japan01b6s3.jpg"
+      },
+      {
+        "filename": "Mt_Shari.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Shari.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Shari.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_Shari.JPG"
+      },
+      {
+        "filename": "Mt_Shari_3.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Shari_3.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Shari_3.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_Shari_3.JPG"
+      }
+    ]
   },
   {
     "no": 4,
@@ -555,7 +615,27 @@
     ],
     "stations": [],
     "transit_notes": [],
-    "wiki_ko_summary": "메아칸산(일본어: 雌阿寒岳)은 일본 홋카이도에 있는 화산으로, 지금까지 활동하고 있는 활화산이다. 이 화산은 성층 화산으로, 작은 화구호들과 커다랗고 화산가스같은 기체들이 나오는 분화구가 있는데, 이곳에서는 때때로 격렬한 화산가스 분출을 하기도 한다. 이 화산은 아칸후지 산과 붙어있다. 말하자면 이 화산은 복합 화산으로 말할 수 있다.\n마지막 분화는 2008년에 있었으며, 2006년 분화 때에는 분화가 잘 관측되었다. 메아칸 산은 현재 분출을 멈추었으나 지금까지도 증기와 화산가스를 내뿜는 활화산이다."
+    "wiki_ko_summary": "메아칸산(일본어: 雌阿寒岳)은 일본 홋카이도에 있는 화산으로, 지금까지 활동하고 있는 활화산이다. 이 화산은 성층 화산으로, 작은 화구호들과 커다랗고 화산가스같은 기체들이 나오는 분화구가 있는데, 이곳에서는 때때로 격렬한 화산가스 분출을 하기도 한다. 이 화산은 아칸후지 산과 붙어있다. 말하자면 이 화산은 복합 화산으로 말할 수 있다.\n마지막 분화는 2008년에 있었으며, 2006년 분화 때에는 분화가 잘 관측되었다. 메아칸 산은 현재 분출을 멈추었으나 지금까지도 증기와 화산가스를 내뿜는 활화산이다.",
+    "images": [
+      {
+        "filename": "Volcano_landcapes_(52357154676).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Volcano_landcapes_%2852357154676%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Volcano_landcapes_%2852357154676%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Volcano_landcapes_%2852357154676%29.jpg"
+      },
+      {
+        "filename": "Onneto_and_Akan1_DSCN2488_20060805.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Onneto_and_Akan1_DSCN2488_20060805.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Onneto_and_Akan1_DSCN2488_20060805.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Onneto_and_Akan1_DSCN2488_20060805.JPG"
+      },
+      {
+        "filename": "Meakan.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Meakan.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Meakan.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Meakan.JPG"
+      }
+    ]
   },
   {
     "no": 5,
@@ -747,7 +827,27 @@
         "season": "연중"
       }
     ],
-    "wiki_ko_summary": "다이세쓰산(일본어: 大雪山)은 일본 홋카이도에서 가장 높은 산이자 화산이다. 아사히다케 산, 홋카이 산, 나가야마 산, 나카 산 등 여러 화산 봉우리들로 구성되어있으며 주봉은 아사히다케 산이다. 지금도 여러 분기공을 통하여 화산 활동을 볼 수 있으며, 관광객들은 스키를 타거나 등산을 하러 이 산으로 온다. SOS 조난사건이 발생한 곳이기도 하다."
+    "wiki_ko_summary": "다이세쓰산(일본어: 大雪山)은 일본 홋카이도에서 가장 높은 산이자 화산이다. 아사히다케 산, 홋카이 산, 나가야마 산, 나카 산 등 여러 화산 봉우리들로 구성되어있으며 주봉은 아사히다케 산이다. 지금도 여러 분기공을 통하여 화산 활동을 볼 수 있으며, 관광객들은 스키를 타거나 등산을 하러 이 산으로 온다. SOS 조난사건이 발생한 곳이기도 하다.",
+    "images": [
+      {
+        "filename": "Daisetsu0001.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisetsu0001.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisetsu0001.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Daisetsu0001.jpg"
+      },
+      {
+        "filename": "Daisetsuzan-asahidake.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisetsuzan-asahidake.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisetsuzan-asahidake.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Daisetsuzan-asahidake.jpg"
+      },
+      {
+        "filename": "Mount_Hippu_and_Mount_Hokuchin.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hippu_and_Mount_Hokuchin.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hippu_and_Mount_Hokuchin.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Hippu_and_Mount_Hokuchin.jpg"
+      }
+    ]
   },
   {
     "no": 6,
@@ -1001,7 +1101,27 @@
         "osrm_dur_min": 192
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Tomuraushi_from_Kaundaira.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tomuraushi_from_Kaundaira.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tomuraushi_from_Kaundaira.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Tomuraushi_from_Kaundaira.jpg"
+      },
+      {
+        "filename": "Tomurausi.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomurausi.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomurausi.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tomurausi.jpg"
+      },
+      {
+        "filename": "Tomuraushi_and_Kitanuma_2006-8-26.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomuraushi_and_Kitanuma_2006-8-26.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomuraushi_and_Kitanuma_2006-8-26.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tomuraushi_and_Kitanuma_2006-8-26.jpg"
+      }
+    ]
   },
   {
     "no": 7,
@@ -1262,7 +1382,27 @@
         "season": "6월~10월"
       }
     ],
-    "wiki_ko_summary": "도카치다케(十勝岳 (とかちだけ))은 일본 홋카이도 중앙부의 가미카와 관내의 비에이정, 가미후라노정, 도카치 관내의 신토쿠정에 걸쳐 있는 해발 2,077m의 활화산이다. 다이세쓰산 국립공원의 도카치다케 연봉(十勝岳連峰)의 주봉이다. 일본 백명산과 꽃의 백명산에에 선정되어 있다."
+    "wiki_ko_summary": "도카치다케(十勝岳 (とかちだけ))은 일본 홋카이도 중앙부의 가미카와 관내의 비에이정, 가미후라노정, 도카치 관내의 신토쿠정에 걸쳐 있는 해발 2,077m의 활화산이다. 다이세쓰산 국립공원의 도카치다케 연봉(十勝岳連峰)의 주봉이다. 일본 백명산과 꽃의 백명산에에 선정되어 있다.",
+    "images": [
+      {
+        "filename": "Mount_Tokachi_06.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tokachi_06.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tokachi_06.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Tokachi_06.JPG"
+      },
+      {
+        "filename": "十勝岳のイワブクロ.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%81%E5%8B%9D%E5%B2%B3%E3%81%AE%E3%82%A4%E3%83%AF%E3%83%96%E3%82%AF%E3%83%AD.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%81%E5%8B%9D%E5%B2%B3%E3%81%AE%E3%82%A4%E3%83%AF%E3%83%96%E3%82%AF%E3%83%AD.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%8D%81%E5%8B%9D%E5%B2%B3%E3%81%AE%E3%82%A4%E3%83%AF%E3%83%96%E3%82%AF%E3%83%AD.jpg"
+      },
+      {
+        "filename": "雲ノ平分岐から見た白金模範牧場.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%9B%B2%E3%83%8E%E5%B9%B3%E5%88%86%E5%B2%90%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E7%99%BD%E9%87%91%E6%A8%A1%E7%AF%84%E7%89%A7%E5%A0%B4.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%9B%B2%E3%83%8E%E5%B9%B3%E5%88%86%E5%B2%90%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E7%99%BD%E9%87%91%E6%A8%A1%E7%AF%84%E7%89%A7%E5%A0%B4.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E9%9B%B2%E3%83%8E%E5%B9%B3%E5%88%86%E5%B2%90%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E7%99%BD%E9%87%91%E6%A8%A1%E7%AF%84%E7%89%A7%E5%A0%B4.jpg"
+      }
+    ]
   },
   {
     "no": 8,
@@ -1503,7 +1643,27 @@
         "osrm_dur_min": 154
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Poroshiridake_from_Mt.Tottabetsudake.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Poroshiridake_from_Mt.Tottabetsudake.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Poroshiridake_from_Mt.Tottabetsudake.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Poroshiridake_from_Mt.Tottabetsudake.jpg"
+      },
+      {
+        "filename": "額平川の徒渉３.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%A1%8D%E5%B9%B3%E5%B7%9D%E3%81%AE%E5%BE%92%E6%B8%89%EF%BC%93.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%A1%8D%E5%B9%B3%E5%B7%9D%E3%81%AE%E5%BE%92%E6%B8%89%EF%BC%93.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E9%A1%8D%E5%B9%B3%E5%B7%9D%E3%81%AE%E5%BE%92%E6%B8%89%EF%BC%93.jpg"
+      },
+      {
+        "filename": "幌尻山荘２.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B9%8C%E5%B0%BB%E5%B1%B1%E8%8D%98%EF%BC%92.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B9%8C%E5%B0%BB%E5%B1%B1%E8%8D%98%EF%BC%92.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%B9%8C%E5%B0%BB%E5%B1%B1%E8%8D%98%EF%BC%92.jpg"
+      }
+    ]
   },
   {
     "no": 9,
@@ -1732,7 +1892,27 @@
       }
     ],
     "transit_notes": [],
-    "wiki_ko_summary": "요테이산(일본어: 羊蹄山)은 일본 홋카이도의 도야호 북쪽에서 기모베쓰정하고 루스쓰촌 사이에 위치해 있는 눈덮힌 1,898 m의 성층 화산으로, 잠재적인 활화산이다.\n이곳은 후지산하고 매우 비슷하게 생겨, 작은 후지산이라는 별명을 갖고 있다. 일반적으로 후지산의 경우 7~8월 동안만 일반인들의 출입이 허용되는 반면 이곳은 기상특보시를 제외하면 언제든지 등산이 가능하며, 후지산보다 등반이 훨씬 수월한 편이다.\n정상에는 화구호가 생기는 경우도 있는데, 그것은 만년설이 녹아서 생기는 것으로 추측된다.\n이곳은 예조-후지산이라고 불릴 정도로 후지산보다 더 유명한 곳이다."
+    "wiki_ko_summary": "요테이산(일본어: 羊蹄山)은 일본 홋카이도의 도야호 북쪽에서 기모베쓰정하고 루스쓰촌 사이에 위치해 있는 눈덮힌 1,898 m의 성층 화산으로, 잠재적인 활화산이다.\n이곳은 후지산하고 매우 비슷하게 생겨, 작은 후지산이라는 별명을 갖고 있다. 일반적으로 후지산의 경우 7~8월 동안만 일반인들의 출입이 허용되는 반면 이곳은 기상특보시를 제외하면 언제든지 등산이 가능하며, 후지산보다 등반이 훨씬 수월한 편이다.\n정상에는 화구호가 생기는 경우도 있는데, 그것은 만년설이 녹아서 생기는 것으로 추측된다.\n이곳은 예조-후지산이라고 불릴 정도로 후지산보다 더 유명한 곳이다.",
+    "images": [
+      {
+        "filename": "Yotei-zan-from-hirafu.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Yotei-zan-from-hirafu.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Yotei-zan-from-hirafu.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Yotei-zan-from-hirafu.jpg"
+      },
+      {
+        "filename": "Yoteizan-from-niseko.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoteizan-from-niseko.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Yoteizan-from-niseko.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Yoteizan-from-niseko.jpg"
+      },
+      {
+        "filename": "Mt_Youtei_Hokkaido_Japan.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Youtei_Hokkaido_Japan.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Youtei_Hokkaido_Japan.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_Youtei_Hokkaido_Japan.jpg"
+      }
+    ]
   },
   {
     "no": 10,
@@ -1985,7 +2165,27 @@
       }
     ],
     "transit_notes": [],
-    "wiki_ko_summary": "이와키산(일본어: 岩木山 이와키산[*])은 아오모리현 히로사키시 니시쓰가루군 아지가사와정에 위치한 성층 화산이다. 일본의 100대 명산에 선정되었으며, 해발 고도는 1,625m이다."
+    "wiki_ko_summary": "이와키산(일본어: 岩木山 이와키산[*])은 아오모리현 히로사키시 니시쓰가루군 아지가사와정에 위치한 성층 화산이다. 일본의 100대 명산에 선정되었으며, 해발 고도는 1,625m이다.",
+    "images": [
+      {
+        "filename": "Iwakisan_02.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Iwakisan_02.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Iwakisan_02.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Iwakisan_02.jpg"
+      },
+      {
+        "filename": "岩木山_山頂01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B2%A9%E6%9C%A8%E5%B1%B1_%E5%B1%B1%E9%A0%8201.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B2%A9%E6%9C%A8%E5%B1%B1_%E5%B1%B1%E9%A0%8201.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%B2%A9%E6%9C%A8%E5%B1%B1_%E5%B1%B1%E9%A0%8201.jpg"
+      },
+      {
+        "filename": "View_from_Mt_Iwaki_in_Aomori_Japan.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Mt_Iwaki_in_Aomori_Japan.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/View_from_Mt_Iwaki_in_Aomori_Japan.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:View_from_Mt_Iwaki_in_Aomori_Japan.jpg"
+      }
+    ]
   },
   {
     "no": 11,
@@ -2230,6 +2430,26 @@
         "official_url": "https://www.hakkoda-ropeway.jp/",
         "season": "4월~11월"
       }
+    ],
+    "images": [
+      {
+        "filename": "Suiren_Pond_and_the_Hakkōda_Mountains_late_autumn.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Suiren_Pond_and_the_Hakk%C5%8Dda_Mountains_late_autumn.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Suiren_Pond_and_the_Hakk%C5%8Dda_Mountains_late_autumn.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Suiren_Pond_and_the_Hakk%C5%8Dda_Mountains_late_autumn.jpg"
+      },
+      {
+        "filename": "Hakkodasan_seen_from_the_northwest.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakkodasan_seen_from_the_northwest.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakkodasan_seen_from_the_northwest.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hakkodasan_seen_from_the_northwest.jpg"
+      },
+      {
+        "filename": "Kita_Hakkoda_Volcano_Group_&_Minami_Hakkoda_Volcano_Group_&_Hakkoda_Caldera_SRTM-1.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kita_Hakkoda_Volcano_Group_%26_Minami_Hakkoda_Volcano_Group_%26_Hakkoda_Caldera_SRTM-1.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kita_Hakkoda_Volcano_Group_%26_Minami_Hakkoda_Volcano_Group_%26_Hakkoda_Caldera_SRTM-1.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kita_Hakkoda_Volcano_Group_%26_Minami_Hakkoda_Volcano_Group_%26_Hakkoda_Caldera_SRTM-1.jpg"
+      }
     ]
   },
   {
@@ -2431,7 +2651,27 @@
       }
     ],
     "transit_notes": [],
-    "wiki_ko_summary": "하치만타이(일본어: 八幡平 (はちまんたい))는 일본 이와테현에 걸친 해발 1,614m의 산 및 그 주위의 고원 대지다. 이 지역은 1956년에 도와다하치만타이 국립공원으로 지정되어 있다."
+    "wiki_ko_summary": "하치만타이(일본어: 八幡平 (はちまんたい))는 일본 이와테현에 걸친 해발 1,614m의 산 및 그 주위의 고원 대지다. 이 지역은 1956년에 도와다하치만타이 국립공원으로 지정되어 있다.",
+    "images": [
+      {
+        "filename": "Hachimann_numa_2008.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hachimann_numa_2008.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hachimann_numa_2008.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hachimann_numa_2008.jpg"
+      },
+      {
+        "filename": "Hachimantai_Onuma_003.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hachimantai_Onuma_003.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hachimantai_Onuma_003.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hachimantai_Onuma_003.jpg"
+      },
+      {
+        "filename": "Lake_Kagaminuma_in_Mt.Hachimantai.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Kagaminuma_in_Mt.Hachimantai.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Kagaminuma_in_Mt.Hachimantai.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Lake_Kagaminuma_in_Mt.Hachimantai.jpg"
+      }
+    ]
   },
   {
     "no": 13,
@@ -2663,7 +2903,27 @@
         "official_url": "https://www.iwate-trans.co.jp/"
       }
     ],
-    "wiki_ko_summary": "이와테산(일본어: 岩手山 (いわてさん) 이와테산[*])은 일본 이와테현 서북부에 위치한, 2개의 외륜이 있는 표고 2038 미터의 성층화산이다. 이와테현의 최고봉이자 현의 상징 중 하나로 꼽힌다. 일본백명산 중 하나로 선정되어 있다."
+    "wiki_ko_summary": "이와테산(일본어: 岩手山 (いわてさん) 이와테산[*])은 일본 이와테현 서북부에 위치한, 2개의 외륜이 있는 표고 2038 미터의 성층화산이다. 이와테현의 최고봉이자 현의 상징 중 하나로 꼽힌다. 일본백명산 중 하나로 선정되어 있다.",
+    "images": [
+      {
+        "filename": "Mt._Iwate_and_Morioka.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Iwate_and_Morioka.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Iwate_and_Morioka.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt._Iwate_and_Morioka.jpg"
+      },
+      {
+        "filename": "春子谷地からの岩手山_Mt._Iwate_from_Haruko-Yachi_Marshland_-_panoramio.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%A5%E5%AD%90%E8%B0%B7%E5%9C%B0%E3%81%8B%E3%82%89%E3%81%AE%E5%B2%A9%E6%89%8B%E5%B1%B1_Mt._Iwate_from_Haruko-Yachi_Marshland_-_panoramio.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%98%A5%E5%AD%90%E8%B0%B7%E5%9C%B0%E3%81%8B%E3%82%89%E3%81%AE%E5%B2%A9%E6%89%8B%E5%B1%B1_Mt._Iwate_from_Haruko-Yachi_Marshland_-_panoramio.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E6%98%A5%E5%AD%90%E8%B0%B7%E5%9C%B0%E3%81%8B%E3%82%89%E3%81%AE%E5%B2%A9%E6%89%8B%E5%B1%B1_Mt._Iwate_from_Haruko-Yachi_Marshland_-_panoramio.jpg"
+      },
+      {
+        "filename": "Iwate-san.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Iwate-san.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Iwate-san.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Iwate-san.JPG"
+      }
+    ]
   },
   {
     "no": 14,
@@ -2923,6 +3183,26 @@
         "description": "河原坊登山口행 시즌 셔틀(7~9월). 나머지 시즌엔 차량 진입 통제",
         "season": "7월~9월"
       }
+    ],
+    "images": [
+      {
+        "filename": "Mount_Hayachine_from_the_Iwate_Pref_Road_25.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hayachine_from_the_Iwate_Pref_Road_25.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hayachine_from_the_Iwate_Pref_Road_25.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Hayachine_from_the_Iwate_Pref_Road_25.jpg"
+      },
+      {
+        "filename": "Mt_Hayachine.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Hayachine.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Hayachine.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_Hayachine.jpg"
+      },
+      {
+        "filename": "Primula_macrocarpa_3.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Primula_macrocarpa_3.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Primula_macrocarpa_3.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Primula_macrocarpa_3.JPG"
+      }
     ]
   },
   {
@@ -3165,7 +3445,27 @@
         "season": "4월 말~11월 초"
       }
     ],
-    "wiki_ko_summary": "조카이산(일본어: 鳥海山 ちょうかいさん、ちょうかいざん[*])은 일본 혼슈섬 동북 지역의 데와산지의 일부를 구성하는 화산이다. 산정상에 눈이 쌓인 모습이 후지산과 유사하기 때문에, 데와후지(出羽富士)라고도 불리며 사랑받고 있다. 야마가타현에서는 쇼나이후지(庄内富士)라고도 불리고 있다. 옛부터의 이름으로는 도리미산(鳥見山)라고 한다."
+    "wiki_ko_summary": "조카이산(일본어: 鳥海山 ちょうかいさん、ちょうかいざん[*])은 일본 혼슈섬 동북 지역의 데와산지의 일부를 구성하는 화산이다. 산정상에 눈이 쌓인 모습이 후지산과 유사하기 때문에, 데와후지(出羽富士)라고도 불리며 사랑받고 있다. 야마가타현에서는 쇼나이후지(庄内富士)라고도 불리고 있다. 옛부터의 이름으로는 도리미산(鳥見山)라고 한다.",
+    "images": [
+      {
+        "filename": "Mount_Chōkai_(2017-05-19)_-_Flickr.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ch%C5%8Dkai_%282017-05-19%29_-_Flickr.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ch%C5%8Dkai_%282017-05-19%29_-_Flickr.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Ch%C5%8Dkai_%282017-05-19%29_-_Flickr.jpg"
+      },
+      {
+        "filename": "Mt._Chokai_over_rice_fields.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Chokai_over_rice_fields.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Chokai_over_rice_fields.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt._Chokai_over_rice_fields.jpg"
+      },
+      {
+        "filename": "Ridge_of_the_Mt._Chokai.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Ridge_of_the_Mt._Chokai.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Ridge_of_the_Mt._Chokai.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Ridge_of_the_Mt._Chokai.jpg"
+      }
+    ]
   },
   {
     "no": 16,
@@ -3385,6 +3685,26 @@
         "description": "山形 → 月山八合目 셔틀. 月山 리프트로 9合目까지",
         "official_url": "https://www.gassan-info.com/",
         "season": "7월~9월"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Gassan_(5693125340).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Gassan_%285693125340%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Gassan_%285693125340%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Gassan_%285693125340%29.jpg"
+      },
+      {
+        "filename": "Japan_Tohoku_South_topographic_map.webp",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Tohoku_South_topographic_map.webp?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Tohoku_South_topographic_map.webp?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Japan_Tohoku_South_topographic_map.webp"
+      },
+      {
+        "filename": "Precincts_of_Gassan_jinja.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Precincts_of_Gassan_jinja.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Precincts_of_Gassan_jinja.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Precincts_of_Gassan_jinja.JPG"
       }
     ]
   },
@@ -3639,7 +3959,27 @@
         "osrm_dur_min": 60
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Asahi_Mountains_2011-06-25.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Asahi_Mountains_2011-06-25.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Asahi_Mountains_2011-06-25.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Asahi_Mountains_2011-06-25.jpg"
+      },
+      {
+        "filename": "Mt_Oasahi_3.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Oasahi_3.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Oasahi_3.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_Oasahi_3.JPG"
+      },
+      {
+        "filename": "Mt_OHASAHI_3.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_OHASAHI_3.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_OHASAHI_3.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_OHASAHI_3.JPG"
+      }
+    ]
   },
   {
     "no": 18,
@@ -3829,7 +4169,27 @@
         "season": "연중"
       }
     ],
-    "wiki_ko_summary": "자오 연봉(일본어: 蔵王連峰, ざおうれんぽう 자오 렌보[*]) 또는 자오산(일본어: 蔵王山)은 일본 혼슈섬 동북 지역의 오우산맥의 일부를 구성하는 능선이다.\n과거에는 갓타미네(일본어: 刈田嶺), 와스레즈노산(일본어: 不忘山 와스레즈노야마[*])라고도 불리었다. ‘자오(蔵王)’라는 이름은 수험도의 본존인 장왕권현(자오곤겐)에서 온 것이다.\n미야기현과 야마가타현의 경계 지역에 위치해 있으며 주봉은 야마가타 현측에 위치한 구마노다케 산(일본어: 熊野岳 구마노다케야마[*], 해발 1,841m)이다. 활화산 지대로, 여러 지역에 분화구와 칼데라, 온천이 존재하며, 스키장 등 레저 시설도 존재한다. 주 분화구는 오카마호이다."
+    "wiki_ko_summary": "자오 연봉(일본어: 蔵王連峰, ざおうれんぽう 자오 렌보[*]) 또는 자오산(일본어: 蔵王山)은 일본 혼슈섬 동북 지역의 오우산맥의 일부를 구성하는 능선이다.\n과거에는 갓타미네(일본어: 刈田嶺), 와스레즈노산(일본어: 不忘山 와스레즈노야마[*])라고도 불리었다. ‘자오(蔵王)’라는 이름은 수험도의 본존인 장왕권현(자오곤겐)에서 온 것이다.\n미야기현과 야마가타현의 경계 지역에 위치해 있으며 주봉은 야마가타 현측에 위치한 구마노다케 산(일본어: 熊野岳 구마노다케야마[*], 해발 1,841m)이다. 활화산 지대로, 여러 지역에 분화구와 칼데라, 온천이 존재하며, 스키장 등 레저 시설도 존재한다. 주 분화구는 오카마호이다.",
+    "images": [
+      {
+        "filename": "Mount_Zaō_and_Sakura_01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Za%C5%8D_and_Sakura_01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Za%C5%8D_and_Sakura_01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Za%C5%8D_and_Sakura_01.jpg"
+      },
+      {
+        "filename": "Zao.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Zao.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Zao.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Zao.jpg"
+      },
+      {
+        "filename": "Zao_2006_Sanctuary.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Zao_2006_Sanctuary.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Zao_2006_Sanctuary.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Zao_2006_Sanctuary.jpg"
+      }
+    ]
   },
   {
     "no": 19,
@@ -4004,7 +4364,27 @@
         "osrm_dur_min": 35
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Iidehonzan.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Iidehonzan.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Iidehonzan.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Iidehonzan.JPG"
+      },
+      {
+        "filename": "Mt_IIDE_1.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_IIDE_1.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_IIDE_1.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_IIDE_1.JPG"
+      },
+      {
+        "filename": "Dainiti_onisi.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Dainiti_onisi.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Dainiti_onisi.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Dainiti_onisi.JPG"
+      }
+    ]
   },
   {
     "no": 20,
@@ -4259,7 +4639,27 @@
         "osrm_dur_min": 37
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Azuma_1988.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Azuma_1988.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Azuma_1988.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Azuma_1988.jpg"
+      },
+      {
+        "filename": "Mount_Azuma-kofuji-1,_May_2007.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Azuma-kofuji-1%2C_May_2007.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Azuma-kofuji-1%2C_May_2007.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Azuma-kofuji-1%2C_May_2007.JPG"
+      },
+      {
+        "filename": "AdzumaKofuji.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/AdzumaKofuji.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/AdzumaKofuji.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:AdzumaKofuji.jpg"
+      }
+    ]
   },
   {
     "no": 21,
@@ -4511,6 +4911,26 @@
         "description": "오쿠다와리(奥岳) → 야쿠시다이라(薬師岳)까지 곤돌라로 단축",
         "official_url": "https://www.adatara-resort.com/green/",
         "season": "5월 중순~11월 초"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mount_Adatara.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Adatara.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Adatara.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Adatara.JPG"
+      },
+      {
+        "filename": "Mt.Adatarayama.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Adatarayama.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Adatarayama.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Adatarayama.JPG"
+      },
+      {
+        "filename": "磐梯山と飯豊山.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%A3%90%E6%A2%AF%E5%B1%B1%E3%81%A8%E9%A3%AF%E8%B1%8A%E5%B1%B1.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%A3%90%E6%A2%AF%E5%B1%B1%E3%81%A8%E9%A3%AF%E8%B1%8A%E5%B1%B1.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E7%A3%90%E6%A2%AF%E5%B1%B1%E3%81%A8%E9%A3%AF%E8%B1%8A%E5%B1%B1.jpg"
       }
     ]
   },
@@ -4771,7 +5191,27 @@
         "official_url": "https://www.bandainet.com/"
       }
     ],
-    "wiki_ko_summary": "반다이산(일본어: 磐梯山)은 일본 후쿠시마현에 위치한 산이다. 일본백명산 중 하나로, 현재도 활동하는 활화산으로 알려져 있다. 화구는 1888년 대분화로 인하여 대량의 화쇄류가 발생하여 분화구가 함몰되어 지금의 모습이 형성되었다. 총 461명의 사람들이 목숨을 잃었다. 그리고 이 분화로 인하여 2개의 호수가 형성된 걸로 알려져 있다. 지금도 계속해서 여러 분기공들에서 연기를 분출하고 있다."
+    "wiki_ko_summary": "반다이산(일본어: 磐梯山)은 일본 후쿠시마현에 위치한 산이다. 일본백명산 중 하나로, 현재도 활동하는 활화산으로 알려져 있다. 화구는 1888년 대분화로 인하여 대량의 화쇄류가 발생하여 분화구가 함몰되어 지금의 모습이 형성되었다. 총 461명의 사람들이 목숨을 잃었다. 그리고 이 분화로 인하여 2개의 호수가 형성된 걸로 알려져 있다. 지금도 계속해서 여러 분기공들에서 연기를 분출하고 있다.",
+    "images": [
+      {
+        "filename": "Mt.Bandai_10.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Bandai_10.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Bandai_10.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Bandai_10.jpg"
+      },
+      {
+        "filename": "Mount_Bandai2010.05.02.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bandai2010.05.02.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bandai2010.05.02.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Bandai2010.05.02.JPG"
+      },
+      {
+        "filename": "Nekoma_volcano_from_Mount_Bandai_2010.05.02.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Nekoma_volcano_from_Mount_Bandai_2010.05.02.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Nekoma_volcano_from_Mount_Bandai_2010.05.02.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Nekoma_volcano_from_Mount_Bandai_2010.05.02.jpg"
+      }
+    ]
   },
   {
     "no": 23,
@@ -4949,7 +5389,27 @@
         "osrm_dur_min": 161
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt._Aizukoma_080713.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Aizukoma_080713.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Aizukoma_080713.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt._Aizukoma_080713.JPG"
+      },
+      {
+        "filename": "Mt._Aizukoma_080701.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Aizukoma_080701.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Aizukoma_080701.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt._Aizukoma_080701.JPG"
+      },
+      {
+        "filename": "Mt._Aizukoma_080812.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Aizukoma_080812.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Aizukoma_080812.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt._Aizukoma_080812.JPG"
+      }
+    ]
   },
   {
     "no": 24,
@@ -5133,6 +5593,26 @@
         "description": "나스 시오바라역 → 那須ロープウェイ → 茶臼岳 9合目",
         "official_url": "https://www.nasu-ropeway.jp/",
         "season": "3월 중순~12월 초"
+      }
+    ],
+    "images": [
+      {
+        "filename": "20090321MtNasuTagged.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/20090321MtNasuTagged.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/20090321MtNasuTagged.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:20090321MtNasuTagged.jpg"
+      },
+      {
+        "filename": "20090321那須岳.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/20090321%E9%82%A3%E9%A0%88%E5%B2%B3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/20090321%E9%82%A3%E9%A0%88%E5%B2%B3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:20090321%E9%82%A3%E9%A0%88%E5%B2%B3.jpg"
+      },
+      {
+        "filename": "Nasudake05.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasudake05.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Nasudake05.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Nasudake05.JPG"
       }
     ]
   },
@@ -5374,7 +5854,27 @@
         "osrm_dur_min": 25
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Echigo-Komagatake.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Echigo-Komagatake.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Echigo-Komagatake.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Echigo-Komagatake.jpg"
+      },
+      {
+        "filename": "Mount_Echigo-Komagatake_(29776083781).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Echigo-Komagatake_%2829776083781%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Echigo-Komagatake_%2829776083781%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Echigo-Komagatake_%2829776083781%29.jpg"
+      },
+      {
+        "filename": "Echigo-komagatake_2008-05-06.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Echigo-komagatake_2008-05-06.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Echigo-komagatake_2008-05-06.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Echigo-komagatake_2008-05-06.jpg"
+      }
+    ]
   },
   {
     "no": 26,
@@ -5627,7 +6127,27 @@
         "osrm_dur_min": 129
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt._Hiragatake_0809.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Hiragatake_0809.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Hiragatake_0809.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt._Hiragatake_0809.JPG"
+      },
+      {
+        "filename": "Hiragatake_tamagoisi.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiragatake_tamagoisi.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiragatake_tamagoisi.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hiragatake_tamagoisi.jpg"
+      },
+      {
+        "filename": "Himenoike2010.10.23.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Himenoike2010.10.23.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Himenoike2010.10.23.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Himenoike2010.10.23.JPG"
+      }
+    ]
   },
   {
     "no": 27,
@@ -5871,7 +6391,27 @@
         "osrm_dur_min": 47
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Makihatayama.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Makihatayama.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Makihatayama.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Makihatayama.jpg"
+      },
+      {
+        "filename": "20081207魚沼地方の山Tagged.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/20081207%E9%AD%9A%E6%B2%BC%E5%9C%B0%E6%96%B9%E3%81%AE%E5%B1%B1Tagged.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/20081207%E9%AD%9A%E6%B2%BC%E5%9C%B0%E6%96%B9%E3%81%AE%E5%B1%B1Tagged.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:20081207%E9%AD%9A%E6%B2%BC%E5%9C%B0%E6%96%B9%E3%81%AE%E5%B1%B1Tagged.jpg"
+      },
+      {
+        "filename": "巻機山.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B7%BB%E6%A9%9F%E5%B1%B1.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B7%BB%E6%A9%9F%E5%B1%B1.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%B7%BB%E6%A9%9F%E5%B1%B1.JPG"
+      }
+    ]
   },
   {
     "no": 28,
@@ -6125,7 +6665,27 @@
         "osrm_dur_min": 148
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Hiuchigatake_080923_4.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiuchigatake_080923_4.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiuchigatake_080923_4.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hiuchigatake_080923_4.JPG"
+      },
+      {
+        "filename": "Hiuchigatake_080923_5.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiuchigatake_080923_5.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiuchigatake_080923_5.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hiuchigatake_080923_5.JPG"
+      },
+      {
+        "filename": "Hiuchigatake_160801.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiuchigatake_160801.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiuchigatake_160801.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hiuchigatake_160801.JPG"
+      }
+    ]
   },
   {
     "no": 29,
@@ -6355,7 +6915,27 @@
         "osrm_dur_min": 90
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Shibutsu_16.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Shibutsu_16.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Shibutsu_16.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Shibutsu_16.jpg"
+      },
+      {
+        "filename": "Japan_Oze-Nikko_topographic_map.webp",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Oze-Nikko_topographic_map.webp?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Oze-Nikko_topographic_map.webp?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Japan_Oze-Nikko_topographic_map.webp"
+      },
+      {
+        "filename": "Japan_Kanto_north_topographic_map.png",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Kanto_north_topographic_map.png?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Kanto_north_topographic_map.png?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Japan_Kanto_north_topographic_map.png"
+      }
+    ]
   },
   {
     "no": 30,
@@ -6613,7 +7193,27 @@
         "osrm_dur_min": 60
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Tanigawa-dake,_October_2007.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanigawa-dake%2C_October_2007.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tanigawa-dake%2C_October_2007.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tanigawa-dake%2C_October_2007.jpg"
+      },
+      {
+        "filename": "笠ヶ岳から見た谷川岳.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%AC%A0%E3%83%B6%E5%B2%B3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E8%B0%B7%E5%B7%9D%E5%B2%B3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%AC%A0%E3%83%B6%E5%B2%B3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E8%B0%B7%E5%B7%9D%E5%B2%B3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E7%AC%A0%E3%83%B6%E5%B2%B3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E8%B0%B7%E5%B7%9D%E5%B2%B3.jpg"
+      },
+      {
+        "filename": "Tomanomimi.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomanomimi.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomanomimi.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tomanomimi.JPG"
+      }
+    ]
   },
   {
     "no": 31,
@@ -6774,7 +7374,27 @@
         "dist_to_summit_km": 18.0
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Amakazari.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Amakazari.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Amakazari.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Amakazari.jpg"
+      },
+      {
+        "filename": "Mount_Amakazari2010.10.20.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Amakazari2010.10.20.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Amakazari2010.10.20.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Amakazari2010.10.20.JPG"
+      },
+      {
+        "filename": "Futonbishi.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Futonbishi.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Futonbishi.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Futonbishi.JPG"
+      }
+    ]
   },
   {
     "no": 32,
@@ -6938,7 +7558,27 @@
         "dist_to_summit_km": 18.6
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "山頂付近にて.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B1%B1%E9%A0%82%E4%BB%98%E8%BF%91%E3%81%AB%E3%81%A6.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B1%B1%E9%A0%82%E4%BB%98%E8%BF%91%E3%81%AB%E3%81%A6.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%B1%B1%E9%A0%82%E4%BB%98%E8%BF%91%E3%81%AB%E3%81%A6.jpg"
+      },
+      {
+        "filename": "Echigo_Mountains_2008-01-06.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Echigo_Mountains_2008-01-06.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Echigo_Mountains_2008-01-06.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Echigo_Mountains_2008-01-06.jpg"
+      },
+      {
+        "filename": "Mt._Naeba_110814.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Naeba_110814.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt._Naeba_110814.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt._Naeba_110814.jpg"
+      }
+    ]
   },
   {
     "no": 33,
@@ -7198,6 +7838,26 @@
         "title": "妙高高原 곤돌라",
         "description": "묘코코겐역 → APA 리조트 곤돌라로 7合目까지 단축",
         "season": "7월~10월"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mt_Myoko_-_panoramio.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Myoko_-_panoramio.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Myoko_-_panoramio.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_Myoko_-_panoramio.jpg"
+      },
+      {
+        "filename": "20091206妙高山黒姫山Tagged.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/20091206%E5%A6%99%E9%AB%98%E5%B1%B1%E9%BB%92%E5%A7%AB%E5%B1%B1Tagged.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/20091206%E5%A6%99%E9%AB%98%E5%B1%B1%E9%BB%92%E5%A7%AB%E5%B1%B1Tagged.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:20091206%E5%A6%99%E9%AB%98%E5%B1%B1%E9%BB%92%E5%A7%AB%E5%B1%B1Tagged.jpg"
+      },
+      {
+        "filename": "Myoko-hiuchi.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Myoko-hiuchi.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Myoko-hiuchi.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Myoko-hiuchi.jpg"
       }
     ]
   },
@@ -7460,6 +8120,26 @@
         "description": "妙高高原역에서 笹ヶ峰 등산구 시즌 셔틀",
         "season": "7월~10월"
       }
+    ],
+    "images": [
+      {
+        "filename": "Mount_Hiuchi_from_Tengunoniwa_1998-7-19.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hiuchi_from_Tengunoniwa_1998-7-19.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hiuchi_from_Tengunoniwa_1998-7-19.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Hiuchi_from_Tengunoniwa_1998-7-19.jpg"
+      },
+      {
+        "filename": "Hiuchiyama_from_Tengunoniwa_1996-6-29.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiuchiyama_from_Tengunoniwa_1996-6-29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hiuchiyama_from_Tengunoniwa_1996-6-29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hiuchiyama_from_Tengunoniwa_1996-6-29.jpg"
+      },
+      {
+        "filename": "Tengu_Garden_in_Mount_Hiuchi.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tengu_Garden_in_Mount_Hiuchi.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tengu_Garden_in_Mount_Hiuchi.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tengu_Garden_in_Mount_Hiuchi.jpg"
+      }
     ]
   },
   {
@@ -7635,7 +8315,27 @@
         "dist_to_summit_km": 20.4
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Takatsumayama_from_Mt.Iizunayama.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Takatsumayama_from_Mt.Iizunayama.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Takatsumayama_from_Mt.Iizunayama.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Takatsumayama_from_Mt.Iizunayama.jpg"
+      },
+      {
+        "filename": "帯岩の鎖場.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B8%AF%E5%B2%A9%E3%81%AE%E9%8E%96%E5%A0%B4.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%B8%AF%E5%B2%A9%E3%81%AE%E9%8E%96%E5%A0%B4.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%B8%AF%E5%B2%A9%E3%81%AE%E9%8E%96%E5%A0%B4.jpg"
+      },
+      {
+        "filename": "氷清水.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%B0%B7%E6%B8%85%E6%B0%B4.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E6%B0%B7%E6%B8%85%E6%B0%B4.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E6%B0%B7%E6%B8%85%E6%B0%B4.jpg"
+      }
+    ]
   },
   {
     "no": 36,
@@ -7853,6 +8553,26 @@
         "description": "JR 닛코역 → 中禅寺温泉 → 二荒山신사(등산구). 입산료 1000엔",
         "official_url": "https://www.tobu.co.jp/odekake/sp/nikko/",
         "season": "5월 초~10월 중순"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mount_nantai_and_lake_chuzenji.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_nantai_and_lake_chuzenji.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_nantai_and_lake_chuzenji.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_nantai_and_lake_chuzenji.jpg"
+      },
+      {
+        "filename": "中禅寺湖から見た日光男体山２.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B9%96%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E6%97%A5%E5%85%89%E7%94%B7%E4%BD%93%E5%B1%B1%EF%BC%92.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B9%96%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E6%97%A5%E5%85%89%E7%94%B7%E4%BD%93%E5%B1%B1%EF%BC%92.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E4%B8%AD%E7%A6%85%E5%AF%BA%E6%B9%96%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E6%97%A5%E5%85%89%E7%94%B7%E4%BD%93%E5%B1%B1%EF%BC%92.jpg"
+      },
+      {
+        "filename": "Nanatai_viewing_from_Nikko_city.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanatai_viewing_from_Nikko_city.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Nanatai_viewing_from_Nikko_city.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Nanatai_viewing_from_Nikko_city.JPG"
       }
     ]
   },
@@ -8106,7 +8826,27 @@
         "osrm_dur_min": 70
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "2017_0603_1031_dsc03401.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/2017_0603_1031_dsc03401.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/2017_0603_1031_dsc03401.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:2017_0603_1031_dsc03401.jpg"
+      },
+      {
+        "filename": "Mt.Nikkō-Shirane.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Nikk%C5%8D-Shirane.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Nikk%C5%8D-Shirane.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Nikk%C5%8D-Shirane.jpg"
+      },
+      {
+        "filename": "Nikko_shirane_san_summit_2006-11-05.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikko_shirane_san_summit_2006-11-05.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Nikko_shirane_san_summit_2006-11-05.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Nikko_shirane_san_summit_2006-11-05.jpg"
+      }
+    ]
   },
   {
     "no": 38,
@@ -8283,7 +9023,27 @@
         "dist_to_summit_km": 30.4
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Sukai-01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukai-01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Sukai-01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Sukai-01.jpg"
+      },
+      {
+        "filename": "鋸山2010.06.06.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%8B%B8%E5%B1%B12010.06.06.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E9%8B%B8%E5%B1%B12010.06.06.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E9%8B%B8%E5%B1%B12010.06.06.JPG"
+      },
+      {
+        "filename": "不動沢のコルにて鋸山を望む.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%8D%E5%8B%95%E6%B2%A2%E3%81%AE%E3%82%B3%E3%83%AB%E3%81%AB%E3%81%A6%E9%8B%B8%E5%B1%B1%E3%82%92%E6%9C%9B%E3%82%80.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%8D%E5%8B%95%E6%B2%A2%E3%81%AE%E3%82%B3%E3%83%AB%E3%81%AB%E3%81%A6%E9%8B%B8%E5%B1%B1%E3%82%92%E6%9C%9B%E3%82%80.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E4%B8%8D%E5%8B%95%E6%B2%A2%E3%81%AE%E3%82%B3%E3%83%AB%E3%81%AB%E3%81%A6%E9%8B%B8%E5%B1%B1%E3%82%92%E6%9C%9B%E3%82%80.JPG"
+      }
+    ]
   },
   {
     "no": 39,
@@ -8521,7 +9281,27 @@
         "osrm_dur_min": 33
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Hotaka01.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotaka01.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotaka01.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hotaka01.JPG"
+      },
+      {
+        "filename": "Mount_Hotaka_from_Mount_Tanigawa_2016-03-26_(2).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hotaka_from_Mount_Tanigawa_2016-03-26_%282%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Hotaka_from_Mount_Tanigawa_2016-03-26_%282%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Hotaka_from_Mount_Tanigawa_2016-03-26_%282%29.jpg"
+      },
+      {
+        "filename": "Hotaka2010.07.19.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotaka2010.07.19.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hotaka2010.07.19.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hotaka2010.07.19.JPG"
+      }
+    ]
   },
   {
     "no": 40,
@@ -8752,6 +9532,26 @@
         "description": "마에바시역 → 아카기산 비지터센터(覚満淵). 시즌·주말 운행",
         "official_url": "https://maebashi-cvb.com/akagi/"
       }
+    ],
+    "images": [
+      {
+        "filename": "MountAkagi.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/MountAkagi.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/MountAkagi.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:MountAkagi.jpg"
+      },
+      {
+        "filename": "前橋市から見た赤城山.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%89%8D%E6%A9%8B%E5%B8%82%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E8%B5%A4%E5%9F%8E%E5%B1%B1.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%89%8D%E6%A9%8B%E5%B8%82%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E8%B5%A4%E5%9F%8E%E5%B1%B1.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%89%8D%E6%A9%8B%E5%B8%82%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E8%B5%A4%E5%9F%8E%E5%B1%B1.jpg"
+      },
+      {
+        "filename": "地蔵岳から見た黒檜山.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%9C%B0%E8%94%B5%E5%B2%B3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%BB%92%E6%AA%9C%E5%B1%B1.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%9C%B0%E8%94%B5%E5%B2%B3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%BB%92%E6%AA%9C%E5%B1%B1.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%9C%B0%E8%94%B5%E5%B2%B3%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%BB%92%E6%AA%9C%E5%B1%B1.JPG"
+      }
     ]
   },
   {
@@ -8931,7 +9731,27 @@
         "dist_to_summit_km": 17.6
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Kusatsu-Shiranesan03s5s4272.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kusatsu-Shiranesan03s5s4272.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kusatsu-Shiranesan03s5s4272.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kusatsu-Shiranesan03s5s4272.jpg"
+      },
+      {
+        "filename": "CKT7511-C2-17.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CKT7511-C2-17.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/CKT7511-C2-17.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:CKT7511-C2-17.jpg"
+      },
+      {
+        "filename": "CKT7511-C18-15.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/CKT7511-C18-15.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/CKT7511-C18-15.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:CKT7511-C18-15.jpg"
+      }
+    ]
   },
   {
     "no": 42,
@@ -9186,7 +10006,27 @@
         "osrm_dur_min": 26
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Azumaya.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Azumaya.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Azumaya.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Azumaya.JPG"
+      },
+      {
+        "filename": "Mount_Azumaya_2013-04-28_(3).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Azumaya_2013-04-28_%283%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Azumaya_2013-04-28_%283%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Azumaya_2013-04-28_%283%29.jpg"
+      },
+      {
+        "filename": "四阿山山頂2010.04.04.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%9B%9B%E9%98%BF%E5%B1%B1%E5%B1%B1%E9%A0%822010.04.04.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%9B%9B%E9%98%BF%E5%B1%B1%E5%B1%B1%E9%A0%822010.04.04.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E9%98%BF%E5%B1%B1%E5%B1%B1%E9%A0%822010.04.04.JPG"
+      }
+    ]
   },
   {
     "no": 43,
@@ -9370,6 +10210,26 @@
         "description": "활화산. 분화 경계 레벨에 따라 등산 가능 범위 다름. 출발 전 기상청 화산 정보 확인 필수",
         "official_url": "https://www.data.jma.go.jp/svd/vois/data/tokyo/STOCK/activity_info/313.html"
       }
+    ],
+    "images": [
+      {
+        "filename": "Mt.Asama_(From_saku_city).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Asama_%28From_saku_city%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Asama_%28From_saku_city%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Asama_%28From_saku_city%29.jpg"
+      },
+      {
+        "filename": "Mt.Asama.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Asama.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Asama.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Asama.jpg"
+      },
+      {
+        "filename": "20080524SunsetAsamaYama.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/20080524SunsetAsamaYama.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/20080524SunsetAsamaYama.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:20080524SunsetAsamaYama.jpg"
+      }
     ]
   },
   {
@@ -9551,6 +10411,26 @@
         "description": "쓰쿠바역 → 쓰쿠바산구치 → 御幸ヶ原 케이블카 또는 女体山 로프웨이",
         "official_url": "https://www.mt-tsukuba.com/",
         "season": "연중"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mount_Tsukuba_seen_from_the_WSW_(2006).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tsukuba_seen_from_the_WSW_%282006%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tsukuba_seen_from_the_WSW_%282006%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Tsukuba_seen_from_the_WSW_%282006%29.jpg"
+      },
+      {
+        "filename": "Mount_Tsukuba_2.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tsukuba_2.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tsukuba_2.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Tsukuba_2.jpg"
+      },
+      {
+        "filename": "Mount_Tsukuba_in_winter.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tsukuba_in_winter.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tsukuba_in_winter.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Tsukuba_in_winter.JPG"
       }
     ]
   },
@@ -9828,6 +10708,26 @@
         "description": "쓰가이케 자연원에서 시로우마다케 트래버스",
         "official_url": "https://www.tsugaike.gr.jp/"
       }
+    ],
+    "images": [
+      {
+        "filename": "Shiroumadake_from_maruyama_26_2000_7_30.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiroumadake_from_maruyama_26_2000_7_30.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiroumadake_from_maruyama_26_2000_7_30.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Shiroumadake_from_maruyama_26_2000_7_30.jpg"
+      },
+      {
+        "filename": "Mount_Shirouma_from_Mount_Yukikura_2000-07-30.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Shirouma_from_Mount_Yukikura_2000-07-30.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Shirouma_from_Mount_Yukikura_2000-07-30.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Shirouma_from_Mount_Yukikura_2000-07-30.jpg"
+      },
+      {
+        "filename": "Shiroumadake_from_Shiroumayari_1999-10-10.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiroumadake_from_Shiroumayari_1999-10-10.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiroumadake_from_Shiroumayari_1999-10-10.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Shiroumadake_from_Shiroumayari_1999-10-10.jpg"
+      }
     ]
   },
   {
@@ -10065,6 +10965,26 @@
         "official_url": "https://www.hakubaescal.com/",
         "season": "7월~10월"
       }
+    ],
+    "images": [
+      {
+        "filename": "Goryu2.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Goryu2.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Goryu2.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Goryu2.JPG"
+      },
+      {
+        "filename": "Goryuu.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Goryuu.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Goryuu.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Goryuu.jpg"
+      },
+      {
+        "filename": "Yukigata_of_Mount_Goryu_1994-05-04.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukigata_of_Mount_Goryu_1994-05-04.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Yukigata_of_Mount_Goryu_1994-05-04.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Yukigata_of_Mount_Goryu_1994-05-04.jpg"
+      }
     ]
   },
   {
@@ -10293,7 +11213,27 @@
         "osrm_dur_min": 32
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Kashimayari_from_Mount_Nunobiki_s2.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kashimayari_from_Mount_Nunobiki_s2.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kashimayari_from_Mount_Nunobiki_s2.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Kashimayari_from_Mount_Nunobiki_s2.jpg"
+      },
+      {
+        "filename": "Lagopus_muta_japonica_female_Kashimayari.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Lagopus_muta_japonica_female_Kashimayari.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Lagopus_muta_japonica_female_Kashimayari.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Lagopus_muta_japonica_female_Kashimayari.jpg"
+      },
+      {
+        "filename": "Scabiosa_japonica_Miq._var._alpina.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Scabiosa_japonica_Miq._var._alpina.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Scabiosa_japonica_Miq._var._alpina.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Scabiosa_japonica_Miq._var._alpina.jpg"
+      }
+    ]
   },
   {
     "no": 48,
@@ -10546,6 +11486,26 @@
         "description": "알펜루트 室堂 → 雷鳥沢 → 剱沢 → 別山尾根. 베이스 무로도(室堂)는 알펜루트로 도달",
         "season": "7월~9월"
       }
+    ],
+    "images": [
+      {
+        "filename": "Tsurugidake_from_bessan_22_1995_8_20.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsurugidake_from_bessan_22_1995_8_20.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tsurugidake_from_bessan_22_1995_8_20.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tsurugidake_from_bessan_22_1995_8_20.jpg"
+      },
+      {
+        "filename": "Komado_Glacier_Aerial_photograph_Sep._1976.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Komado_Glacier_Aerial_photograph_Sep._1976.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Komado_Glacier_Aerial_photograph_Sep._1976.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Komado_Glacier_Aerial_photograph_Sep._1976.jpg"
+      },
+      {
+        "filename": "Sannomado_Glacier_Aerial_photograph_Sep._1976.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Sannomado_Glacier_Aerial_photograph_Sep._1976.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Sannomado_Glacier_Aerial_photograph_Sep._1976.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Sannomado_Glacier_Aerial_photograph_Sep._1976.jpg"
+      }
     ]
   },
   {
@@ -10786,6 +11746,26 @@
         "official_url": "https://www.alpen-route.com/ko/",
         "season": "4월 중순 ~ 11월 말"
       }
+    ],
+    "images": [
+      {
+        "filename": "20_Tateyama_from_Mikurigaike_1998-7-17.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/20_Tateyama_from_Mikurigaike_1998-7-17.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/20_Tateyama_from_Mikurigaike_1998-7-17.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:20_Tateyama_from_Mikurigaike_1998-7-17.jpg"
+      },
+      {
+        "filename": "Mount_Tate_viewed_from_Midorigaike.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tate_viewed_from_Midorigaike.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tate_viewed_from_Midorigaike.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Tate_viewed_from_Midorigaike.jpg"
+      },
+      {
+        "filename": "Topographic_map_of_Chubu,_Japan.webp",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Topographic_map_of_Chubu%2C_Japan.webp?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Topographic_map_of_Chubu%2C_Japan.webp?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Topographic_map_of_Chubu%2C_Japan.webp"
+      }
     ]
   },
   {
@@ -10972,6 +11952,26 @@
         "description": "富山 → 折立 시즌 셔틀(7~9월). 그 외 시즌은 차량으로만",
         "season": "7월~9월"
       }
+    ],
+    "images": [
+      {
+        "filename": "Yakushidake_from_Jiidake_2004-8-14.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakushidake_from_Jiidake_2004-8-14.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakushidake_from_Jiidake_2004-8-14.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Yakushidake_from_Jiidake_2004-8-14.JPG"
+      },
+      {
+        "filename": "Mount_Yakushi_from_Mount_Harinoki_s2_-_cropped_with_note.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Yakushi_from_Mount_Harinoki_s2_-_cropped_with_note.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Yakushi_from_Mount_Harinoki_s2_-_cropped_with_note.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Yakushi_from_Mount_Harinoki_s2_-_cropped_with_note.jpg"
+      },
+      {
+        "filename": "Mount_Yakushi_from_Mount_Kitanomata_1997-08-12.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Yakushi_from_Mount_Kitanomata_1997-08-12.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Yakushi_from_Mount_Kitanomata_1997-08-12.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Yakushi_from_Mount_Kitanomata_1997-08-12.jpg"
+      }
     ]
   },
   {
@@ -11055,7 +12055,27 @@
     },
     "base_towns": [],
     "stations": [],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Kurobegoro1.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurobegoro1.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurobegoro1.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kurobegoro1.JPG"
+      },
+      {
+        "filename": "Lilium_medeoloides_Kurumayuri_in_Cyougatake02003-8-12.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_medeoloides_Kurumayuri_in_Cyougatake02003-8-12.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Lilium_medeoloides_Kurumayuri_in_Cyougatake02003-8-12.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Lilium_medeoloides_Kurumayuri_in_Cyougatake02003-8-12.jpg"
+      },
+      {
+        "filename": "Veratrum_stamineum_in_Mount_Kohide_2010-07-01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Veratrum_stamineum_in_Mount_Kohide_2010-07-01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Veratrum_stamineum_in_Mount_Kohide_2010-07-01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Veratrum_stamineum_in_Mount_Kohide_2010-07-01.jpg"
+      }
+    ]
   },
   {
     "no": 52,
@@ -11297,7 +12317,27 @@
         "osrm_dur_min": 195
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Suisho_from_Mount_jii_2004-8-13.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Suisho_from_Mount_jii_2004-8-13.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Suisho_from_Mount_jii_2004-8-13.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Suisho_from_Mount_jii_2004-8-13.JPG"
+      },
+      {
+        "filename": "Mount_Suisho_from_Mount_Yari_1995-05-05.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Suisho_from_Mount_Yari_1995-05-05.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Suisho_from_Mount_Yari_1995-05-05.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Suisho_from_Mount_Yari_1995-05-05.jpg"
+      },
+      {
+        "filename": "Kurobe_River_and_Mount_Suisho_from_Mount_Mitsumatarenge_2004-08-13.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurobe_River_and_Mount_Suisho_from_Mount_Mitsumatarenge_2004-08-13.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kurobe_River_and_Mount_Suisho_from_Mount_Mitsumatarenge_2004-08-13.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kurobe_River_and_Mount_Suisho_from_Mount_Mitsumatarenge_2004-08-13.jpg"
+      }
+    ]
   },
   {
     "no": 53,
@@ -11458,7 +12498,27 @@
         "dist_to_summit_km": 23.3
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Washiba_from_Suisho_Hut_1999-08-09.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Washiba_from_Suisho_Hut_1999-08-09.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Washiba_from_Suisho_Hut_1999-08-09.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Washiba_from_Suisho_Hut_1999-08-09.jpg"
+      },
+      {
+        "filename": "Mount_Washiba_from_Mount_Jii_2004-08-13.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Washiba_from_Mount_Jii_2004-08-13.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Washiba_from_Mount_Jii_2004-08-13.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Washiba_from_Mount_Jii_2004-08-13.JPG"
+      },
+      {
+        "filename": "Mt.Washibadake_from_Enzansou.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Washibadake_from_Enzansou.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Washibadake_from_Enzansou.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Washibadake_from_Enzansou.jpg"
+      }
+    ]
   },
   {
     "no": 54,
@@ -11708,6 +12768,26 @@
         "description": "자가용은 사와도에 주차 후 셔틀버스/택시 환승",
         "official_url": "https://chuo-alps.com/access/"
       }
+    ],
+    "images": [
+      {
+        "filename": "05_Yarigatake_from_Higashikamaone_2000-8-16.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/05_Yarigatake_from_Higashikamaone_2000-8-16.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/05_Yarigatake_from_Higashikamaone_2000-8-16.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:05_Yarigatake_from_Higashikamaone_2000-8-16.jpg"
+      },
+      {
+        "filename": "Mt.yari.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.yari.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.yari.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.yari.jpg"
+      },
+      {
+        "filename": "071007_dawn_in_Yari.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/071007_dawn_in_Yari.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/071007_dawn_in_Yari.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:071007_dawn_in_Yari.jpg"
+      }
     ]
   },
   {
@@ -11944,6 +13024,26 @@
         "description": "上高地BT → 横尾 → 涸沢 → 호타카다케. 일반 차량 진입 통제(54번 카미코치 정보 동일)",
         "official_url": "https://www.kamikochi.or.jp/",
         "season": "4월 중순~11월 중순"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mt.Hotaka_from_Mt.Otenshodake_01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Hotaka_from_Mt.Otenshodake_01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Hotaka_from_Mt.Otenshodake_01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Hotaka_from_Mt.Otenshodake_01.jpg"
+      },
+      {
+        "filename": "Hodaka2000.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hodaka2000.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hodaka2000.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hodaka2000.JPG"
+      },
+      {
+        "filename": "Myojindake01s2048.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Myojindake01s2048.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Myojindake01s2048.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Myojindake01s2048.jpg"
       }
     ]
   },
@@ -12191,7 +13291,27 @@
         "osrm_dur_min": 21
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Jonen_from_Mount_Akaiwa_2003-9-14.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Jonen_from_Mount_Akaiwa_2003-9-14.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Jonen_from_Mount_Akaiwa_2003-9-14.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Jonen_from_Mount_Akaiwa_2003-9-14.jpg"
+      },
+      {
+        "filename": "Mt-Jounen_in_Azumino-Hotaka.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt-Jounen_in_Azumino-Hotaka.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt-Jounen_in_Azumino-Hotaka.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt-Jounen_in_Azumino-Hotaka.jpg"
+      },
+      {
+        "filename": "Mount_Jyonen_from_Azusa_River_1996-04-29.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Jyonen_from_Azusa_River_1996-04-29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Jyonen_from_Azusa_River_1996-04-29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Jyonen_from_Azusa_River_1996-04-29.jpg"
+      }
+    ]
   },
   {
     "no": 57,
@@ -12264,7 +13384,27 @@
     },
     "base_towns": [],
     "stations": [],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Kasa_from_Mount_Nishihotaka_1995-10-7.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kasa_from_Mount_Nishihotaka_1995-10-7.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kasa_from_Mount_Nishihotaka_1995-10-7.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Kasa_from_Mount_Nishihotaka_1995-10-7.jpg"
+      },
+      {
+        "filename": "Kasagatake_Takayama02s3872.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasagatake_Takayama02s3872.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasagatake_Takayama02s3872.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kasagatake_Takayama02s3872.jpg"
+      },
+      {
+        "filename": "Kasagatake_form_yarigatake_1995_05_05.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasagatake_form_yarigatake_1995_05_05.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kasagatake_form_yarigatake_1995_05_05.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kasagatake_form_yarigatake_1995_05_05.jpg"
+      }
+    ]
   },
   {
     "no": 58,
@@ -12356,7 +13496,27 @@
     },
     "base_towns": [],
     "stations": [],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Yakedake_from_Kamikochi_1999-5-22.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakedake_from_Kamikochi_1999-5-22.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakedake_from_Kamikochi_1999-5-22.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Yakedake_from_Kamikochi_1999-5-22.jpg"
+      },
+      {
+        "filename": "Yakedake01s2010.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakedake01s2010.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Yakedake01s2010.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Yakedake01s2010.jpg"
+      },
+      {
+        "filename": "Topographic_map_of_Chubu,_Japan.webp",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Topographic_map_of_Chubu%2C_Japan.webp?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Topographic_map_of_Chubu%2C_Japan.webp?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Topographic_map_of_Chubu%2C_Japan.webp"
+      }
+    ]
   },
   {
     "no": 59,
@@ -12589,7 +13749,27 @@
         "osrm_dur_min": 38
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Norikuradake_from_Kisokomagatake_7th_2007-4-29.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Norikuradake_from_Kisokomagatake_7th_2007-4-29.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Norikuradake_from_Kisokomagatake_7th_2007-4-29.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Norikuradake_from_Kisokomagatake_7th_2007-4-29.JPG"
+      },
+      {
+        "filename": "Mount_Yotsu_of_Mount_Norikura_from_Norikura_Skyline_s3.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Yotsu_of_Mount_Norikura_from_Norikura_Skyline_s3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Yotsu_of_Mount_Norikura_from_Norikura_Skyline_s3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Yotsu_of_Mount_Norikura_from_Norikura_Skyline_s3.jpg"
+      },
+      {
+        "filename": "Mount_Eboshi_of_Mount_Norikura_from_Norikura_Skyline.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Eboshi_of_Mount_Norikura_from_Norikura_Skyline.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Eboshi_of_Mount_Norikura_from_Norikura_Skyline.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Eboshi_of_Mount_Norikura_from_Norikura_Skyline.JPG"
+      }
+    ]
   },
   {
     "no": 60,
@@ -12858,6 +14038,26 @@
         "description": "2014년 분화 후 산정부 일부 입산 규제. 출발 전 화산 경계 레벨 확인 필수",
         "official_url": "https://www.data.jma.go.jp/svd/vois/data/tokyo/STOCK/activity_info/312.html"
       }
+    ],
+    "images": [
+      {
+        "filename": "Kiso_Ontake.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiso_Ontake.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kiso_Ontake.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kiso_Ontake.jpg"
+      },
+      {
+        "filename": "Campanula_lasiocarpa_in_Mount_Ontake_2011-09-18.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Campanula_lasiocarpa_in_Mount_Ontake_2011-09-18.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Campanula_lasiocarpa_in_Mount_Ontake_2011-09-18.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Campanula_lasiocarpa_in_Mount_Ontake_2011-09-18.JPG"
+      },
+      {
+        "filename": "Aconogonon_weyrichii_var._alpinum_in_Mount_Ontake_2010-08-27.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Aconogonon_weyrichii_var._alpinum_in_Mount_Ontake_2010-08-27.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Aconogonon_weyrichii_var._alpinum_in_Mount_Ontake_2010-08-27.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Aconogonon_weyrichii_var._alpinum_in_Mount_Ontake_2010-08-27.jpg"
+      }
     ]
   },
   {
@@ -13112,7 +14312,27 @@
         "osrm_dur_min": 26
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "250426_At_Utsukushigahara_Nagano_pref_Japan08s3.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/250426_At_Utsukushigahara_Nagano_pref_Japan08s3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/250426_At_Utsukushigahara_Nagano_pref_Japan08s3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:250426_At_Utsukushigahara_Nagano_pref_Japan08s3.jpg"
+      },
+      {
+        "filename": "Utsukushigahara_20140929.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Utsukushigahara_20140929.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Utsukushigahara_20140929.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Utsukushigahara_20140929.jpg"
+      },
+      {
+        "filename": "250426_At_Utsukushigahara_Nagano_pref_Japan06s3.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/250426_At_Utsukushigahara_Nagano_pref_Japan06s3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/250426_At_Utsukushigahara_Nagano_pref_Japan06s3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:250426_At_Utsukushigahara_Nagano_pref_Japan06s3.jpg"
+      }
+    ]
   },
   {
     "no": 62,
@@ -13368,7 +14588,27 @@
         "osrm_dur_min": 41
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Kirigamine_seen_from_the_east_2018-03-04.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirigamine_seen_from_the_east_2018-03-04.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirigamine_seen_from_the_east_2018-03-04.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kirigamine_seen_from_the_east_2018-03-04.jpg"
+      },
+      {
+        "filename": "ニッコウキスゲが咲き誇る車山肩.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%8B%E3%83%83%E3%82%B3%E3%82%A6%E3%82%AD%E3%82%B9%E3%82%B2%E3%81%8C%E5%92%B2%E3%81%8D%E8%AA%87%E3%82%8B%E8%BB%8A%E5%B1%B1%E8%82%A9.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E3%83%8B%E3%83%83%E3%82%B3%E3%82%A6%E3%82%AD%E3%82%B9%E3%82%B2%E3%81%8C%E5%92%B2%E3%81%8D%E8%AA%87%E3%82%8B%E8%BB%8A%E5%B1%B1%E8%82%A9.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E3%83%8B%E3%83%83%E3%82%B3%E3%82%A6%E3%82%AD%E3%82%B9%E3%82%B2%E3%81%8C%E5%92%B2%E3%81%8D%E8%AA%87%E3%82%8B%E8%BB%8A%E5%B1%B1%E8%82%A9.jpg"
+      },
+      {
+        "filename": "車山肩のニッコウキスゲ.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%BB%8A%E5%B1%B1%E8%82%A9%E3%81%AE%E3%83%8B%E3%83%83%E3%82%B3%E3%82%A6%E3%82%AD%E3%82%B9%E3%82%B2.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E8%BB%8A%E5%B1%B1%E8%82%A9%E3%81%AE%E3%83%8B%E3%83%83%E3%82%B3%E3%82%A6%E3%82%AD%E3%82%B9%E3%82%B2.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E8%BB%8A%E5%B1%B1%E8%82%A9%E3%81%AE%E3%83%8B%E3%83%83%E3%82%B3%E3%82%A6%E3%82%AD%E3%82%B9%E3%82%B2.jpg"
+      }
+    ]
   },
   {
     "no": 63,
@@ -13556,6 +14796,26 @@
         "title": "蓼科山 — 女神湖 베이스",
         "description": "チャト라이프 정상 → 7合目 셔틀(여름). 자가용 권장",
         "season": "7월~10월"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Tateshina07.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateshina07.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateshina07.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tateshina07.JPG"
+      },
+      {
+        "filename": "Distant_View_of_Mount_Tateshina,_Kitayama_Chino_2009.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Distant_View_of_Mount_Tateshina%2C_Kitayama_Chino_2009.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Distant_View_of_Mount_Tateshina%2C_Kitayama_Chino_2009.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Distant_View_of_Mount_Tateshina%2C_Kitayama_Chino_2009.jpg"
+      },
+      {
+        "filename": "Lake_Megami_2014-06_1.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Megami_2014-06_1.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Megami_2014-06_1.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Lake_Megami_2014-06_1.jpg"
       }
     ]
   },
@@ -13761,6 +15021,26 @@
         "description": "JR 茅野역 → 美濃戸口 시즌 셔틀. 그 외 시즌은 자가용",
         "official_url": "https://www.alpico.co.jp/access/yatsu/",
         "season": "7월~9월"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mt.Akadake_and_Mt.Amidadake_from_Mt.Gongendake_02.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Akadake_and_Mt.Amidadake_from_Mt.Gongendake_02.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Akadake_and_Mt.Amidadake_from_Mt.Gongendake_02.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Akadake_and_Mt.Amidadake_from_Mt.Gongendake_02.jpg"
+      },
+      {
+        "filename": "Tateshina07.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateshina07.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tateshina07.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tateshina07.JPG"
+      },
+      {
+        "filename": "Mt.Akadake_and_Mt.Amidadake_from_Mt.Gongendake_01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Akadake_and_Mt.Amidadake_from_Mt.Gongendake_01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Akadake_and_Mt.Amidadake_from_Mt.Gongendake_01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Akadake_and_Mt.Amidadake_from_Mt.Gongendake_01.jpg"
       }
     ]
   },
@@ -14017,7 +15297,27 @@
         "osrm_dur_min": 21
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Saitama,_oganomachi_mount_Ryokami_2007.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Saitama%2C_oganomachi_mount_Ryokami_2007.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Saitama%2C_oganomachi_mount_Ryokami_2007.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Saitama%2C_oganomachi_mount_Ryokami_2007.jpg"
+      },
+      {
+        "filename": "両神山荘.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%A1%E7%A5%9E%E5%B1%B1%E8%8D%98.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%A1%E7%A5%9E%E5%B1%B1%E8%8D%98.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E4%B8%A1%E7%A5%9E%E5%B1%B1%E8%8D%98.jpg"
+      },
+      {
+        "filename": "弘法之井戸.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%BC%98%E6%B3%95%E4%B9%8B%E4%BA%95%E6%88%B8.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%BC%98%E6%B3%95%E4%B9%8B%E4%BA%95%E6%88%B8.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%BC%98%E6%B3%95%E4%B9%8B%E4%BA%95%E6%88%B8.jpg"
+      }
+    ]
   },
   {
     "no": 66,
@@ -14272,7 +15572,27 @@
         "osrm_dur_min": 141
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Kumotori-nanatsuishi.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kumotori-nanatsuishi.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kumotori-nanatsuishi.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kumotori-nanatsuishi.JPG"
+      },
+      {
+        "filename": "Mount_Kumotori_User_Domitori.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kumotori_User_Domitori.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kumotori_User_Domitori.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Kumotori_User_Domitori.jpg"
+      },
+      {
+        "filename": "三峯神社から見た霧藻ヶ峰・白岩山・雲取山.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E5%B3%AF%E7%A5%9E%E7%A4%BE%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%9C%A7%E8%97%BB%E3%83%B6%E5%B3%B0%E3%83%BB%E7%99%BD%E5%B2%A9%E5%B1%B1%E3%83%BB%E9%9B%B2%E5%8F%96%E5%B1%B1.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E4%B8%89%E5%B3%AF%E7%A5%9E%E7%A4%BE%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%9C%A7%E8%97%BB%E3%83%B6%E5%B3%B0%E3%83%BB%E7%99%BD%E5%B2%A9%E5%B1%B1%E3%83%BB%E9%9B%B2%E5%8F%96%E5%B1%B1.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E4%B8%89%E5%B3%AF%E7%A5%9E%E7%A4%BE%E3%81%8B%E3%82%89%E8%A6%8B%E3%81%9F%E9%9C%A7%E8%97%BB%E3%83%B6%E5%B3%B0%E3%83%BB%E7%99%BD%E5%B2%A9%E5%B1%B1%E3%83%BB%E9%9B%B2%E5%8F%96%E5%B1%B1.jpg"
+      }
+    ]
   },
   {
     "no": 67,
@@ -14502,7 +15822,27 @@
         "osrm_dur_min": 49
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Kobushigatake_from_Mt.Tokusa_03.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kobushigatake_from_Mt.Tokusa_03.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kobushigatake_from_Mt.Tokusa_03.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Kobushigatake_from_Mt.Tokusa_03.jpg"
+      },
+      {
+        "filename": "Mt.Kobushigatake-Tozanguchi.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kobushigatake-Tozanguchi.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kobushigatake-Tozanguchi.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Kobushigatake-Tozanguchi.jpg"
+      },
+      {
+        "filename": "Kobushigoya.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kobushigoya.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kobushigoya.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kobushigoya.jpg"
+      }
+    ]
   },
   {
     "no": 68,
@@ -14729,7 +16069,27 @@
         "osrm_dur_min": 81
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Kimpu_from_Mt.Kokushigatake_07.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kimpu_from_Mt.Kokushigatake_07.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kimpu_from_Mt.Kokushigatake_07.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Kimpu_from_Mt.Kokushigatake_07.jpg"
+      },
+      {
+        "filename": "Mt.Kimpu_from_Mt.Kitaokusenjodake_03.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kimpu_from_Mt.Kitaokusenjodake_03.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kimpu_from_Mt.Kitaokusenjodake_03.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Kimpu_from_Mt.Kitaokusenjodake_03.jpg"
+      },
+      {
+        "filename": "Mt.Kinpu_from_West_02.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kinpu_from_West_02.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kinpu_from_West_02.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Kinpu_from_West_02.jpg"
+      }
+    ]
   },
   {
     "no": 69,
@@ -14904,7 +16264,27 @@
         "dist_to_summit_km": 24.7
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Mizugaki_02.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Mizugaki_02.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Mizugaki_02.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Mizugaki_02.jpg"
+      },
+      {
+        "filename": "Mt.Mizugaki_and_Mt.Yatsugatake_01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Mizugaki_and_Mt.Yatsugatake_01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Mizugaki_and_Mt.Yatsugatake_01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Mizugaki_and_Mt.Yatsugatake_01.jpg"
+      },
+      {
+        "filename": "Mount_Mizugaki.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Mizugaki.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Mizugaki.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Mizugaki.jpg"
+      }
+    ]
   },
   {
     "no": 70,
@@ -15134,7 +16514,27 @@
         "osrm_dur_min": 51
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Daibosatsurei.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Daibosatsurei.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Daibosatsurei.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Daibosatsurei.jpg"
+      },
+      {
+        "filename": "Mt.Daibosatsurei.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Daibosatsurei.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Daibosatsurei.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Daibosatsurei.jpg"
+      },
+      {
+        "filename": "Daibosaturei.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Daibosaturei.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Daibosaturei.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Daibosaturei.JPG"
+      }
+    ]
   },
   {
     "no": 71,
@@ -15386,7 +16786,27 @@
         "osrm_dur_min": 34
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Tanzawa_from_Mt.Hudounomine.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Tanzawa_from_Mt.Hudounomine.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Tanzawa_from_Mt.Hudounomine.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Tanzawa_from_Mt.Hudounomine.JPG"
+      },
+      {
+        "filename": "Miyamasanso01.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Miyamasanso01.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Miyamasanso01.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Miyamasanso01.JPG"
+      },
+      {
+        "filename": "Mt.Tanzawa-top_02.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Tanzawa-top_02.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Tanzawa-top_02.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Tanzawa-top_02.jpg"
+      }
+    ]
   },
   {
     "no": 72,
@@ -15708,6 +17128,26 @@
         "title": "후지산 보전협력금",
         "description": "입산 1인 1,000엔 자율 협력금 (5合目 게이트)"
       }
+    ],
+    "images": [
+      {
+        "filename": "Kodaki_fuji_frm_shojinko_refurb.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kodaki_fuji_frm_shojinko_refurb.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kodaki_fuji_frm_shojinko_refurb.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kodaki_fuji_frm_shojinko_refurb.jpg"
+      },
+      {
+        "filename": "Mount_Fuji_and_Broccolini.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_and_Broccolini.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_and_Broccolini.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_and_Broccolini.jpg"
+      },
+      {
+        "filename": "Mount_Fuji_from_Lake_Yamanaka_1995-7-30.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_from_Lake_Yamanaka_1995-7-30.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_from_Lake_Yamanaka_1995-7-30.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Lake_Yamanaka_1995-7-30.jpg"
+      }
     ]
   },
   {
@@ -15960,7 +17400,27 @@
         "osrm_dur_min": 32
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Amagi_20120218.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Amagi_20120218.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Amagi_20120218.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Amagi_20120218.jpg"
+      },
+      {
+        "filename": "Mount_Amagi_20120610.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Amagi_20120610.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Amagi_20120610.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Amagi_20120610.jpg"
+      },
+      {
+        "filename": "Japan_Izu_peninsula_topographic_map.webp",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Izu_peninsula_topographic_map.webp?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Japan_Izu_peninsula_topographic_map.webp?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Japan_Izu_peninsula_topographic_map.webp"
+      }
+    ]
   },
   {
     "no": 74,
@@ -16221,7 +17681,27 @@
         "osrm_dur_min": 52
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Kisokomagatake_from_Mt.Utsugidake_01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kisokomagatake_from_Mt.Utsugidake_01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Kisokomagatake_from_Mt.Utsugidake_01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Kisokomagatake_from_Mt.Utsugidake_01.jpg"
+      },
+      {
+        "filename": "Mount_Fuji_from_Mount_Kisokoma_1993-09-12.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_from_Mount_Kisokoma_1993-09-12.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Fuji_from_Mount_Kisokoma_1993-09-12.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Fuji_from_Mount_Kisokoma_1993-09-12.jpg"
+      },
+      {
+        "filename": "Mount_Kiso-Mae_from_Mount_Kisokoma_2010-9-26.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kiso-Mae_from_Mount_Kisokoma_2010-9-26.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Kiso-Mae_from_Mount_Kisokoma_2010-9-26.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Kiso-Mae_from_Mount_Kisokoma_2010-9-26.jpg"
+      }
+    ]
   },
   {
     "no": 75,
@@ -16483,7 +17963,27 @@
         "osrm_dur_min": 26
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Utsugidake_12.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Utsugidake_12.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Utsugidake_12.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Utsugidake_12.jpg"
+      },
+      {
+        "filename": "Wiki-hosigarasu.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Wiki-hosigarasu.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Wiki-hosigarasu.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Wiki-hosigarasu.jpg"
+      },
+      {
+        "filename": "Lightmatter_japanese_serows.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Lightmatter_japanese_serows.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Lightmatter_japanese_serows.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Lightmatter_japanese_serows.jpg"
+      }
+    ]
   },
   {
     "no": 76,
@@ -16721,7 +18221,27 @@
         "osrm_dur_min": 47
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Enasan_from_north_2010-9-17.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Enasan_from_north_2010-9-17.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Enasan_from_north_2010-9-17.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Enasan_from_north_2010-9-17.JPG"
+      },
+      {
+        "filename": "Mount_Ena.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ena.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ena.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Ena.jpg"
+      },
+      {
+        "filename": "Enasan_various_2008-12-7etc.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Enasan_various_2008-12-7etc.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Enasan_various_2008-12-7etc.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Enasan_various_2008-12-7etc.jpg"
+      }
+    ]
   },
   {
     "no": 77,
@@ -16967,6 +18487,26 @@
         "title": "仙水沢 베이스",
         "description": "JR 韮崎역 → 北沢峠 시즌 셔틀(夏期). 北沢峠에서 등산",
         "season": "7월~9월 중순"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Kaikomagatake_from_kurisawayama_1998_10_11.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaikomagatake_from_kurisawayama_1998_10_11.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaikomagatake_from_kurisawayama_1998_10_11.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kaikomagatake_from_kurisawayama_1998_10_11.jpg"
+      },
+      {
+        "filename": "2025-06-21_甲斐駒ヶ岳2.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-06-21_%E7%94%B2%E6%96%90%E9%A7%92%E3%83%B6%E5%B2%B32.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/2025-06-21_%E7%94%B2%E6%96%90%E9%A7%92%E3%83%B6%E5%B2%B32.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:2025-06-21_%E7%94%B2%E6%96%90%E9%A7%92%E3%83%B6%E5%B2%B32.jpg"
+      },
+      {
+        "filename": "MtKaikoma_chikuu.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/MtKaikoma_chikuu.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/MtKaikoma_chikuu.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:MtKaikoma_chikuu.JPG"
       }
     ]
   },
@@ -17229,6 +18769,26 @@
         "description": "77번 카이코마와 동일하게 北沢峠 셔틀. 정상까지 6시간",
         "season": "7월~9월 중순"
       }
+    ],
+    "images": [
+      {
+        "filename": "Mount_Senjo_from_Mibudake_1995-7-28.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Senjo_from_Mibudake_1995-7-28.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Senjo_from_Mibudake_1995-7-28.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Senjo_from_Mibudake_1995-7-28.jpg"
+      },
+      {
+        "filename": "Umanose_Hut.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Umanose_Hut.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Umanose_Hut.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Umanose_Hut.JPG"
+      },
+      {
+        "filename": "Mt.Senjogatake.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Senjogatake.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Senjogatake.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Senjogatake.JPG"
+      }
     ]
   },
   {
@@ -17489,7 +19049,27 @@
         "osrm_dur_min": 53
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Ho-osan_from_Okambazawa_04.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Ho-osan_from_Okambazawa_04.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Ho-osan_from_Okambazawa_04.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Ho-osan_from_Okambazawa_04.jpg"
+      },
+      {
+        "filename": "Jizougatake_South_Alps.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Jizougatake_South_Alps.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Jizougatake_South_Alps.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Jizougatake_South_Alps.jpg"
+      },
+      {
+        "filename": "Kannondake_from_Jizodake.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kannondake_from_Jizodake.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kannondake_from_Jizodake.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kannondake_from_Jizodake.jpg"
+      }
+    ]
   },
   {
     "no": 80,
@@ -17671,6 +19251,26 @@
         "official_url": "https://yamanashi-kankou.jp/",
         "season": "7월~9월 중순"
       }
+    ],
+    "images": [
+      {
+        "filename": "Kitadake_(13982793726).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitadake_%2813982793726%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kitadake_%2813982793726%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kitadake_%2813982793726%29.jpg"
+      },
+      {
+        "filename": "KaiKOmaGaTake&KisoKomaGaTakeTagged.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/KaiKOmaGaTake%26KisoKomaGaTakeTagged.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/KaiKOmaGaTake%26KisoKomaGaTakeTagged.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:KaiKOmaGaTake%26KisoKomaGaTakeTagged.jpg"
+      },
+      {
+        "filename": "Yashajin-Path2017.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Yashajin-Path2017.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Yashajin-Path2017.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Yashajin-Path2017.jpg"
+      }
     ]
   },
   {
@@ -17851,6 +19451,26 @@
         "title": "아이노다케 — 北岳 코스에서 연장",
         "description": "北岳에서 縦走 또는 두분히로(畑薙) 등산구",
         "season": "7월~9월"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mount_Aino_fom_Mount_Kita_2001-7-2.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Aino_fom_Mount_Kita_2001-7-2.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Aino_fom_Mount_Kita_2001-7-2.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Aino_fom_Mount_Kita_2001-7-2.jpg"
+      },
+      {
+        "filename": "04_Ainodake_from_Happonbanokashira_2001-10-3.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/04_Ainodake_from_Happonbanokashira_2001-10-3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/04_Ainodake_from_Happonbanokashira_2001-10-3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:04_Ainodake_from_Happonbanokashira_2001-10-3.jpg"
+      },
+      {
+        "filename": "Shinjyanukeyama_from_siomidake_2002_8_20.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinjyanukeyama_from_siomidake_2002_8_20.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Shinjyanukeyama_from_siomidake_2002_8_20.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Shinjyanukeyama_from_siomidake_2002_8_20.jpg"
       }
     ]
   },
@@ -18094,7 +19714,27 @@
         "osrm_dur_min": 156
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "16_Shiomidake_from_Eboshidake_1999-11-5.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/16_Shiomidake_from_Eboshidake_1999-11-5.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/16_Shiomidake_from_Eboshidake_1999-11-5.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:16_Shiomidake_from_Eboshidake_1999-11-5.jpg"
+      },
+      {
+        "filename": "Lagopus_muta_japonica_juvenile_in_Mount_Shiomi_1997-07-14.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Lagopus_muta_japonica_juvenile_in_Mount_Shiomi_1997-07-14.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Lagopus_muta_japonica_juvenile_in_Mount_Shiomi_1997-07-14.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Lagopus_muta_japonica_juvenile_in_Mount_Shiomi_1997-07-14.jpg"
+      },
+      {
+        "filename": "Gentiana_algida_Touyakurindou_in_shiomidake_2002-8-20.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Gentiana_algida_Touyakurindou_in_shiomidake_2002-8-20.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Gentiana_algida_Touyakurindou_in_shiomidake_2002-8-20.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Gentiana_algida_Touyakurindou_in_shiomidake_2002-8-20.jpg"
+      }
+    ]
   },
   {
     "no": 83,
@@ -18310,7 +19950,27 @@
         "osrm_dur_min": 169
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "13_Arakawadake_from_Shiomidake_2000-7-9.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/13_Arakawadake_from_Shiomidake_2000-7-9.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/13_Arakawadake_from_Shiomidake_2000-7-9.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:13_Arakawadake_from_Shiomidake_2000-7-9.jpg"
+      },
+      {
+        "filename": "Arakawadake.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Arakawadake.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Arakawadake.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Arakawadake.JPG"
+      },
+      {
+        "filename": "Mt.Arakawadake_and_Mt.Shiomidake_from_Mt.Ainodake.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Arakawadake_and_Mt.Shiomidake_from_Mt.Ainodake.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Arakawadake_and_Mt.Shiomidake_from_Mt.Ainodake.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Arakawadake_and_Mt.Shiomidake_from_Mt.Ainodake.jpg"
+      }
+    ]
   },
   {
     "no": 84,
@@ -18417,7 +20077,27 @@
       }
     ],
     "stations": [],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Akaishidake_from_senmaidake_07_1994_7_31.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Akaishidake_from_senmaidake_07_1994_7_31.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Akaishidake_from_senmaidake_07_1994_7_31.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Akaishidake_from_senmaidake_07_1994_7_31.jpg"
+      },
+      {
+        "filename": "Akaishi.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Akaishi.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Akaishi.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Akaishi.JPG"
+      },
+      {
+        "filename": "Akaishidake_from_Koakaishidake_1998-10-26.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Akaishidake_from_Koakaishidake_1998-10-26.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Akaishidake_from_Koakaishidake_1998-10-26.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Akaishidake_from_Koakaishidake_1998-10-26.jpg"
+      }
+    ]
   },
   {
     "no": 85,
@@ -18526,7 +20206,27 @@
       }
     ],
     "stations": [],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "21_Hijiridake_from_Minamidake_1996-11-16.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/21_Hijiridake_from_Minamidake_1996-11-16.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/21_Hijiridake_from_Minamidake_1996-11-16.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:21_Hijiridake_from_Minamidake_1996-11-16.jpg"
+      },
+      {
+        "filename": "Aconitum_and_Ligularia_dentata_in_Mount_Hijiri_2002-08-14.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Aconitum_and_Ligularia_dentata_in_Mount_Hijiri_2002-08-14.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Aconitum_and_Ligularia_dentata_in_Mount_Hijiri_2002-08-14.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Aconitum_and_Ligularia_dentata_in_Mount_Hijiri_2002-08-14.jpg"
+      },
+      {
+        "filename": "Silene_keiskei_Shirobanatakanebiranji_in_Kohijiridake_2002-8-14.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Silene_keiskei_Shirobanatakanebiranji_in_Kohijiridake_2002-8-14.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Silene_keiskei_Shirobanatakanebiranji_in_Kohijiridake_2002-8-14.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Silene_keiskei_Shirobanatakanebiranji_in_Kohijiridake_2002-8-14.jpg"
+      }
+    ]
   },
   {
     "no": 86,
@@ -18752,7 +20452,27 @@
         "osrm_dur_min": 356
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Tekaridake_from_chausudake_1996_11_17.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Tekaridake_from_chausudake_1996_11_17.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Tekaridake_from_chausudake_1996_11_17.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Tekaridake_from_chausudake_1996_11_17.jpg"
+      },
+      {
+        "filename": "Mount_Tekari_from_Mount_Kamikochi_2003-11-23.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tekari_from_Mount_Kamikochi_2003-11-23.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Tekari_from_Mount_Kamikochi_2003-11-23.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Tekari_from_Mount_Kamikochi_2003-11-23.jpg"
+      },
+      {
+        "filename": "Rock_Ptarmigan_in_Mount_Akaishi_1994-7-30.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock_Ptarmigan_in_Mount_Akaishi_1994-7-30.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Rock_Ptarmigan_in_Mount_Akaishi_1994-7-30.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Rock_Ptarmigan_in_Mount_Akaishi_1994-7-30.jpg"
+      }
+    ]
   },
   {
     "no": 87,
@@ -18933,6 +20653,26 @@
         "description": "카나자와역 → 벳토데아이까지 시즌 셔틀버스. 일반 차량 시즌 중 통제",
         "official_url": "https://www.kanazawa-kankoukyoukai.or.jp/spot/details_50028.html",
         "season": "7월~10월"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mount_Haku_from_Onanjimine_2011-07-17.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Haku_from_Onanjimine_2011-07-17.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Haku_from_Onanjimine_2011-07-17.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Haku_from_Onanjimine_2011-07-17.jpg"
+      },
+      {
+        "filename": "Hakusan09.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakusan09.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hakusan09.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hakusan09.JPG"
+      },
+      {
+        "filename": "Mount_Bessan_from_Mount_Haku_2011-07-17.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bessan_from_Mount_Haku_2011-07-17.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Bessan_from_Mount_Haku_2011-07-17.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Bessan_from_Mount_Haku_2011-07-17.jpg"
       }
     ]
   },
@@ -19184,7 +20924,27 @@
         "osrm_dur_min": 22
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Arashimadake_from_Ohno_2002-6-10.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Arashimadake_from_Ohno_2002-6-10.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Arashimadake_from_Ohno_2002-6-10.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Arashimadake_from_Ohno_2002-6-10.jpg"
+      },
+      {
+        "filename": "Arashima_Jinja.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Arashima_Jinja.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Arashima_Jinja.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Arashima_Jinja.jpg"
+      },
+      {
+        "filename": "Mount_Arashima_from_Winghills_Shirotori_Resort.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Arashima_from_Winghills_Shirotori_Resort.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Arashima_from_Winghills_Shirotori_Resort.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Arashima_from_Winghills_Shirotori_Resort.jpg"
+      }
+    ]
   },
   {
     "no": 89,
@@ -19366,7 +21126,27 @@
         "dist_to_summit_km": 14.1
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Ibuki_and_N700_Series_Shinkansen.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ibuki_and_N700_Series_Shinkansen.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ibuki_and_N700_Series_Shinkansen.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Ibuki_and_N700_Series_Shinkansen.jpg"
+      },
+      {
+        "filename": "Mount_Ibuki_from_third_station_2002-04-04.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ibuki_from_third_station_2002-04-04.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Ibuki_from_third_station_2002-04-04.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Ibuki_from_third_station_2002-04-04.jpg"
+      },
+      {
+        "filename": "West_hiking_course_(Mount_Ibuki).JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/West_hiking_course_%28Mount_Ibuki%29.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/West_hiking_course_%28Mount_Ibuki%29.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:West_hiking_course_%28Mount_Ibuki%29.JPG"
+      }
+    ]
   },
   {
     "no": 90,
@@ -19586,7 +21366,27 @@
         "osrm_dur_min": 65
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Odaigahara_around_Daijagura.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Odaigahara_around_Daijagura.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Odaigahara_around_Daijagura.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Odaigahara_around_Daijagura.jpg"
+      },
+      {
+        "filename": "Mount_Odaigahara_-_panoramio.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Odaigahara_-_panoramio.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Odaigahara_-_panoramio.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Odaigahara_-_panoramio.jpg"
+      },
+      {
+        "filename": "Topographic_map_of_Kansai.webp",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Topographic_map_of_Kansai.webp?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Topographic_map_of_Kansai.webp?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Topographic_map_of_Kansai.webp"
+      }
+    ]
   },
   {
     "no": 91,
@@ -19824,7 +21624,27 @@
         "osrm_dur_min": 22
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mount_Sanjo_in_the_rainy_season.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Sanjo_in_the_rainy_season.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Sanjo_in_the_rainy_season.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Sanjo_in_the_rainy_season.jpg"
+      },
+      {
+        "filename": "Omine1.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Omine1.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Omine1.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Omine1.JPG"
+      },
+      {
+        "filename": "稲村小屋.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%A8%B2%E6%9D%91%E5%B0%8F%E5%B1%8B.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E7%A8%B2%E6%9D%91%E5%B0%8F%E5%B1%8B.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E7%A8%B2%E6%9D%91%E5%B0%8F%E5%B1%8B.jpg"
+      }
+    ]
   },
   {
     "no": 92,
@@ -20049,7 +21869,27 @@
         "osrm_dur_min": 23
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Daisen_01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisen_01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisen_01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Daisen_01.jpg"
+      },
+      {
+        "filename": "Daisen_2007-09-19.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisen_2007-09-19.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisen_2007-09-19.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Daisen_2007-09-19.jpg"
+      },
+      {
+        "filename": "Daisen_2016-03-21_(25887648161).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisen_2016-03-21_%2825887648161%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Daisen_2016-03-21_%2825887648161%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Daisen_2016-03-21_%2825887648161%29.jpg"
+      }
+    ]
   },
   {
     "no": 93,
@@ -20220,6 +22060,26 @@
         "description": "도쿠시마/고치 → 견월 시즌 버스. 리프트로 1合目까지",
         "official_url": "https://www.turugiyamatozanrift.com/",
         "season": "4월 중순~11월 말"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mt.Tsurugisan.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Tsurugisan.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Tsurugisan.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Tsurugisan.jpg"
+      },
+      {
+        "filename": "Turugisan20220528_3.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Turugisan20220528_3.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Turugisan20220528_3.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Turugisan20220528_3.jpg"
+      },
+      {
+        "filename": "Turuɡisan0ɨ.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Turu%C9%A1isan0%C9%A8.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Turu%C9%A1isan0%C9%A8.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Turu%C9%A1isan0%C9%A8.jpg"
       }
     ]
   },
@@ -20406,6 +22266,26 @@
         "description": "마쓰야마역 → 이시즈치 로프웨이로 8合目",
         "official_url": "https://ishizuchi.com/",
         "season": "연중"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Isiduti05.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Isiduti05.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Isiduti05.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Isiduti05.jpg"
+      },
+      {
+        "filename": "Ishizuchi.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Ishizuchi.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Ishizuchi.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Ishizuchi.jpg"
+      },
+      {
+        "filename": "Hosigamori_20260217_1.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hosigamori_20260217_1.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hosigamori_20260217_1.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hosigamori_20260217_1.jpg"
       }
     ]
   },
@@ -20641,7 +22521,27 @@
         "season": "연중(눈 시즌 주의)"
       }
     ],
-    "wiki_ko_summary": "구주산(九重山 (くじゅうさん))은 일본 오이타현 구스군 고코노에정과 다케타시 경계에 있는 산들의 총칭이다. 최고봉은 규슈 본토 최고봉이기도 한 나카다케 (해발 1,791m)다.\n일반적으로는 화산군이나 주변 지역 전체를 가리킬 때는 구주 연산(九重連山 (くじゅうれんざん))이라고 부르기도 하며, 이 산 중 주 산 하나만을 부를 때는 구주산(久住山 (くじゅうさん), 해발 1,787m)이라고 불러 구별하기도 한다. 일본 백명산의 하나로 꼽히고 일대는 아소쿠주 국립공원으로 지정되어 있다."
+    "wiki_ko_summary": "구주산(九重山 (くじゅうさん))은 일본 오이타현 구스군 고코노에정과 다케타시 경계에 있는 산들의 총칭이다. 최고봉은 규슈 본토 최고봉이기도 한 나카다케 (해발 1,791m)다.\n일반적으로는 화산군이나 주변 지역 전체를 가리킬 때는 구주 연산(九重連山 (くじゅうれんざん))이라고 부르기도 하며, 이 산 중 주 산 하나만을 부를 때는 구주산(久住山 (くじゅうさん), 해발 1,787m)이라고 불러 구별하기도 한다. 일본 백명산의 하나로 꼽히고 일대는 아소쿠주 국립공원으로 지정되어 있다.",
+    "images": [
+      {
+        "filename": "Kuju-san.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuju-san.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuju-san.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kuju-san.JPG"
+      },
+      {
+        "filename": "Kuju_Mountains_from_Mt.Yufudake_01-2.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuju_Mountains_from_Mt.Yufudake_01-2.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuju_Mountains_from_Mt.Yufudake_01-2.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kuju_Mountains_from_Mt.Yufudake_01-2.jpg"
+      },
+      {
+        "filename": "Kuju01.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuju01.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kuju01.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kuju01.JPG"
+      }
+    ]
   },
   {
     "no": 96,
@@ -20872,7 +22772,27 @@
         "osrm_dur_min": 72
       }
     ],
-    "transit_notes": []
+    "transit_notes": [],
+    "images": [
+      {
+        "filename": "Mt.Sobo.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Sobo.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Sobo.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Sobo.jpg"
+      },
+      {
+        "filename": "北谷を渡る登山道.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8C%97%E8%B0%B7%E3%82%92%E6%B8%A1%E3%82%8B%E7%99%BB%E5%B1%B1%E9%81%93.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8C%97%E8%B0%B7%E3%82%92%E6%B8%A1%E3%82%8B%E7%99%BB%E5%B1%B1%E9%81%93.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%8C%97%E8%B0%B7%E3%82%92%E6%B8%A1%E3%82%8B%E7%99%BB%E5%B1%B1%E9%81%93.jpg"
+      },
+      {
+        "filename": "千間平に現れた鹿.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%83%E9%96%93%E5%B9%B3%E3%81%AB%E7%8F%BE%E3%82%8C%E3%81%9F%E9%B9%BF.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/%E5%8D%83%E9%96%93%E5%B9%B3%E3%81%AB%E7%8F%BE%E3%82%8C%E3%81%9F%E9%B9%BF.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:%E5%8D%83%E9%96%93%E5%B9%B3%E3%81%AB%E7%8F%BE%E3%82%8C%E3%81%9F%E9%B9%BF.jpg"
+      }
+    ]
   },
   {
     "no": 97,
@@ -21122,7 +23042,27 @@
         "official_url": "https://www.data.jma.go.jp/svd/vois/data/tokyo/STOCK/activity_info/503.html"
       }
     ],
-    "wiki_ko_summary": "아소산(일본어: 阿 (あ)蘇 (そ)山 (さん) 아소산[*])은 구마모토현의 동부에 위치한 활화산이다. 세계 최대급의 칼데라와 웅대한 외륜산(外輪山)을 가진, '불의 나라(火の国)' 구마모토현의 상징적인 존재이다. 화산 활동이 평온한 시기에는 화구에 가까이 가서 견학할 수 있지만, 활동이 활발하거나 유독 가스가 발생할 경우는 화구 부근의 진입이 규제된다.\n외륜산의 내측을 중심으로 하여 아소쿠주 국립공원으로 지정되어 있다. 온천과 관광ㆍ레저 스포츠가 산재한 유수의 관광지로, 여름이 되면 많은 라이더가 투어를 위해 방문하는 장소이다.\n'아소 산'은 통칭으로, 정식 명칭은 아소 고가쿠(阿蘇五岳)라고 한다. 현재 분화구가 있는 산은 '아소 나카다케(阿蘇中岳)'이다.\n2007년, \"일본의 지질 100선\"에 선정되었다."
+    "wiki_ko_summary": "아소산(일본어: 阿 (あ)蘇 (そ)山 (さん) 아소산[*])은 구마모토현의 동부에 위치한 활화산이다. 세계 최대급의 칼데라와 웅대한 외륜산(外輪山)을 가진, '불의 나라(火の国)' 구마모토현의 상징적인 존재이다. 화산 활동이 평온한 시기에는 화구에 가까이 가서 견학할 수 있지만, 활동이 활발하거나 유독 가스가 발생할 경우는 화구 부근의 진입이 규제된다.\n외륜산의 내측을 중심으로 하여 아소쿠주 국립공원으로 지정되어 있다. 온천과 관광ㆍ레저 스포츠가 산재한 유수의 관광지로, 여름이 되면 많은 라이더가 투어를 위해 방문하는 장소이다.\n'아소 산'은 통칭으로, 정식 명칭은 아소 고가쿠(阿蘇五岳)라고 한다. 현재 분화구가 있는 산은 '아소 나카다케(阿蘇中岳)'이다.\n2007년, \"일본의 지질 100선\"에 선정되었다.",
+    "images": [
+      {
+        "filename": "Mt.Aso_and_caldera01.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Aso_and_caldera01.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt.Aso_and_caldera01.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt.Aso_and_caldera01.jpg"
+      },
+      {
+        "filename": "Mount-Aso-Naka-dake.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount-Aso-Naka-dake.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount-Aso-Naka-dake.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount-Aso-Naka-dake.jpg"
+      },
+      {
+        "filename": "Mt_Aso_from_Minamiaso_Hisaishi.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Aso_from_Minamiaso_Hisaishi.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mt_Aso_from_Minamiaso_Hisaishi.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mt_Aso_from_Minamiaso_Hisaishi.JPG"
+      }
+    ]
   },
   {
     "no": 98,
@@ -21305,7 +23245,27 @@
         "season": "연중"
       }
     ],
-    "wiki_ko_summary": "기리시마산(일본어: 霧島山)은 일본 규슈에 있는 산으로, 성층 화산이며, 활화산이다. 2011년 3월, 이 화산의 봉우리중 하나인 신모에봉(신모에다케)에서 분화가 일어나 화산재와 화산가스를 4000 m 높이까지 분출했다. 신모에봉 외에 다른 활화산 봉우리도 주변에 있다. 이 화산의 분화는 천리안 위성에서도 관측될 만큼 강력하였다. 국립공원, 일본백명산으로 지정된 산이다."
+    "wiki_ko_summary": "기리시마산(일본어: 霧島山)은 일본 규슈에 있는 산으로, 성층 화산이며, 활화산이다. 2011년 3월, 이 화산의 봉우리중 하나인 신모에봉(신모에다케)에서 분화가 일어나 화산재와 화산가스를 4000 m 높이까지 분출했다. 신모에봉 외에 다른 활화산 봉우리도 주변에 있다. 이 화산의 분화는 천리안 위성에서도 관측될 만큼 강력하였다. 국립공원, 일본백명산으로 지정된 산이다.",
+    "images": [
+      {
+        "filename": "Kirishima_volcano_20111125.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirishima_volcano_20111125.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirishima_volcano_20111125.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kirishima_volcano_20111125.jpg"
+      },
+      {
+        "filename": "Kirishima_from_Maruoka_2.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirishima_from_Maruoka_2.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirishima_from_Maruoka_2.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kirishima_from_Maruoka_2.jpg"
+      },
+      {
+        "filename": "Kirishima_from_North_J.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirishima_from_North_J.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kirishima_from_North_J.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kirishima_from_North_J.jpg"
+      }
+    ]
   },
   {
     "no": 99,
@@ -21537,7 +23497,27 @@
         "season": "연중(여름 추천)"
       }
     ],
-    "wiki_ko_summary": "가이몬다케(開聞岳 (かいもんだけ))는 일본 가고시마현 사쓰마반도 남단 (이부스키시 소속)에 위치한 해발 924m의 화산이다. 1964년 3월 16일 기리시마야쿠 국립공원으로 지정되었다. 일본백명산, 신일본백명산, 규슈백명산으로 선정되어 있다. 산기슭의 북동쪽 절반은 육지로, 남서쪽 절반은 바다를 향하고 있어 원뿔형 모양 때문에 별명 사쓰마후지(薩摩富士 (さつまふじ))라고도 불린다."
+    "wiki_ko_summary": "가이몬다케(開聞岳 (かいもんだけ))는 일본 가고시마현 사쓰마반도 남단 (이부스키시 소속)에 위치한 해발 924m의 화산이다. 1964년 3월 16일 기리시마야쿠 국립공원으로 지정되었다. 일본백명산, 신일본백명산, 규슈백명산으로 선정되어 있다. 산기슭의 북동쪽 절반은 육지로, 남서쪽 절반은 바다를 향하고 있어 원뿔형 모양 때문에 별명 사쓰마후지(薩摩富士 (さつまふじ))라고도 불린다.",
+    "images": [
+      {
+        "filename": "Kaimondake_2005_3_19.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaimondake_2005_3_19.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Kaimondake_2005_3_19.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Kaimondake_2005_3_19.jpg"
+      },
+      {
+        "filename": "Lake_Ikeda_&_Mt.Kaimon.JPG",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Ikeda_%26_Mt.Kaimon.JPG?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Lake_Ikeda_%26_Mt.Kaimon.JPG?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Lake_Ikeda_%26_Mt.Kaimon.JPG"
+      },
+      {
+        "filename": "Aerial_Photo_of_Kaimondake.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_Photo_of_Kaimondake.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Aerial_Photo_of_Kaimondake.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Aerial_Photo_of_Kaimondake.jpg"
+      }
+    ]
   },
   {
     "no": 100,
@@ -21616,6 +23596,26 @@
         "description": "카고시마 → 야쿠시마 페리(高速船 약 2시간). 섬 내 시즌제 셔틀로 淀川/白谷雲水峡 등산구",
         "official_url": "https://www.toppy.jp/",
         "season": "연중(7~10월 입산 추천)"
+      }
+    ],
+    "images": [
+      {
+        "filename": "Mount_Miyanoura_20071113_(B)_-_Flickr.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Miyanoura_20071113_%28B%29_-_Flickr.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Mount_Miyanoura_20071113_%28B%29_-_Flickr.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Mount_Miyanoura_20071113_%28B%29_-_Flickr.jpg"
+      },
+      {
+        "filename": "Hananoegou_Marshland.jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Hananoegou_Marshland.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Hananoegou_Marshland.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Hananoegou_Marshland.jpg"
+      },
+      {
+        "filename": "Boardwalk_(Kirishima-Yakushima_National_Park).jpg",
+        "thumb": "https://commons.wikimedia.org/wiki/Special:FilePath/Boardwalk_%28Kirishima-Yakushima_National_Park%29.jpg?width=800",
+        "large": "https://commons.wikimedia.org/wiki/Special:FilePath/Boardwalk_%28Kirishima-Yakushima_National_Park%29.jpg?width=1600",
+        "commons": "https://commons.wikimedia.org/wiki/File:Boardwalk_%28Kirishima-Yakushima_National_Park%29.jpg"
       }
     ]
   }

@@ -1,10 +1,84 @@
 'use client';
 
-import { useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import type { Mountain, RouteProfile, HutsGeoJSON, HutFeature, LodgingsGeoJSON, LodgingFeature, ParkingGeoJSON, ParkingFeature } from '@/lib/types';
 import type { RouteResult } from '@/lib/routing';
 import ElevationProfile from './ElevationProfile';
 import RoutePlanner from './RoutePlanner';
+
+function PhotoGallery({ mountain }: { mountain: Mountain }) {
+  // images 배열이 있으면 사용, 없으면 image 단일 사진을 1장짜리 배열로 변환
+  const list = useMemo(() => {
+    if (mountain.images && mountain.images.length > 0) return mountain.images;
+    if (mountain.image?.thumb) return [{
+      filename: mountain.image.filename,
+      thumb: mountain.image.thumb,
+      large: mountain.image.large,
+      commons: mountain.image.commons,
+    }];
+    return [];
+  }, [mountain]);
+  const [active, setActive] = useState(0);
+  if (list.length === 0) return null;
+  const cur = list[Math.min(active, list.length - 1)];
+  return (
+    <div className="mt-3">
+      {/* 메인 사진 */}
+      <div className="relative rounded-lg overflow-hidden border border-gray-200 bg-gray-100 group">
+        <a href={cur.large || cur.commons || cur.thumb} target="_blank" rel="noopener noreferrer">
+          <img
+            src={cur.thumb}
+            alt={mountain.name_ko}
+            loading="lazy"
+            className="w-full h-auto block transition-transform duration-300 group-hover:scale-[1.02]"
+            style={{ maxHeight: 280, objectFit: 'cover' }}
+          />
+          <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent text-white text-[10px] px-2 py-1 flex items-center justify-between opacity-0 group-hover:opacity-100 transition">
+            <span>📷 {mountain.name_ja} ({active + 1}/{list.length})</span>
+            <span>원본 보기 →</span>
+          </div>
+        </a>
+        {cur.commons && (
+          <a href={cur.commons} target="_blank" rel="noopener noreferrer"
+            className="absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded bg-black/50 text-white text-[9px] hover:bg-black/70">
+            Wikimedia
+          </a>
+        )}
+        {/* 좌우 화살표 (2장 이상일 때) */}
+        {list.length > 1 && (
+          <>
+            <button
+              onClick={(e) => { e.preventDefault(); setActive((active - 1 + list.length) % list.length); }}
+              className="absolute left-1 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-black/40 text-white text-sm hover:bg-black/60 transition opacity-0 group-hover:opacity-100"
+              aria-label="이전 사진">‹</button>
+            <button
+              onClick={(e) => { e.preventDefault(); setActive((active + 1) % list.length); }}
+              className="absolute right-1 top-1/2 -translate-y-1/2 w-7 h-7 rounded-full bg-black/40 text-white text-sm hover:bg-black/60 transition opacity-0 group-hover:opacity-100"
+              aria-label="다음 사진">›</button>
+          </>
+        )}
+      </div>
+      {/* 썸네일 스트립 (2장 이상일 때만) */}
+      {list.length > 1 && (
+        <div className="mt-1.5 grid grid-cols-3 gap-1">
+          {list.map((img, i) => (
+            <button
+              key={i}
+              onClick={() => setActive(i)}
+              className={`relative rounded overflow-hidden border-2 transition ${
+                i === active ? 'border-brand' : 'border-transparent hover:border-gray-300 opacity-70 hover:opacity-100'
+              }`}
+              aria-label={`사진 ${i + 1}`}>
+              <img src={img.thumb} alt="" loading="lazy"
+                className="w-full block"
+                style={{ height: 56, objectFit: 'cover' }} />
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
 
 interface Props {
   mountain: Mountain | null;
@@ -103,31 +177,9 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
         <section className="px-5 py-4 border-b border-gray-100">
           <p className="text-sm text-gray-700 leading-relaxed">{mountain.summary_ko}</p>
 
-          {/* 대표 사진 카드 */}
-          {mountain.image?.thumb && (
-            <div className="mt-3 relative rounded-lg overflow-hidden border border-gray-200 bg-gray-100 group">
-              <a href={mountain.image.large || mountain.image.commons || mountain.image.thumb}
-                target="_blank" rel="noopener noreferrer">
-                <img
-                  src={mountain.image.thumb}
-                  alt={mountain.name_ko}
-                  loading="lazy"
-                  className="w-full h-auto block transition-transform duration-300 group-hover:scale-[1.02]"
-                  style={{ maxHeight: 280, objectFit: 'cover' }}
-                />
-                <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/60 to-transparent text-white text-[10px] px-2 py-1 flex items-center justify-between opacity-0 group-hover:opacity-100 transition">
-                  <span>📷 {mountain.name_ja}</span>
-                  <span>원본 보기 →</span>
-                </div>
-              </a>
-              {mountain.image.commons && (
-                <a href={mountain.image.commons} target="_blank" rel="noopener noreferrer"
-                  className="absolute top-1.5 right-1.5 px-1.5 py-0.5 rounded bg-black/50 text-white text-[9px] hover:bg-black/70">
-                  Wikimedia
-                </a>
-              )}
-            </div>
-          )}
+          {/* 대표 사진 갤러리 (최대 3장) */}
+          <PhotoGallery mountain={mountain} />
+
 
           {mountain.wiki_ko_summary && (
             <details className="mt-2 group">

@@ -48,6 +48,7 @@ export interface Mountain {
   transit_notes?: TransitNote[];
   wiki_ko_summary?: string | null;   // 위키피디아 한국어판 첫 단락 (있을 때만)
   image?: { filename?: string; thumb?: string; large?: string; commons?: string; url?: string } | null;
+  images?: Array<{ filename?: string; thumb?: string; large?: string; commons?: string }> | null; // 갤러리 (최대 3장)
 }
 
 export interface TransitNote {
