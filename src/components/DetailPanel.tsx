@@ -269,22 +269,24 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
                 <ElevationProfile profile={activeProfile} />
               </div>
             )}
+
+            {/* 활성 코스 후기 — 같은 섹션 안에 즉시 표시 */}
+            {selectedRouteId && (
+              <div className="mt-3 -mx-5">
+                <ReviewSection
+                  targetType="route"
+                  targetId={selectedRouteId}
+                  targetName={routes.find(r => r.route_id === selectedRouteId)?.name_ko || '코스'}
+                  compact
+                />
+              </div>
+            )}
           </section>
         ) : (
           <section className="px-5 py-4 border-b border-gray-100">
             <h3 className="text-sm font-bold text-gray-900 mb-1">등산 코스</h3>
             <p className="text-xs text-gray-500 italic">OSM에 등산로 데이터가 부족해 코스 라인이 없습니다.</p>
           </section>
-        )}
-
-        {/* 활성 코스 후기 (코스 선택 시) */}
-        {selectedRouteId && (
-          <ReviewSection
-            targetType="route"
-            targetId={selectedRouteId}
-            targetName={routes.find(r => r.route_id === selectedRouteId)?.name_ko || '코스'}
-            compact
-          />
         )}
 
         {/* 산장 */}
@@ -402,17 +404,19 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
                 );
               })}
             </ul>
-          </section>
-        )}
 
-        {/* 선택된 산장 후기 */}
-        {selectedHutId && (
-          <ReviewSection
-            targetType="hut"
-            targetId={selectedHutId}
-            targetName={mountainHuts.find(h => h.properties.id === selectedHutId)?.properties.name || '산장'}
-            compact
-          />
+            {/* 선택된 산장 후기 — 같은 섹션 안 */}
+            {selectedHutId && (
+              <div className="mt-3 -mx-5">
+                <ReviewSection
+                  targetType="hut"
+                  targetId={selectedHutId}
+                  targetName={mountainHuts.find(h => h.properties.id === selectedHutId)?.properties.name || '산장'}
+                  compact
+                />
+              </div>
+            )}
+          </section>
         )}
 
         {/* 자동차 경로 — 사용자 입력 출발지에서 산까지 */}
