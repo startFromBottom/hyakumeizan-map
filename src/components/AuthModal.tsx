@@ -14,6 +14,8 @@ export default function AuthModal({ open, onClose }: Props) {
   const [step, setStep] = useState<Step>('email');
   const [email, setEmail] = useState('');
   const [code, setCode] = useState('');
+  const [password, setPassword] = useState('');
+  const [usePassword, setUsePassword] = useState(false);  // 비밀번호 로그인 모드 (개발/테스트용)
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const codeInputRef = useRef<HTMLInputElement>(null);
@@ -81,11 +83,34 @@ export default function AuthModal({ open, onClose }: Props) {
     }
   };
 
+  const signInWithPassword = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setError(null);
+    const sb = getSupabase();
+    if (!sb) return;
+    if (!email.trim() || !password) return;
+    setBusy(true);
+    try {
+      const { error: err } = await sb.auth.signInWithPassword({
+        email: email.trim(),
+        password,
+      });
+      if (err) throw err;
+      handleClose();
+    } catch (e: any) {
+      setError(e?.message ?? '로그인 실패. 이메일·비밀번호를 확인해주세요.');
+    } finally {
+      setBusy(false);
+    }
+  };
+
   const handleClose = () => {
     if (busy) return;
     setEmail('');
     setCode('');
+    setPassword('');
     setStep('email');
+    setUsePassword(false);
     setError(null);
     onClose();
   };
@@ -112,10 +137,11 @@ export default function AuthModal({ open, onClose }: Props) {
         {step === 'email' ? (
           <>
             <p className="text-xs text-gray-500 mb-3 leading-relaxed">
-              이메일을 입력하면 6자리 인증 코드를 보내드려요.<br/>
-              가입과 로그인이 같은 흐름이에요. 비밀번호 없음.
+              {usePassword
+                ? '이메일과 비밀번호로 로그인합니다.'
+                : '이메일을 입력하면 인증 코드를 보내드려요. 가입과 로그인이 같은 흐름이에요.'}
             </p>
-            <form onSubmit={sendCode} className="space-y-3">
+            <form onSubmit={usePassword ? signInWithPassword : sendCode} className="space-y-3">
               <input
                 type="email"
                 required
@@ -126,16 +152,36 @@ export default function AuthModal({ open, onClose }: Props) {
                 className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-brand"
                 autoFocus
               />
+              {usePassword && (
+                <input
+                  type="password"
+                  required
+                  value={password}
+                  onChange={e => setPassword(e.target.value)}
+                  placeholder="비밀번호"
+                  disabled={busy}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md text-sm focus:outline-none focus:ring-2 focus:ring-brand"
+                />
+              )}
               <button
                 type="submit"
-                disabled={busy || !email.trim()}
+                disabled={busy || !email.trim() || (usePassword && !password)}
                 className="w-full px-4 py-2 bg-brand text-white rounded-md font-semibold text-sm hover:bg-brand-dark disabled:opacity-50 transition">
-                {busy ? '전송 중...' : '✉️ 인증 코드 받기'}
+                {busy ? '...' : usePassword ? '🔑 로그인' : '✉️ 인증 코드 받기'}
               </button>
             </form>
             {error && (
               <div className="mt-3 text-xs text-red-600">⚠ {error}</div>
             )}
+            <div className="mt-3 text-center">
+              <button
+                type="button"
+                onClick={() => { setUsePassword(p => !p); setError(null); }}
+                disabled={busy}
+                className="text-[11px] text-gray-500 hover:text-brand underline-offset-2 hover:underline">
+                {usePassword ? '← 인증 코드로 로그인' : '비밀번호로 로그인 →'}
+              </button>
+            </div>
             <div className="mt-4 pt-4 border-t border-gray-100 text-[11px] text-gray-400 leading-relaxed">
               💡 가입하면 산을 ⭐ 즐겨찾기 하거나 다녀온 산을 ✓ 체크인할 수 있어요.
               <br/>이메일은 로그인에만 사용해요.
