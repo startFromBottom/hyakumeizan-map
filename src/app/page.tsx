@@ -7,6 +7,7 @@ import type { Mountain, RouteProfile, HutsGeoJSON, LodgingsGeoJSON, StationsGeoJ
 import { DEFAULT_FILTER, FilterState, matches } from '@/lib/filter';
 import Sidebar, { SortKey } from '@/components/Sidebar';
 import DetailPanel from '@/components/DetailPanel';
+import AuthHeader from '@/components/AuthHeader';
 
 const MapView = dynamic(() => import('@/components/MapView'), { ssr: false });
 
@@ -110,6 +111,8 @@ export default function Page() {
             {showSidebar ? '◀ 사이드바' : '▶ 사이드바'}
           </button>
         )}
+
+        <AuthHeader />
 
         {mountains.length > 0 && (
           <MapView
