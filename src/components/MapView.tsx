@@ -69,6 +69,9 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
 
       const L = (await import('leaflet')).default;
       if (cancelled) return;
+      // markercluster 부착 — L.markerClusterGroup() 함수 추가됨
+      await import('leaflet.markercluster');
+      if (cancelled) return;
       LRef.current = L;
 
       const map = L.map(containerRef.current, {
@@ -130,7 +133,9 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
 
       // 산장 layer (마커는 미리 만들어두고, 산 선택 시 add/remove)
       if (huts) {
-        const hutsLayer = L.layerGroup();
+        const hutsLayer = (L as any).markerClusterGroup
+          ? (L as any).markerClusterGroup({ disableClusteringAtZoom: 12, spiderfyOnMaxZoom: true, maxClusterRadius: 40 })
+          : L.layerGroup();
         hutsLayerRef.current = hutsLayer;
         const hutIcon = L.divIcon({ className: 'hut-marker', html: '', iconSize: [22, 22] });
         // 각 산장이 어느 산에 속하는지 찾아 인덱싱
@@ -229,7 +234,9 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
 
       // 숙소 layer
       if (lodgings) {
-        const lodgingsLayer = L.layerGroup();
+        const lodgingsLayer = (L as any).markerClusterGroup
+          ? (L as any).markerClusterGroup({ disableClusteringAtZoom: 14, spiderfyOnMaxZoom: true, maxClusterRadius: 50 })
+          : L.layerGroup();
         lodgingsLayerRef.current = lodgingsLayer;
         // mountain_no -> lodging markers (베이스타운 osm_id 매칭)
         const townToMountains = new Map<string, number[]>();
@@ -281,7 +288,9 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
 
       // 역 layer
       if (stations) {
-        const stationsLayer = L.layerGroup();
+        const stationsLayer = (L as any).markerClusterGroup
+          ? (L as any).markerClusterGroup({ disableClusteringAtZoom: 13, spiderfyOnMaxZoom: true, maxClusterRadius: 45 })
+          : L.layerGroup();
         stationsLayerRef.current = stationsLayer;
         // 산별 역 매핑 (산의 stations 필드 활용)
         const stationByOsmId = new Map<string, StationFeature>();
@@ -347,7 +356,9 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
 
       // 주차장 layer
       if (parking) {
-        const pLayer = L.layerGroup();
+        const pLayer = (L as any).markerClusterGroup
+          ? (L as any).markerClusterGroup({ disableClusteringAtZoom: 14, spiderfyOnMaxZoom: true, maxClusterRadius: 35 })
+          : L.layerGroup();
         parkingLayerRef.current = pLayer;
         parking.features.forEach((f: ParkingFeature) => {
           const [lon, lat] = f.geometry.coordinates;

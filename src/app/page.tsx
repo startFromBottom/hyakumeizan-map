@@ -8,6 +8,9 @@ import { DEFAULT_FILTER, FilterState, matches } from '@/lib/filter';
 import Sidebar, { SortKey } from '@/components/Sidebar';
 import DetailPanel from '@/components/DetailPanel';
 import AuthHeader from '@/components/AuthHeader';
+import LoadingScreen from '@/components/LoadingScreen';
+import { useUrlSync } from '@/lib/useUrlSync';
+import ShareButton from '@/components/ShareButton';
 
 const MapView = dynamic(() => import('@/components/MapView'), { ssr: false });
 
@@ -32,15 +35,31 @@ export default function Page() {
   const [selectedLodgingId, setSelectedLodgingId] = useState<string | null>(null);
   const [showSidebar, setShowSidebar] = useState(true);
 
+  // 데이터 로딩 상태 (첫 진입 시 LoadingScreen용)
+  const [loadFlags, setLoadFlags] = useState({
+    mountains: false, geojson: false, profiles: false,
+    huts: false, lodgings: false, stations: false, parking: false,
+  });
+
   useEffect(() => {
-    loadMountains().then(setMountains);
-    loadRoutesGeoJSON().then(setGeojson);
-    loadProfiles().then(setProfiles);
-    loadHuts().then(setHuts);
-    loadLodgings().then(setLodgings);
-    loadStations().then(setStations);
-    loadParking().then(setParking);
+    loadMountains().then(d => { setMountains(d); setLoadFlags(f => ({ ...f, mountains: true })); });
+    loadRoutesGeoJSON().then(d => { setGeojson(d); setLoadFlags(f => ({ ...f, geojson: true })); });
+    loadProfiles().then(d => { setProfiles(d); setLoadFlags(f => ({ ...f, profiles: true })); });
+    loadHuts().then(d => { setHuts(d); setLoadFlags(f => ({ ...f, huts: true })); });
+    loadLodgings().then(d => { setLodgings(d); setLoadFlags(f => ({ ...f, lodgings: true })); });
+    loadStations().then(d => { setStations(d); setLoadFlags(f => ({ ...f, stations: true })); });
+    loadParking().then(d => { setParking(d); setLoadFlags(f => ({ ...f, parking: true })); });
   }, []);
+
+  // 로딩 진행률 — mountains는 필수, 나머지는 부분 가중치
+  const loadProgress = useMemo(() => {
+    const flags = loadFlags;
+    const all = Object.values(flags);
+    const done = all.filter(Boolean).length;
+    return done / all.length;
+  }, [loadFlags]);
+
+  const isInitialLoading = !loadFlags.mountains;
 
   const filtered = useMemo(() => mountains.filter(m => matches(m, filter)), [mountains, filter]);
 
@@ -82,6 +101,15 @@ export default function Page() {
     setSelectedNo(no);
   };
 
+  // URL ?m=&r= 동기화 — 진입 시 자동 선택, 변경 시 URL 갱신
+  useUrlSync({
+    selectedNo, selectedRouteId,
+    onInit: (no, rid) => {
+      if (no != null) setSelectedNo(no);
+      if (rid) setSelectedRouteId(rid);
+    },
+  });
+
   // 모바일 분기
   const [isMobile, setIsMobile] = useState(false);
   useEffect(() => {
@@ -90,6 +118,24 @@ export default function Page() {
     window.addEventListener('resize', check);
     return () => window.removeEventListener('resize', check);
   }, []);
+
+  // 첫 진입 시 — mountains 데이터 도착 전까지 로딩 화면
+  if (isInitialLoading) {
+    return (
+      <LoadingScreen
+        progress={loadProgress}
+        steps={[
+          { label: '100명산 메타데이터', done: loadFlags.mountains },
+          { label: '등산로 폴리라인', done: loadFlags.geojson },
+          { label: '표고 프로필', done: loadFlags.profiles },
+          { label: '산장 · 대피소', done: loadFlags.huts },
+          { label: '베이스타운 · 숙소', done: loadFlags.lodgings },
+          { label: '역 · 터미널', done: loadFlags.stations },
+          { label: '트레일헤드 주차장', done: loadFlags.parking },
+        ]}
+      />
+    );
+  }
 
   return (
     <main className="fixed inset-0 flex overflow-hidden">
@@ -114,6 +160,7 @@ export default function Page() {
           </button>
         )}
 
+        <ShareButton selectedNo={selectedNo} selectedRouteId={selectedRouteId} />
         <AuthHeader />
 
         {mountains.length > 0 && (
