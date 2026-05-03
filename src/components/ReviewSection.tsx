@@ -18,6 +18,13 @@ const TYPE_LABEL: Record<ReviewTargetType, string> = {
   lodging: '숙소',
 };
 
+const SECTION_TITLE: Record<ReviewTargetType, string> = {
+  mountain: '산 후기',
+  route: '코스 후기',
+  hut: '산장 후기',
+  lodging: '숙소 후기',
+};
+
 export default function ReviewSection({ targetType, targetId, targetName, compact }: Props) {
   const { user, configured, openLogin } = useAuth();
   const { reviews, myReview, stats, loaded, submit, remove } = useReviews(targetType, targetId);
@@ -68,9 +75,9 @@ export default function ReviewSection({ targetType, targetId, targetName, compac
 
   return (
     <section className={`px-5 ${compact ? 'py-3' : 'py-4'} border-b border-gray-100`}>
-      <div className="flex items-baseline justify-between mb-2">
-        <h3 className={`${compact ? 'text-xs' : 'text-sm'} font-bold text-gray-900`}>
-          💬 후기 {TYPE_LABEL[targetType]}
+      <div className="flex items-baseline justify-between mb-2 gap-2">
+        <h3 className={`${compact ? 'text-xs' : 'text-sm'} font-bold text-gray-900 flex-shrink-0`}>
+          💬 {SECTION_TITLE[targetType]}
           {loaded && stats.count > 0 && (
             <span className="ml-2 text-amber-600 font-mono text-xs">
               ★ {stats.avg?.toFixed(1)}
@@ -80,8 +87,12 @@ export default function ReviewSection({ targetType, targetId, targetName, compac
         </h3>
         {!editing && (
           <button onClick={onClickWrite}
-            className="text-[11px] text-brand hover:underline font-semibold">
-            {myReview ? '수정' : '+ 후기 쓰기'}
+            className={`px-2.5 py-1 rounded-md text-[11px] font-semibold border transition flex-shrink-0 ${
+              myReview
+                ? 'border-amber-300 bg-white text-amber-700 hover:bg-amber-50'
+                : 'border-amber-400 bg-amber-400 text-white hover:bg-amber-500'
+            }`}>
+            {myReview ? '✏️ 수정' : '✏️ 후기 쓰기'}
           </button>
         )}
       </div>
