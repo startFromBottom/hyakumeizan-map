@@ -29,6 +29,7 @@ export default function Page() {
   const [selectedNo, setSelectedNo] = useState<number | null>(null);
   const [selectedRouteId, setSelectedRouteId] = useState<string | null>(null);
   const [selectedHutId, setSelectedHutId] = useState<string | null>(null);
+  const [selectedLodgingId, setSelectedLodgingId] = useState<string | null>(null);
   const [showSidebar, setShowSidebar] = useState(true);
 
   useEffect(() => {
@@ -75,6 +76,7 @@ export default function Page() {
     if (no !== selectedNo) {
       setSelectedRouteId(null);
       setSelectedHutId(null);
+      setSelectedLodgingId(null);
       setPlannedRoute(null);   // 이전 산의 자동차 경로 폴리라인 제거
     }
     setSelectedNo(no);
@@ -141,11 +143,13 @@ export default function Page() {
             parking={parking}
             selectedRouteId={selectedRouteId}
             selectedHutId={selectedHutId}
+            selectedLodgingId={selectedLodgingId}
             onSelectRoute={setSelectedRouteId}
             onSelectHut={setSelectedHutId}
+            onSelectLodging={setSelectedLodgingId}
             onFocus={focus}
             onPlannedRoute={(rt, label) => setPlannedRoute(rt ? { geometry: rt.geometry, label } : null)}
-            onClose={() => { setSelectedNo(null); setSelectedRouteId(null); setSelectedHutId(null); setPlannedRoute(null); }}
+            onClose={() => { setSelectedNo(null); setSelectedRouteId(null); setSelectedHutId(null); setSelectedLodgingId(null); setPlannedRoute(null); }}
           />
         )}
 
@@ -158,8 +162,10 @@ export default function Page() {
             parking={parking}
             selectedRouteId={selectedRouteId}
             selectedHutId={selectedHutId}
+            selectedLodgingId={selectedLodgingId}
             onSelectRoute={setSelectedRouteId}
             onSelectHut={setSelectedHutId}
+            onSelectLodging={setSelectedLodgingId}
             onFocus={focus}
             onPlannedRoute={(rt: any, label: string) => setPlannedRoute(rt ? { geometry: rt.geometry, label } : null)}
             mountains={sorted}
@@ -168,7 +174,7 @@ export default function Page() {
             sortKey={sortKey}
             setSortKey={setSortKey}
             onSelect={handleSelectMountain}
-            onCloseDetail={() => { setSelectedNo(null); setSelectedRouteId(null); setSelectedHutId(null); }}
+            onCloseDetail={() => { setSelectedNo(null); setSelectedRouteId(null); setSelectedHutId(null); setSelectedLodgingId(null); }}
             totalCount={mountains.length}
           />
         )}

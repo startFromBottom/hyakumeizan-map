@@ -6,6 +6,7 @@ import type { RouteResult } from '@/lib/routing';
 import ElevationProfile from './ElevationProfile';
 import RoutePlanner from './RoutePlanner';
 import MountainActions from './MountainActions';
+import ReviewSection from './ReviewSection';
 
 function PhotoGallery({ mountain }: { mountain: Mountain }) {
   // images 배열이 있으면 사용, 없으면 image 단일 사진을 1장짜리 배열로 변환
@@ -89,8 +90,10 @@ interface Props {
   parking: ParkingGeoJSON | null;
   selectedRouteId: string | null;
   selectedHutId: string | null;
+  selectedLodgingId?: string | null;
   onSelectRoute: (routeId: string | null) => void;
   onSelectHut: (hutId: string | null) => void;
+  onSelectLodging?: (lodgingId: string | null) => void;
   onFocus?: (kind: 'station'|'hut'|'lodging'|'parking'|'town', id: string) => void;
   onPlannedRoute?: (rt: RouteResult | null, fromLabel: string) => void;
   onClose: () => void;
@@ -106,7 +109,7 @@ function Stars({ n }: { n?: number | null }) {
   );
 }
 
-export default function DetailPanel({ mountain, profilesById, huts, lodgings, parking, selectedRouteId, selectedHutId, onSelectRoute, onSelectHut, onFocus, onPlannedRoute, onClose, inline = false }: Props) {
+export default function DetailPanel({ mountain, profilesById, huts, lodgings, parking, selectedRouteId, selectedHutId, selectedLodgingId, onSelectRoute, onSelectHut, onSelectLodging, onFocus, onPlannedRoute, onClose, inline = false }: Props) {
   const mountainHuts = useMemo<HutFeature[]>(() => {
     if (!mountain || !huts) return [];
     const hutIds = new Set(mountain.hut_ids ?? []);
@@ -203,6 +206,13 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
           )}
         </section>
 
+        {/* 산 후기·평점 */}
+        <ReviewSection
+          targetType="mountain"
+          targetId={String(mountain.no)}
+          targetName={mountain.name_ko}
+        />
+
         {/* 코스 리스트 */}
         {routes.length > 0 ? (
           <section className="px-5 py-4 border-b border-gray-100">
@@ -265,6 +275,16 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
             <h3 className="text-sm font-bold text-gray-900 mb-1">등산 코스</h3>
             <p className="text-xs text-gray-500 italic">OSM에 등산로 데이터가 부족해 코스 라인이 없습니다.</p>
           </section>
+        )}
+
+        {/* 활성 코스 후기 (코스 선택 시) */}
+        {selectedRouteId && (
+          <ReviewSection
+            targetType="route"
+            targetId={selectedRouteId}
+            targetName={routes.find(r => r.route_id === selectedRouteId)?.name_ko || '코스'}
+            compact
+          />
         )}
 
         {/* 산장 */}
@@ -385,6 +405,16 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
           </section>
         )}
 
+        {/* 선택된 산장 후기 */}
+        {selectedHutId && (
+          <ReviewSection
+            targetType="hut"
+            targetId={selectedHutId}
+            targetName={mountainHuts.find(h => h.properties.id === selectedHutId)?.properties.name || '산장'}
+            compact
+          />
+        )}
+
         {/* 자동차 경로 — 사용자 입력 출발지에서 산까지 */}
         <RoutePlanner
           destLat={mountain.coordinates.lat}
@@ -462,10 +492,16 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
                       p.kind === 'hostel' ? '호스텔' :
                       p.kind === 'apartment' ? '아파트' :
                       p.kind;
+                    const isSelLodging = selectedLodgingId === p.id;
                     return (
                       <li key={p.id}
-                        onClick={() => onFocus?.('lodging', p.id)}
-                        className="px-2.5 py-1.5 rounded bg-white border border-gray-100 cursor-pointer hover:border-brand hover:bg-brand-light transition">
+                        onClick={() => {
+                          onFocus?.('lodging', p.id);
+                          onSelectLodging?.(isSelLodging ? null : p.id);
+                        }}
+                        className={`px-2.5 py-1.5 rounded bg-white border cursor-pointer transition ${
+                          isSelLodging ? 'border-amber-400 bg-amber-50' : 'border-gray-100 hover:border-brand hover:bg-brand-light'
+                        }`}>
                         <div className="flex items-baseline justify-between gap-2">
                           <div className="min-w-0 flex-1">
                             <div className="text-[12px] font-medium text-gray-900 truncate">
@@ -531,6 +567,17 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
                   </div>
                 )}
               </details>
+            )}
+            {/* 선택된 숙소 후기 (인라인) */}
+            {selectedLodgingId && (
+              <div className="mt-3 -mx-5">
+                <ReviewSection
+                  targetType="lodging"
+                  targetId={selectedLodgingId}
+                  targetName={mountainLodgings.find(l => l.properties.id === selectedLodgingId)?.properties.name || '숙소'}
+                  compact
+                />
+              </div>
             )}
           </section>
         )}

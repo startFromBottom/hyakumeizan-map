@@ -4,6 +4,8 @@ import type { Mountain } from '@/lib/types';
 import { ALL_REGIONS, DEFAULT_FILTER, FilterState } from '@/lib/filter';
 import { useFavorites } from '@/lib/useFavorites';
 import { useCheckins } from '@/lib/useCheckins';
+import { useReviewStatsBulk } from '@/lib/useReviews';
+import { useMemo } from 'react';
 
 export type SortKey =
   | 'no'              // 후카다 원작 1~100 순서 (북→남)
@@ -42,6 +44,9 @@ function Stars({ n }: { n?: number | null }) {
 export default function Sidebar({ mountains, filter, setFilter, sortKey, setSortKey, selectedNo, onSelect, totalCount }: Props) {
   const fav = useFavorites();
   const ci = useCheckins();
+  // 표시되는 산들의 후기 평점 일괄 조회
+  const visibleIds = useMemo(() => mountains.map(m => String(m.no)), [mountains]);
+  const { statsMap } = useReviewStatsBulk('mountain', visibleIds);
   const toggleRegion = (r: any) => {
     const next = new Set(filter.regions);
     if (next.has(r)) next.delete(r); else next.add(r);
@@ -215,6 +220,13 @@ export default function Sidebar({ mountains, filter, setFilter, sortKey, setSort
                       {m.routes && m.routes.length > 1 && (
                         <span className="text-brand ml-1.5">· {m.routes.length}코스</span>
                       )}
+                      {(() => {
+                        const s = statsMap[String(m.no)];
+                        if (!s || !s.avg) return null;
+                        return (
+                          <span className="ml-1.5 text-amber-600">· ★ {s.avg.toFixed(1)} <span className="text-gray-400">({s.count})</span></span>
+                        );
+                      })()}
                     </div>
                   )}
                 </button>
