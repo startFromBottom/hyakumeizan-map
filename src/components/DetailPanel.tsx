@@ -5,6 +5,7 @@ import type { Mountain, RouteProfile, HutsGeoJSON, HutFeature, LodgingsGeoJSON, 
 import type { RouteResult } from '@/lib/routing';
 import ElevationProfile from './ElevationProfile';
 import RoutePlanner from './RoutePlanner';
+import MountainActions from './MountainActions';
 
 function PhotoGallery({ mountain }: { mountain: Mountain }) {
   // images 배열이 있으면 사용, 없으면 image 단일 사진을 1장짜리 배열로 변환
@@ -174,6 +175,9 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
       </header>
 
       <div className="flex-1 overflow-y-auto scrollbar-thin">
+        {/* 즐겨찾기 / 체크인 액션 */}
+        <MountainActions mountainNo={mountain.no} mountainName={mountain.name_ko} />
+
         <section className="px-5 py-4 border-b border-gray-100">
           <p className="text-sm text-gray-700 leading-relaxed">{mountain.summary_ko}</p>
 

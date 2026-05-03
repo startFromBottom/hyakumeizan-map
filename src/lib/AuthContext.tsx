@@ -10,18 +10,28 @@ interface AuthState {
   loading: boolean;        // 첫 세션 로딩 중
   configured: boolean;     // env 셋업 여부
   signOut: () => Promise<void>;
+  // 어디서든 로그인 모달을 열 수 있게
+  loginModalOpen: boolean;
+  openLogin: () => void;
+  closeLogin: () => void;
 }
 
 const AuthContext = createContext<AuthState>({
   user: null, session: null, loading: true, configured: false,
   signOut: async () => {},
+  loginModalOpen: false,
+  openLogin: () => {},
+  closeLogin: () => {},
 });
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
   const [session, setSession] = useState<Session | null>(null);
   const [loading, setLoading] = useState(true);
+  const [loginModalOpen, setLoginModalOpen] = useState(false);
   const configured = isSupabaseConfigured();
+  const openLogin = () => setLoginModalOpen(true);
+  const closeLogin = () => setLoginModalOpen(false);
 
   useEffect(() => {
     const sb = getSupabase();
@@ -49,7 +59,7 @@ export function AuthProvider({ children }: { children: ReactNode }) {
   };
 
   return (
-    <AuthContext.Provider value={{ user, session, loading, configured, signOut }}>
+    <AuthContext.Provider value={{ user, session, loading, configured, signOut, loginModalOpen, openLogin, closeLogin }}>
       {children}
     </AuthContext.Provider>
   );

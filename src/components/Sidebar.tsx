@@ -2,6 +2,8 @@
 
 import type { Mountain } from '@/lib/types';
 import { ALL_REGIONS, DEFAULT_FILTER, FilterState } from '@/lib/filter';
+import { useFavorites } from '@/lib/useFavorites';
+import { useCheckins } from '@/lib/useCheckins';
 
 export type SortKey =
   | 'no'              // 후카다 원작 1~100 순서 (북→남)
@@ -38,6 +40,8 @@ function Stars({ n }: { n?: number | null }) {
 }
 
 export default function Sidebar({ mountains, filter, setFilter, sortKey, setSortKey, selectedNo, onSelect, totalCount }: Props) {
+  const fav = useFavorites();
+  const ci = useCheckins();
   const toggleRegion = (r: any) => {
     const next = new Set(filter.regions);
     if (next.has(r)) next.delete(r); else next.add(r);
@@ -195,6 +199,8 @@ export default function Sidebar({ mountains, filter, setFilter, sortKey, setSort
                       <div className="text-sm font-semibold text-gray-900 truncate">
                         <span className="text-gray-400 mr-1.5">#{m.no}</span>
                         {m.name_ko}
+                        {fav.isFav(m.no) && <span className="ml-1 text-amber-500">⭐</span>}
+                        {ci.isClimbed(m.no) && <span className="ml-1 text-emerald-600">✓</span>}
                       </div>
                       <div className="text-xs text-gray-500 truncate">{m.name_ja} · {m.prefectures_ko}</div>
                     </div>
