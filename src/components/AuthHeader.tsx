@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useAuth } from '@/lib/AuthContext';
 import AuthModal from './AuthModal';
 
@@ -8,6 +8,11 @@ export default function AuthHeader() {
   const { user, loading, configured, signOut } = useAuth();
   const [modalOpen, setModalOpen] = useState(false);
   const [menuOpen, setMenuOpen] = useState(false);
+
+  // SSR/CSR hydration mismatch 방지 — 클라이언트 마운트 후에만 렌더
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => { setMounted(true); }, []);
+  if (!mounted) return null;
 
   // env 셋업 안 된 환경에서는 아무것도 표시 안 함 (로컬 dev에서 .env.local 깜빡한 경우 등)
   if (!configured) return null;
