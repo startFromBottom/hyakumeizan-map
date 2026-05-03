@@ -60,8 +60,8 @@ export default function AuthModal({ open, onClose }: Props) {
     const sb = getSupabase();
     if (!sb) return;
     const cleanCode = code.replace(/\D/g, '');
-    if (cleanCode.length !== 6) {
-      setError('6자리 숫자를 입력해주세요.');
+    if (cleanCode.length < 6 || cleanCode.length > 8) {
+      setError('인증 코드를 입력해주세요.');
       return;
     }
     setBusy(true);
@@ -145,7 +145,7 @@ export default function AuthModal({ open, onClose }: Props) {
           <>
             <p className="text-xs text-gray-500 mb-3 leading-relaxed">
               <span className="font-semibold text-gray-700">{email}</span> 으로 보낸<br/>
-              6자리 코드를 입력해주세요. (도착이 늦으면 스팸함도 확인)
+              인증 코드를 입력해주세요. (도착이 늦으면 스팸함도 확인)
             </p>
             <form onSubmit={verify} className="space-y-3">
               <input
@@ -153,27 +153,27 @@ export default function AuthModal({ open, onClose }: Props) {
                 type="text"
                 inputMode="numeric"
                 pattern="[0-9]*"
-                maxLength={6}
+                maxLength={8}
                 value={code}
                 onChange={e => {
-                  const v = e.target.value.replace(/\D/g, '').slice(0, 6);
+                  const v = e.target.value.replace(/\D/g, '').slice(0, 8);
                   setCode(v);
-                  // 6자리 다 입력되면 자동 제출
-                  if (v.length === 6) {
+                  // 6자리 또는 8자리 다 입력되면 자동 제출
+                  if (v.length === 6 || v.length === 8) {
                     setTimeout(() => {
                       const form = e.currentTarget.form;
                       if (form && !busy) form.requestSubmit();
                     }, 100);
                   }
                 }}
-                placeholder="● ● ● ● ● ●"
+                placeholder="인증 코드"
                 disabled={busy}
                 autoComplete="one-time-code"
-                className="w-full px-3 py-3 border border-gray-300 rounded-md text-center text-2xl font-mono tracking-[0.5em] focus:outline-none focus:ring-2 focus:ring-brand"
+                className="w-full px-3 py-3 border border-gray-300 rounded-md text-center text-2xl font-mono tracking-[0.3em] focus:outline-none focus:ring-2 focus:ring-brand"
               />
               <button
                 type="submit"
-                disabled={busy || code.length !== 6}
+                disabled={busy || code.length < 6}
                 className="w-full px-4 py-2 bg-brand text-white rounded-md font-semibold text-sm hover:bg-brand-dark disabled:opacity-50 transition">
                 {busy ? '확인 중...' : '로그인'}
               </button>
