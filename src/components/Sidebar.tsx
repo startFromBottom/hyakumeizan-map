@@ -107,6 +107,11 @@ export default function Sidebar({ mountains, filter, setFilter, sortKey, setSort
             </button>
           )}
         </div>
+        {filter.query.trim() && (
+          <div className="mt-1 text-[11px] text-gray-500">
+            <span className="font-semibold text-gray-700">"{filter.query.trim()}"</span> 검색 결과 — {mountains.length}건
+          </div>
+        )}
 
         <div>
           <div className="text-xs font-semibold text-gray-700 mb-1">지역</div>
@@ -235,8 +240,16 @@ export default function Sidebar({ mountains, filter, setFilter, sortKey, setSort
           })}
           {mountains.length === 0 && (
             <li className="px-6 py-10 text-center">
-              <div className="text-sm text-gray-700 font-semibold mb-1">조건에 맞는 산이 없어요</div>
-              <div className="text-xs text-gray-500 mb-3">필터를 너무 좁게 잡았을 수 있어요.<br/>예: 표고 범위가 일본 100명산 분포와 안 맞을 때</div>
+              <div className="text-sm text-gray-700 font-semibold mb-1">
+                {filter.query.trim() ? '검색 결과가 없어요' : '조건에 맞는 산이 없어요'}
+              </div>
+              <div className="text-xs text-gray-500 mb-3">
+                {filter.query.trim() ? (
+                  <>한자, yomi(히라가나), 영어로도 검색 가능해요.<br/>예: <span className="font-mono text-gray-700">富士</span>, <span className="font-mono text-gray-700">ふじ</span>, <span className="font-mono text-gray-700">fuji</span></>
+                ) : (
+                  <>필터를 너무 좁게 잡았을 수 있어요.<br/>예: 표고 범위가 일본 100명산 분포와 안 맞을 때</>
+                )}
+              </div>
               <button
                 onClick={() => setFilter({ ...DEFAULT_FILTER, regions: new Set(), difficultyStars: new Set() })}
                 className="px-3 py-1.5 rounded bg-brand text-white text-xs font-semibold hover:bg-brand-dark"

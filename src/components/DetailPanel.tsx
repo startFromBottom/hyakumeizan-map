@@ -181,7 +181,7 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
         {/* 즐겨찾기 / 체크인 액션 */}
         <MountainActions mountainNo={mountain.no} mountainName={mountain.name_ko} />
 
-        <section className="px-5 py-4 border-b border-gray-100">
+        <section id="sec-summary" className="px-5 py-4 border-b border-gray-100">
           <p className="text-sm text-gray-700 leading-relaxed">{mountain.summary_ko}</p>
 
           {/* 대표 사진 갤러리 (최대 3장) */}
@@ -207,15 +207,17 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
         </section>
 
         {/* 산 후기·평점 */}
-        <ReviewSection
-          targetType="mountain"
-          targetId={String(mountain.no)}
-          targetName={mountain.name_ko}
-        />
+        <div id="sec-reviews">
+          <ReviewSection
+            targetType="mountain"
+            targetId={String(mountain.no)}
+            targetName={mountain.name_ko}
+          />
+        </div>
 
         {/* 코스 리스트 */}
         {routes.length > 0 ? (
-          <section className="px-5 py-4 border-b border-gray-100">
+          <section id="sec-routes" className="px-5 py-4 border-b border-gray-100">
             <div className="flex items-baseline justify-between mb-2">
               <h3 className="text-sm font-bold text-gray-900">등산 코스 ({routes.length}개)</h3>
               {selectedRouteId && (
@@ -291,7 +293,7 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
 
         {/* 산장 */}
         {mountainHuts.length > 0 && (
-          <section className="px-5 py-4 border-b border-gray-100">
+          <section id="sec-huts" className="px-5 py-4 border-b border-gray-100">
             <h3 className="text-sm font-bold text-gray-900 mb-2">
               산장·대피소 <span className="text-xs text-gray-500 font-normal">({mountainHuts.length}곳)</span>
             </h3>
@@ -453,7 +455,7 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
 
         {/* 베이스타운 + 숙소 */}
         {mountain.base_towns && mountain.base_towns.length > 0 && (
-          <section className="px-5 py-4 border-b border-gray-100">
+          <section id="sec-lodgings" className="px-5 py-4 border-b border-gray-100">
             <h3 className="text-sm font-bold text-gray-900 mb-2">
               베이스타운 <span className="text-xs text-gray-500 font-normal">(등산 거점 도시)</span>
             </h3>
@@ -588,7 +590,7 @@ export default function DetailPanel({ mountain, profilesById, huts, lodgings, pa
 
         {/* 교통 — 가장 가까운 역 + 환승 검색 */}
         {mountain.stations && mountain.stations.length > 0 && (
-          <section className="px-5 py-4 border-b border-gray-100">
+          <section id="sec-transit" className="px-5 py-4 border-b border-gray-100">
             <h3 className="text-sm font-bold text-gray-900 mb-2">
               🚉 교통 <span className="text-xs text-gray-500 font-normal">(가까운 역·터미널)</span>
             </h3>
