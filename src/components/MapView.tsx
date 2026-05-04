@@ -19,6 +19,7 @@ interface Props {
   plannedRoute?: { geometry: any; label: string } | null;
   onSelect: (no: number) => void;
   onSelectHut?: (hutId: string | null) => void;
+  onMapClick?: () => void;   // 지도 빈 곳 클릭 — 모바일 시트 minimize용
 }
 
 const STYLE_DIM        = { color: '#1f6f43', weight: 1.5, opacity: 0.35 };  // 비선택 산
@@ -30,10 +31,13 @@ function escapeHtml(s: string | null | undefined): string {
   return String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
 }
 
-export default function MapView({ mountains, geojson, huts, lodgings, stations, parking, visibleNos, selectedNo, selectedRouteId, focusItem, plannedRoute, onSelect, onSelectHut }: Props) {
+export default function MapView({ mountains, geojson, huts, lodgings, stations, parking, visibleNos, selectedNo, selectedRouteId, focusItem, plannedRoute, onSelect, onSelectHut, onMapClick }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const LRef = useRef<any>(null);
   const mapRef = useRef<any>(null);
+  const onMapClickRef = useRef<(() => void) | undefined>(undefined);
+  // 항상 최신 콜백 참조 — leaflet handler는 한 번만 등록됨
+  onMapClickRef.current = onMapClick;
   const markersRef = useRef<Map<number, any>>(new Map());
   const markersLayerRef = useRef<any>(null);
   const linesLayerRef = useRef<any>(null);
@@ -97,6 +101,11 @@ export default function MapView({ mountains, geojson, huts, lodgings, stations, 
       const ro = new ResizeObserver(() => map.invalidateSize());
       ro.observe(containerRef.current!);
       (map as any)._resizeObserver = ro;
+
+      // 지도 빈 곳 클릭 → onMapClick 콜백 (모바일 시트 minimize용)
+      map.on('click', () => {
+        onMapClickRef.current?.();
+      });
 
       // 마커
       const mLayer = L.layerGroup().addTo(map);

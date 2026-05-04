@@ -59,7 +59,7 @@ export default function Sidebar({ mountains, filter, setFilter, sortKey, setSort
   };
 
   return (
-    <aside className="w-[360px] flex-shrink-0 h-full bg-white border-r border-gray-200 flex flex-col shadow-sm">
+    <aside className="w-full md:w-[360px] md:flex-shrink-0 h-full bg-white border-r border-gray-200 flex flex-col shadow-sm">
       <header className="px-4 py-3 border-b border-gray-200">
         <h1 className="text-lg font-bold text-brand-dark leading-tight">日本百名山</h1>
         <p className="text-xs text-gray-500 mt-0.5">일본 100대 명산 · 등산 코스 지도</p>

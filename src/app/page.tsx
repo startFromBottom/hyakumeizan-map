@@ -34,6 +34,8 @@ export default function Page() {
   const [selectedHutId, setSelectedHutId] = useState<string | null>(null);
   const [selectedLodgingId, setSelectedLodgingId] = useState<string | null>(null);
   const [showSidebar, setShowSidebar] = useState(true);
+  // 모바일 시트 상태 (page에서 관리 — 지도 클릭 시 minimize 가능하도록)
+  const [mobileSheet, setMobileSheet] = useState<'min'|'mid'|'max'>('mid');
 
   // 데이터 로딩 상태 (첫 진입 시 LoadingScreen용)
   const [loadFlags, setLoadFlags] = useState({
@@ -178,6 +180,7 @@ export default function Page() {
             plannedRoute={plannedRoute}
             onSelect={handleSelectMountain}
             onSelectHut={setSelectedHutId}
+            onMapClick={() => { if (isMobile) setMobileSheet('min'); }}
           />
         )}
 
@@ -223,6 +226,8 @@ export default function Page() {
             onSelect={handleSelectMountain}
             onCloseDetail={() => { setSelectedNo(null); setSelectedRouteId(null); setSelectedHutId(null); setSelectedLodgingId(null); }}
             totalCount={mountains.length}
+            sheetState={mobileSheet}
+            setSheetState={setMobileSheet}
           />
         )}
 
@@ -249,9 +254,10 @@ function Legend() {
 
 type SheetState = 'min' | 'mid' | 'max';
 
-function MobileSheet({ selected, profilesById, huts, lodgings, parking, selectedRouteId, selectedHutId, selectedLodgingId, onSelectRoute, onSelectHut, onSelectLodging, onFocus, onPlannedRoute, mountains, filter, setFilter, sortKey, setSortKey, onSelect, onCloseDetail, totalCount }: any) {
-  // 시트 3단계 상태: min(최소화, 헤더만) / mid(중간 60%) / max(최대 92%)
-  const [state, setState] = useState<SheetState>('mid');
+function MobileSheet({ selected, profilesById, huts, lodgings, parking, selectedRouteId, selectedHutId, selectedLodgingId, onSelectRoute, onSelectHut, onSelectLodging, onFocus, onPlannedRoute, mountains, filter, setFilter, sortKey, setSortKey, onSelect, onCloseDetail, totalCount, sheetState, setSheetState }: any) {
+  // 시트 3단계: page.tsx에서 lift up — 지도 클릭 시 외부에서 'min'으로 변경 가능
+  const state: SheetState = sheetState ?? 'mid';
+  const setState = setSheetState ?? (() => {});
   const sheetRef = useRef<HTMLDivElement>(null);
 
   // 산 변경 시 시트 mid + 맨 위로 스크롤
@@ -260,6 +266,7 @@ function MobileSheet({ selected, profilesById, huts, lodgings, parking, selected
       setState('mid');
       if (sheetRef.current) sheetRef.current.scrollTop = 0;
     }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [selected?.no]);
 
   const jumpTo = (id: string) => {
@@ -275,7 +282,8 @@ function MobileSheet({ selected, profilesById, huts, lodgings, parking, selected
 
   // 핸들 클릭: 순환 min → mid → max → mid → ...
   const onHandleClick = () => {
-    setState(s => s === 'min' ? 'mid' : s === 'mid' ? 'max' : 'mid');
+    const next: SheetState = state === 'min' ? 'mid' : state === 'mid' ? 'max' : 'mid';
+    setState(next);
   };
 
   // 시트 높이 클래스
