@@ -1,7 +1,6 @@
 'use client';
 
-import { createBrowserClient } from '@supabase/ssr';
-import type { SupabaseClient } from '@supabase/supabase-js';
+import { createClient, type SupabaseClient } from '@supabase/supabase-js';
 
 // 싱글턴 — 한 번만 만들고 재사용
 let _client: SupabaseClient | null = null;
@@ -21,7 +20,17 @@ export function getSupabase(): SupabaseClient | null {
     return null;
   }
 
-  _client = createBrowserClient(url, anon);
+  // 클라이언트 전용. flowType: 'pkce' 명시 — localStorage에 verifier 일관 저장.
+  // detectSessionInUrl: callback URL의 토큰/code 자동 처리.
+  _client = createClient(url, anon, {
+    auth: {
+      flowType: 'pkce',
+      autoRefreshToken: true,
+      persistSession: true,
+      detectSessionInUrl: true,
+      storage: typeof window !== 'undefined' ? window.localStorage : undefined,
+    },
+  });
   return _client;
 }
 

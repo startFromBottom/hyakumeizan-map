@@ -23,33 +23,51 @@ function CallbackInner() {
     let cancelled = false;
     (async () => {
       try {
-        // 1) PKCE flow — ?code=xxx 가 있으면 직접 교환
-        const code = sp.get('code');
+        // 0) URL 에러 파라미터 먼저 체크
         const errParam = sp.get('error_description') || sp.get('error');
         if (errParam) {
           setError(decodeURIComponent(errParam));
           return;
         }
-        if (code) {
-          const { error: exErr } = await sb.auth.exchangeCodeForSession(code);
+
+        // 1) detectSessionInUrl이 자동 처리 — onAuthStateChange로 SIGNED_IN 대기
+        const { data: sub } = sb.auth.onAuthStateChange((event) => {
           if (cancelled) return;
-          if (exErr) {
-            setError(exErr.message || '로그인 처리 실패');
-            return;
+          if (event === 'SIGNED_IN') {
+            router.replace('/');
+          }
+        });
+
+        // 2) 폴백 — SDK가 처리 못 했으면 직접 exchangeCodeForSession
+        const code = sp.get('code');
+        if (code) {
+          // 약간 기다려 SDK 자동 처리 기회 줌
+          await new Promise(r => setTimeout(r, 300));
+          if (cancelled) return;
+          const { data: sess } = await sb.auth.getSession();
+          if (!sess.session) {
+            // 아직 세션 없으면 직접 교환
+            const { error: exErr } = await sb.auth.exchangeCodeForSession(code);
+            if (cancelled) return;
+            if (exErr) {
+              setError(exErr.message || '로그인 처리 실패');
+              sub.subscription.unsubscribe();
+              return;
+            }
           }
           router.replace('/');
           return;
         }
 
-        // 2) implicit flow — URL hash에 access_token이 들어있는 경우
-        //    SDK가 자동 파싱하므로 잠깐 기다린 뒤 세션 확인
-        await new Promise(r => setTimeout(r, 500));
+        // 3) implicit flow (URL hash) — 잠깐 기다린 뒤 세션 확인
+        await new Promise(r => setTimeout(r, 800));
         if (cancelled) return;
         const { data } = await sb.auth.getSession();
+        sub.subscription.unsubscribe();
         if (data.session) {
           router.replace('/');
         } else {
-          setError('로그인 정보를 찾지 못했어요. 링크가 만료되었을 수 있어요.');
+          setError('로그인 정보를 찾지 못했어요. 링크가 만료되었거나 같은 브라우저에서 시작하지 않았을 수 있어요.');
         }
       } catch (e: any) {
         if (!cancelled) setError(e?.message || '알 수 없는 오류');
