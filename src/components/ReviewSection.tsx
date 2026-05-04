@@ -3,6 +3,9 @@
 import { useState, useEffect } from 'react';
 import { useAuth } from '@/lib/AuthContext';
 import { useReviews, ReviewTargetType, ReviewRow } from '@/lib/useReviews';
+import { usePhotos } from '@/lib/usePhotos';
+import PhotoUpload from './PhotoUpload';
+import Lightbox from './Lightbox';
 
 interface Props {
   targetType: ReviewTargetType;
@@ -28,10 +31,12 @@ const SECTION_TITLE: Record<ReviewTargetType, string> = {
 export default function ReviewSection({ targetType, targetId, targetName, compact }: Props) {
   const { user, configured, openLogin } = useAuth();
   const { reviews, myReview, stats, loaded, submit, remove } = useReviews(targetType, targetId);
+  const { photos, remove: removePhoto } = usePhotos(targetType, targetId);
   const [editing, setEditing] = useState(false);
   const [rating, setRating] = useState<number>(0);
   const [body, setBody] = useState('');
   const [busy, setBusy] = useState(false);
+  const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
 
   // 편집 모드 진입 시 기존 본인 후기 로드
   useEffect(() => {
@@ -84,6 +89,9 @@ export default function ReviewSection({ targetType, targetId, targetName, compac
               <span className="text-gray-500 ml-1">({stats.count})</span>
             </span>
           )}
+          {photos.length > 0 && (
+            <span className="ml-2 text-gray-500 text-xs">📷 {photos.length}</span>
+          )}
         </h3>
         {!editing && (
           <button onClick={onClickWrite}
@@ -96,6 +104,49 @@ export default function ReviewSection({ targetType, targetId, targetName, compac
           </button>
         )}
       </div>
+
+      {/* 사진 갤러리 — 후기 폼 외부, 후기 카드들 위 */}
+      {photos.length > 0 && (
+        <div className="mb-3 grid grid-cols-4 gap-1">
+          {photos.slice(0, 8).map((p, i) => (
+            <button key={p.id} type="button"
+              onClick={() => setLightboxIndex(i)}
+              className="relative aspect-square overflow-hidden rounded bg-gray-100 hover:opacity-90 transition group">
+              <img src={p.public_url} alt={p.caption ?? ''}
+                loading="lazy"
+                className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" />
+              {/* 본인 사진이면 ✕ 삭제 (호버) */}
+              {user && p.user_id === user.id && (
+                <span
+                  onClick={async (e) => {
+                    e.stopPropagation();
+                    if (confirm('이 사진을 삭제할까요?')) {
+                      await removePhoto(p.id);
+                    }
+                  }}
+                  className="absolute top-0.5 right-0.5 w-5 h-5 rounded-full bg-black/50 text-white text-[10px] flex items-center justify-center opacity-0 group-hover:opacity-100 transition cursor-pointer"
+                  aria-label="삭제">×</span>
+              )}
+            </button>
+          ))}
+          {photos.length > 8 && (
+            <button type="button" onClick={() => setLightboxIndex(8)}
+              className="aspect-square rounded bg-gray-200 hover:bg-gray-300 transition flex items-center justify-center text-xs font-semibold text-gray-700">
+              +{photos.length - 8}
+            </button>
+          )}
+        </div>
+      )}
+
+      {/* 라이트박스 */}
+      {lightboxIndex !== null && (
+        <Lightbox
+          photos={photos}
+          index={lightboxIndex}
+          onClose={() => setLightboxIndex(null)}
+          onIndex={setLightboxIndex}
+        />
+      )}
 
       {/* 작성/수정 폼 */}
       {editing && (
@@ -111,6 +162,13 @@ export default function ReviewSection({ targetType, targetId, targetName, compac
             maxLength={500}
             rows={3}
             className="w-full px-2 py-1.5 text-xs border border-gray-300 rounded focus:outline-none focus:ring-1 focus:ring-brand resize-none"
+          />
+          {/* 사진 첨부 */}
+          <PhotoUpload
+            targetType={targetType}
+            targetId={targetId}
+            reviewId={myReview?.id ?? null}
+            compact
           />
           <div className="flex items-center justify-between text-[10px] text-gray-400">
             <span>{body.length}/500</span>
