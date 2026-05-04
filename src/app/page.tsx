@@ -247,15 +247,18 @@ function Legend() {
   );
 }
 
+type SheetState = 'min' | 'mid' | 'max';
+
 function MobileSheet({ selected, profilesById, huts, lodgings, parking, selectedRouteId, selectedHutId, selectedLodgingId, onSelectRoute, onSelectHut, onSelectLodging, onFocus, onPlannedRoute, mountains, filter, setFilter, sortKey, setSortKey, onSelect, onCloseDetail, totalCount }: any) {
-  // 시트 펼침/접힘 상태
-  const [expanded, setExpanded] = useState(false);
+  // 시트 3단계 상태: min(최소화, 헤더만) / mid(중간 60%) / max(최대 92%)
+  const [state, setState] = useState<SheetState>('mid');
   const sheetRef = useRef<HTMLDivElement>(null);
 
-  // 산 변경 시 시트 펼침 + 맨 위로 스크롤
+  // 산 변경 시 시트 mid + 맨 위로 스크롤
   useEffect(() => {
-    if (selected && sheetRef.current) {
-      sheetRef.current.scrollTop = 0;
+    if (selected) {
+      setState('mid');
+      if (sheetRef.current) sheetRef.current.scrollTop = 0;
     }
   }, [selected?.no]);
 
@@ -263,13 +266,23 @@ function MobileSheet({ selected, profilesById, huts, lodgings, parking, selected
     if (!sheetRef.current) return;
     const el = sheetRef.current.querySelector(`#${id}`) as HTMLElement | null;
     if (el) {
-      // 부모 컨테이너 기준 offset
       const parentTop = sheetRef.current.getBoundingClientRect().top;
       const elTop = el.getBoundingClientRect().top;
       sheetRef.current.scrollTop += (elTop - parentTop - 8);
-      setExpanded(true);
+      setState('max');
     }
   };
+
+  // 핸들 클릭: 순환 min → mid → max → mid → ...
+  const onHandleClick = () => {
+    setState(s => s === 'min' ? 'mid' : s === 'mid' ? 'max' : 'mid');
+  };
+
+  // 시트 높이 클래스
+  const heightClass =
+    state === 'max' ? 'max-h-[92%]' :
+    state === 'mid' ? 'max-h-[60%]' :
+    'max-h-[44px]';   // 핸들 + 약간의 그립만 보이도록
 
   if (selected) {
     const tabs: { id: string; label: string; show: boolean }[] = [
@@ -283,50 +296,68 @@ function MobileSheet({ selected, profilesById, huts, lodgings, parking, selected
     const visibleTabs = tabs.filter(t => t.show);
 
     return (
-      <div className={`absolute inset-x-0 bottom-0 bg-white rounded-t-2xl shadow-2xl border-t border-gray-200 z-[1000] overflow-hidden flex flex-col transition-[max-height] duration-300 ${
-        expanded ? 'max-h-[92%]' : 'max-h-[60%]'
-      }`}>
-        {/* 핸들 + 닫기 */}
-        <div className="relative flex justify-center py-2 cursor-pointer select-none flex-shrink-0"
-             onClick={() => setExpanded(e => !e)}>
+      <div className={`absolute inset-x-0 bottom-0 bg-white rounded-t-2xl shadow-2xl border-t border-gray-200 z-[1000] overflow-hidden flex flex-col transition-[max-height] duration-300 ${heightClass}`}>
+        {/* 핸들 — 클릭 영역 크게 (44px) */}
+        <div className="relative flex items-center justify-center h-11 cursor-pointer select-none flex-shrink-0"
+             onClick={onHandleClick}>
           <div className="w-12 h-1.5 bg-gray-400 rounded-full" />
+          {/* 미니 라벨 (min 상태에서 산 이름 보이도록) */}
+          {state === 'min' && (
+            <span className="absolute left-1/2 top-1/2 mt-2 -translate-x-1/2 -translate-y-1/2 text-[11px] text-gray-600 whitespace-nowrap" style={{ marginTop: 6 }}>
+              {selected.name_ko} ▲ 펼치기
+            </span>
+          )}
           <button onClick={(e) => { e.stopPropagation(); onCloseDetail(); }}
-            className="absolute right-3 top-1.5 w-9 h-9 rounded-full hover:bg-gray-100 flex items-center justify-center text-gray-500 hover:text-gray-900 text-xl"
+            className="absolute right-2 top-1/2 -translate-y-1/2 w-9 h-9 rounded-full hover:bg-gray-100 flex items-center justify-center text-gray-500 hover:text-gray-900 text-xl"
             aria-label="닫기">×</button>
         </div>
 
-        {/* 탭바 — 가로 스크롤 */}
-        <nav className="flex-shrink-0 border-b border-gray-200 overflow-x-auto scrollbar-thin">
-          <div className="flex gap-1 px-2 py-1.5 min-w-min">
-            {visibleTabs.map(t => (
-              <button key={t.id} onClick={() => jumpTo(t.id)}
-                className="px-3 py-1.5 rounded-full text-[12px] font-semibold whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-brand hover:text-white transition flex-shrink-0">
-                {t.label}
-              </button>
-            ))}
-          </div>
-        </nav>
+        {/* 탭바 — min 상태일 땐 숨김 */}
+        {state !== 'min' && (
+          <nav className="flex-shrink-0 border-b border-gray-200 overflow-x-auto scrollbar-thin">
+            <div className="flex gap-1 px-2 py-1.5 min-w-min">
+              {visibleTabs.map(t => (
+                <button key={t.id} onClick={() => jumpTo(t.id)}
+                  className="px-3 py-1.5 rounded-full text-[12px] font-semibold whitespace-nowrap bg-gray-100 text-gray-700 hover:bg-brand hover:text-white transition flex-shrink-0">
+                  {t.label}
+                </button>
+              ))}
+            </div>
+          </nav>
+        )}
 
-        {/* 본문 */}
-        <div ref={sheetRef} className="flex-1 overflow-y-auto overscroll-contain">
-          <DetailPanel mountain={selected} profilesById={profilesById} huts={huts} lodgings={lodgings} parking={parking}
-            selectedRouteId={selectedRouteId} selectedHutId={selectedHutId} selectedLodgingId={selectedLodgingId}
-            onSelectRoute={onSelectRoute} onSelectHut={onSelectHut} onSelectLodging={onSelectLodging}
-            onFocus={onFocus}
-            onPlannedRoute={onPlannedRoute}
-            onClose={onCloseDetail} inline />
-        </div>
+        {/* 본문 — min 상태일 땐 숨김 */}
+        {state !== 'min' && (
+          <div ref={sheetRef} className="flex-1 overflow-y-auto overscroll-contain">
+            <DetailPanel mountain={selected} profilesById={profilesById} huts={huts} lodgings={lodgings} parking={parking}
+              selectedRouteId={selectedRouteId} selectedHutId={selectedHutId} selectedLodgingId={selectedLodgingId}
+              onSelectRoute={onSelectRoute} onSelectHut={onSelectHut} onSelectLodging={onSelectLodging}
+              onFocus={onFocus}
+              onPlannedRoute={onPlannedRoute}
+              onClose={onCloseDetail} inline />
+          </div>
+        )}
       </div>
     );
   }
+
+  // 산 미선택 시 — 산 리스트 시트
   return (
-    <div className="absolute inset-x-0 bottom-0 max-h-[60%] bg-white rounded-t-2xl shadow-2xl border-t border-gray-200 z-[1000] overflow-hidden flex flex-col">
-      <div className="flex justify-center py-2 flex-shrink-0">
+    <div className={`absolute inset-x-0 bottom-0 bg-white rounded-t-2xl shadow-2xl border-t border-gray-200 z-[1000] overflow-hidden flex flex-col transition-[max-height] duration-300 ${heightClass}`}>
+      <div className="relative flex items-center justify-center h-11 cursor-pointer select-none flex-shrink-0"
+           onClick={onHandleClick}>
         <div className="w-12 h-1.5 bg-gray-400 rounded-full" />
+        {state === 'min' && (
+          <span className="absolute left-1/2 top-1/2 -translate-x-1/2 text-[11px] text-gray-600 whitespace-nowrap" style={{ marginTop: 6 }}>
+            ▲ 산 리스트 펼치기
+          </span>
+        )}
       </div>
-      <Sidebar mountains={mountains} filter={filter} setFilter={setFilter}
-        sortKey={sortKey} setSortKey={setSortKey}
-        selectedNo={null} onSelect={onSelect} totalCount={totalCount} />
+      {state !== 'min' && (
+        <Sidebar mountains={mountains} filter={filter} setFilter={setFilter}
+          sortKey={sortKey} setSortKey={setSortKey}
+          selectedNo={null} onSelect={onSelect} totalCount={totalCount} />
+      )}
     </div>
   );
 }
