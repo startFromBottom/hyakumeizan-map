@@ -5,6 +5,7 @@ import 'leaflet.markercluster/dist/MarkerCluster.Default.css';
 import type { Metadata } from 'next';
 import { AuthProvider } from '@/lib/AuthContext';
 import AuthModalRoot from '@/components/AuthModalRoot';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: '日本百名山 — 일본 100대 명산 지도',
@@ -19,6 +20,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           {children}
           <AuthModalRoot />
         </AuthProvider>
+        <Analytics />
       </body>
     </html>
   );
