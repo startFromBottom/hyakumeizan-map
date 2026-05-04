@@ -31,7 +31,7 @@ const SECTION_TITLE: Record<ReviewTargetType, string> = {
 export default function ReviewSection({ targetType, targetId, targetName, compact }: Props) {
   const { user, configured, openLogin } = useAuth();
   const { reviews, myReview, stats, loaded, submit, remove } = useReviews(targetType, targetId);
-  const { photos, remove: removePhoto } = usePhotos(targetType, targetId);
+  const { photos, remove: removePhoto, refetch: refetchPhotos } = usePhotos(targetType, targetId);
   const [editing, setEditing] = useState(false);
   const [rating, setRating] = useState<number>(0);
   const [body, setBody] = useState('');
@@ -168,6 +168,7 @@ export default function ReviewSection({ targetType, targetId, targetName, compac
             targetType={targetType}
             targetId={targetId}
             reviewId={myReview?.id ?? null}
+            onUploaded={refetchPhotos}
             compact
           />
           <div className="flex items-center justify-between text-[10px] text-gray-400">
